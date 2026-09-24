@@ -1,0 +1,398 @@
+% =====================================================================
+%  EL DISPOSITIVO CALDEREÑO
+%  Dos circuitos de suelo en el corredor norte del Valle de Lerma
+%  (1908–2026)
+%  Compilar:  latexmk -pdf main.tex
+% =====================================================================
+\documentclass[10pt,a4paper,twoside,openright]{book}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+% En instalación completa de TeX Live, descomentar:
+\usepackage[spanish,es-noquoting,es-lcroman]{babel}
+
+% ---------------------------------------------------------------------
+%  TIPOGRAFÍA
+%  Charter (Bitstream) para texto: mancha pareja, ojo grande, buen gris
+%  en cuerpos chicos. Helvetica escalada para titulares y paratexto.
+% ---------------------------------------------------------------------
+\usepackage{charter}
+\usepackage[scaled=0.86]{helvet}
+\usepackage[stretch=15,shrink=15,protrusion=true,expansion=true,
+            factor=1100,step=1]{microtype}
+\linespread{1.10}
+
+% ---------------------------------------------------------------------
+%  CAJA
+%  Medida de ~64 caracteres, que es donde el ojo lee sin fatigarse.
+%  Margen exterior generoso para notas al margen y para el pulgar.
+% ---------------------------------------------------------------------
+\usepackage[a4paper,
+            inner=3.4cm, outer=3.6cm,
+            top=3.0cm, bottom=3.4cm,
+            headsep=1.1em, footskip=1.6em,
+            marginparwidth=2.4cm, marginparsep=0.6cm]{geometry}
+
+\usepackage{xcolor}
+\definecolor{tinta}{gray}{0.12}
+\definecolor{gris}{gray}{0.45}
+\definecolor{grisclaro}{gray}{0.88}
+\color{tinta}
+
+% babel reescribe estos nombres al empezar el documento; por eso van
+% dentro de \captionsspanish y no sueltos (sueltos, el libro salía con
+% «Figura», «Índice general» e «Índice de figuras»)
+\addto\captionsspanish{%
+  \renewcommand{\contentsname}{Índice}%
+  \renewcommand{\chaptername}{Capítulo}%
+  \renewcommand{\partname}{Parte}%
+  \renewcommand{\appendixname}{Apéndice}%
+  \renewcommand{\bibname}{Bibliografía}%
+  \renewcommand{\figurename}{Lámina}%
+  \renewcommand{\tablename}{Cuadro}%
+  \renewcommand{\listfigurename}{Índice de láminas}}
+
+\usepackage{graphicx}\usepackage{booktabs}\usepackage{longtable}\usepackage{array}
+% espacio antes y después de cada cuadro: rígido, para que el corte de página
+% no lo estire al repartir el sobrante vertical
+\setlength{\LTpre}{0.9em}\setlength{\LTpost}{1.3em}
+\usepackage{enumitem}\usepackage{footmisc}\usepackage{csquotes}\usepackage{url}
+\usepackage{setspace}\usepackage{ragged2e}\usepackage{needspace}\usepackage{etoolbox}
+\usepackage[hidelinks]{hyperref}\usepackage{bookmark}\usepackage{tcolorbox}
+\def\UrlBreaks{\do\/\do-\do.}% cortes de URL en barras, guiones y puntos
+\tcbuselibrary{skins,breakable}
+
+% ---------------------------------------------------------------------
+%  TITULARES
+% ---------------------------------------------------------------------
+\usepackage{titlesec}
+
+% La bajada se compone en la misma página que el título de la parte.
+% Antes iba como texto suelto después de \part, y como \part cierra su
+% página, cada bajada caía sola en una recta nueva: dos páginas de más
+% por parte (título, blanco, bajada, blanco).
+\newcommand{\bajadatexto}{}
+\titleformat{\part}[display]
+  {\normalfont\filcenter}
+  {\vspace*{4cm}{\color{gris}\rule{5cm}{0.4pt}}\\[1.4em]
+   \sffamily\footnotesize\color{gris}\MakeUppercase{\partname\ \thepart}}
+  {1.6em}
+  {\Huge\bfseries}
+  [\vspace{1.2em}{\color{gris}\rule{5cm}{0.4pt}}%
+   \ifdefempty{\bajadatexto}{}{\endgraf\vspace{2.2em}%
+     \begin{minipage}{0.68\textwidth}\centering\itshape\small\color{tinta}%
+     \bajadatexto\end{minipage}\endgraf}]
+\assignpagestyle{\part}{empty}
+
+\titleformat{\chapter}[display]
+  {\normalfont}
+  {\sffamily\footnotesize\color{gris}\MakeUppercase{\chaptertitlename\ \thechapter}}
+  {0.9em}
+  {\LARGE\bfseries\raggedright}
+  [\vspace{0.5em}{\color{grisclaro}\rule{\textwidth}{0.8pt}}]
+\titlespacing*{\chapter}{0pt}{0pt}{2.4em}
+
+\titleformat{\section}
+  {\normalfont\large\bfseries\raggedright}{}{0pt}{}
+\titlespacing*{\section}{0pt}{2.2em plus .4em minus .2em}{0.7em}
+
+\titleformat{\subsection}
+  {\normalfont\normalsize\bfseries\raggedright}{}{0pt}{}
+\titlespacing*{\subsection}{0pt}{1.6em plus .3em minus .2em}{0.4em}
+
+% versalitas para los subsection con asterisco del cuerpo
+\titleformat{name=\subsection,numberless}
+  {\normalfont\normalsize\bfseries\raggedright}{}{0pt}{}
+
+% ---------------------------------------------------------------------
+%  FOLIOS Y TITULILLOS
+% ---------------------------------------------------------------------
+\usepackage{fancyhdr}\usepackage{emptypage}
+\pagestyle{fancy}\fancyhf{}
+\fancyhead[LE]{\sffamily\scriptsize\color{gris}\MakeUppercase{\leftmark}}
+\fancyhead[RO]{\sffamily\scriptsize\color{gris}\nouppercase{\rightmark}}
+\fancyfoot[LE,RO]{\sffamily\small\color{gris}\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\fancypagestyle{plain}{\fancyhf{}\fancyfoot[C]{\sffamily\small\color{gris}\thepage}%
+  \renewcommand{\headrulewidth}{0pt}}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+\renewcommand{\sectionmark}[1]{\markright{#1}{}}
+
+% ---------------------------------------------------------------------
+%  VIUDAS, HUÉRFANAS Y PARTICIÓN
+% ---------------------------------------------------------------------
+\widowpenalty=10000
+\clubpenalty=10000
+\displaywidowpenalty=10000
+\brokenpenalty=10000
+\hyphenpenalty=100
+\tolerance=2500
+\emergencystretch=3em
+\setlength{\hfuzz}{1.5pt}
+\setlength{\parindent}{1.2em}
+\setlength{\parskip}{0pt}
+\setlength{\emergencystretch}{2em}
+
+% ---------------------------------------------------------------------
+%  CAJAS DEL APARATO
+%  Sin marco cerrado: filete lateral para la ficha documental y fondo
+%  tenue para la cautela. Menos ruido en la página.
+% ---------------------------------------------------------------------
+\newtcolorbox{ficha}[1]{%
+  breakable, enhanced jigsaw, sharp corners,
+  colback=white, colframe=tinta,
+  boxrule=0pt, leftrule=1.6pt,
+  left=10pt, right=2pt, top=7pt, bottom=7pt,
+  before skip=1.3em, after skip=1.3em,
+  fonttitle=\sffamily\bfseries\footnotesize\color{tinta},
+  title={#1}, coltitle=tinta, colbacktitle=white,
+  attach boxed title to top left={xshift=10pt, yshift*=-2pt},
+  boxed title style={colback=white, boxrule=0pt, sharp corners},
+  fontupper=\small}
+
+\newtcolorbox{cautela}[1][]{%
+  breakable, enhanced jigsaw, sharp corners,
+  colback=black!4, colframe=black!4,
+  boxrule=0pt,
+  left=10pt, right=10pt, top=8pt, bottom=8pt,
+  before skip=1.3em, after skip=1.3em,
+  fontupper=\small,
+  #1}
+
+\newcommand{\pendiente}[1]{%
+  \par\vspace{0.5em}%
+  {\sffamily\footnotesize\color{gris}%
+   \textbf{Falta pedir.}\ #1\par}\vspace{0.5em}}
+
+% ---------------------------------------------------------------------
+%  LÁMINAS
+%  Facsímiles de cartografía oficial. Numeración corrida, no por
+%  capítulo: las láminas se citan entre capítulos y el lector tiene que
+%  poder buscarlas por un número solo. Epígrafe en palo seco, gris, y
+%  una línea de procedencia separada que dice de qué pieza salió cada
+%  una. Sin marco: la lámina es un documento, no una ilustración.
+% ---------------------------------------------------------------------
+\usepackage{imakeidx}
+\makeindex[title=Índice de nombres, columns=2, intoc]
+
+\graphicspath{{img/}{./}}
+\usepackage{chngcntr}\counterwithout{figure}{chapter}
+\usepackage{caption}
+\captionsetup{font={sf,footnotesize,color=tinta},
+              labelfont={sf,bf,footnotesize,color=tinta},
+              labelsep=period,
+              justification=raggedright, singlelinecheck=false,
+              skip=0.8em, belowskip=0pt}
+
+% #1 archivo  #2 etiqueta  #3 entrada de índice  #4 epígrafe  #5 procedencia
+\newcommand{\lamina}[5]{%
+  \par
+  \begin{figure}[p]
+  \centering
+  \includegraphics[width=\textwidth,height=0.84\textheight,keepaspectratio]{#1}%
+  \caption[#3]{#4}\label{#2}%
+  \par\vspace{0.35em}%
+  {\sffamily\scriptsize\color{gris}\raggedright\textbf{Procedencia.}\ #5\par}%
+  \end{figure}}
+
+% espacio de respiro antes de un titular que quede al pie
+\pretocmd{\section}{\needspace{4\baselineskip}}{}{}
+\pretocmd{\subsection}{\needspace{3\baselineskip}}{}{}
+
+
+% --- páginas de parte ---------------------------------------------------
+%  \parte{Título}{Bajada}: título y bajada en la misma recta; el verso
+%  queda en blanco y el primer capítulo abre en la recta siguiente.
+\newcommand{\parte}[2]{%
+  \renewcommand{\bajadatexto}{#2}%
+  \part{#1}%
+  \renewcommand{\bajadatexto}{}}
+
+% --- lista de personas (apéndice E) ------------------------------------
+%  Sustituye a la longtable: una fila de longtable no se puede partir,
+%  y las entradas largas desbordaban la caja o dejaban páginas vacías.
+\newenvironment{personas}
+  {\begin{list}{}{%
+     \setlength{\labelwidth}{3.4cm}\setlength{\labelsep}{0.4cm}%
+     \setlength{\leftmargin}{3.8cm}\setlength{\itemindent}{0pt}%
+     \setlength{\itemsep}{0.7em}\setlength{\parsep}{0pt}%
+     \setlength{\topsep}{0.6em}%
+     \renewcommand{\makelabel}[1]{\smash{\parbox[t]{\labelwidth}{\raggedright ##1}}}}}
+  {\end{list}}
+%  (\smash: un nombre de dos líneas no empuja hacia abajo la segunda
+%  línea del texto)
+
+\setcounter{tocdepth}{1}
+\setcounter{secnumdepth}{0}
+
+\begin{document}
+\frontmatter
+\begin{titlepage}
+\thispagestyle{empty}
+\newgeometry{inner=3.2cm,outer=3.2cm,top=2.6cm,bottom=2.4cm}
+
+\raggedright
+
+{\sffamily\scriptsize\color{gris}%
+RELEVAMIENTO\,\textsc{ii}\quad\textbar\quad SEPTIEMBRE DE 2026\par}
+
+\vspace{3pt}
+{\color{tinta}\rule{\textwidth}{1.4pt}}
+
+\vspace{2.0cm}
+
+{\fontsize{38}{41}\selectfont\bfseries
+EL\\ DISPOSITIVO\\ CALDEREÑO\par}
+
+\vspace{0.8cm}
+{\color{gris}\rule{5.5cm}{0.5pt}}
+\vspace{0.7cm}
+
+{\fontsize{12.5}{17}\selectfont\itshape\color{tinta}
+Dos circuitos de suelo y una capa fina\\
+en el corredor norte del Valle de Lerma\par}
+
+\vspace{0.45cm}
+{\sffamily\small\color{gris} 1908\,--\,2026\par}
+
+\vspace{1.1cm}
+
+\begin{center}
+\includegraphics[width=\textwidth,height=6.8cm,keepaspectratio]{dispositivo-caldereño-2}
+\end{center}
+
+\vfill
+
+{\color{tinta}\rule{\textwidth}{0.5pt}}
+\vspace{8pt}
+
+{\Large\scshape Eduardo Diedrich\par}
+\vspace{4pt}
+{\sffamily\footnotesize\color{gris}
+Continuación territorial de \textit{El dispositivo salteño}\par}
+
+\restoregeometry
+\end{titlepage}
+
+% --- página de créditos -------------------------------------------------
+\thispagestyle{empty}
+\null\vfill
+{\footnotesize\color{gris}\setlength{\parskip}{0.6em}\parindent=0pt
+\textbf{El dispositivo caldereño.} Dos circuitos de suelo y una capa fina en el
+corredor norte del Valle de Lerma, 1908--2026.
+
+Relevamiento documental sobre fuentes públicas: Boletín Oficial de la Provincia
+de Salta desde su número 1 del 15 de octubre de 1908, normativa provincial y
+municipal, censos nacionales y prensa. Los límites del trabajo, sus errores
+corregidos y lo que no pudo verificarse están declarados en la Advertencia
+preliminar y en el capítulo~\ref{cap:metodo}.
+
+Este libro no contiene entrevistas propias. Las personas y sociedades que nombra
+lo son en su carácter público y sobre la base de actos publicados; las
+coincidencias de nombre se consignan como tales y no como identificaciones.
+
+\textbf{La imagen de la portada} es una vista aérea del valle del río La Caldera ---el río,
+la Ruta 9 sobre la margen este y la ladera de yungas--- con una trama de amanzanamiento
+superpuesta. Está fuera del índice de láminas y por eso no lleva epígrafe de procedencia;
+se deja dicho aquí que \textbf{la procedencia de la fotografía de base y la autoría de la
+trama no quedaron asentadas} al cerrarse este manuscrito, y que es la única imagen del
+volumen en esa situación.
+
+Compuesto en Charter. Composición del autor.\par}
+\vspace{2em}
+\cleardoublepage
+
+\input{cap/00-advertencia}
+\tableofcontents
+\cleardoublepage
+\listoffigures
+\mainmatter
+\parte{El objeto}
+{Qué se estudia, con qué fuentes y con qué límites. Las tres tesis del libro y las condiciones bajo las cuales cada una podría refutarse.}
+\input{cap/01-planteo}
+\input{cap/02-metodo}
+\parte{La larga duración}
+{Las fincas, sus nombres y sus dueños desde el primer número del Boletín Oficial. Un departamento que en 1908 ya litigaba por títulos que no aparecían, y lo poco que el Estado puso en él entre 1923 y 1945.}
+\input{cap/03-fincas}
+\input{cap/04-siglo}
+\input{cap/05-tierra}
+\input{cap/26-presencia}
+\parte{Los instrumentos}
+{Los planes y códigos con que los dos municipios ordenan su suelo: quién los escribió, qué dicen y qué parte de ellos no se publicó.}
+\input{cap/06-pdua}
+\input{cap/07-cot}
+\input{cap/08-vaqueros}
+\parte{El agua}
+{Ciento dieciséis años de obras sobre el mismo cauce, un expediente de expropiación, veinticinco actos de línea de ribera y una sentencia que invierte la pregunta.}
+\input{cap/09-defensas}
+\input{cap/10-expropiacion}
+\input{cap/11-ribera}
+\input{cap/12-amparo}
+\parte{La conversión del suelo}
+{Un loteo concreto, el régimen que lo hizo posible y las condiciones que el mismo Estado supo exigirle a otros.}
+\input{cap/13-loteo}
+\parte{El municipio}
+{Doce mil habitantes, una de cada cinco viviendas sin residentes, una hacienda que no alcanza desde 1908 y las redes que nunca llegaron.}
+\input{cap/14-poblacion}
+\input{cap/15-hacienda}
+\input{cap/16-redes}
+\input{cap/17-aguabaja}
+\input{cap/18-trabajo}
+\parte{El otro circuito}
+{Cómo accede al suelo quien no puede comprarlo: sorteo, regularización, prescripción. Y cómo accede el Estado cuando el que ocupa es él.}
+\input{cap/17-tierrafiscal}
+\parte{La política y sus fisuras}
+{Los nombres que se repiten entre la propiedad y el cargo, desde 1908. Y los que reclamaron, con lo que consiguieron y lo que no.}
+\input{cap/18-politica}
+\input{cap/19-resistencias}
+\parte{La opacidad}
+{No falta el acto: falta el criterio. Seis instrumentos que publican la envoltura y reservan a un anexo lo que permitiría verificarlos.}
+\input{cap/20-opacidad}
+\parte{Cierre}
+{Qué quedó probado, qué no, y qué falta para probarlo.}
+\input{cap/21-ausencias}
+\input{cap/21-conclusion}
+\parte{Lo que sigue}
+{Qué significa todo lo anterior, y qué podría hacerse. Los tres capítulos de esta parte son distintos de los veinticinco que los preceden: dos interpretan y el tercero propone. Van marcados como tales.}
+\input{cap/22-infraestructura}
+\input{cap/22-prospectiva}
+\input{cap/23-plan}
+\appendix
+\parte{Apéndices}
+{El aparato con el que este trabajo puede continuarse o refutarse: la cronología, los emprendimientos, la normativa, lo que falta pedir, quiénes aparecen, de qué fuentes sale cada cosa, qué habría que sancionar y cómo circuló la tierra entre 1909 y 1945.}
+\input{ape/A-cronologia}
+\input{ape/B-matriz}
+\input{ape/C-normativa}
+\input{ape/D-pedidos}
+\input{ape/E-personas}
+\input{ape/F-fuentes}
+\input{ape/G-propuestas}
+\input{ape/H-dominio}
+\backmatter
+\cleardoublepage
+\printindex
+
+\cleardoublepage
+\thispagestyle{empty}
+\null\vfill
+\begin{center}
+{\color{gris}\rule{4cm}{0.4pt}}
+
+\vspace{1.4em}
+{\sffamily\scriptsize\color{gris}\setlength{\baselineskip}{1.7em}
+COLOFÓN\par}
+\vspace{0.9em}
+\begin{minipage}{0.72\textwidth}\centering\footnotesize\color{gris}
+Este libro se compuso en \textsc{Charter}, tipografía diseñada por Matthew Carter
+en 1987 para mantener el color de la página en impresión de baja resolución.
+
+El relevamiento sobre el que se apoya recorrió el Boletín Oficial de la Provincia
+de Salta desde su número 1, del 15 de octubre de 1908. Todo lo que aquí se afirma
+puede verificarse en fuentes públicas. Todo lo que no pudo verificarse está
+señalado como tal.
+\end{minipage}
+
+\vspace{1.4em}
+{\color{gris}\rule{4cm}{0.4pt}}
+\end{center}
+\vfill
+\end{document}

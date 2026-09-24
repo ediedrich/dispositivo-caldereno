@@ -1,0 +1,1166 @@
+diff -ru cap_orig/00-advertencia.tex cap/00-advertencia.tex
+--- cap_orig/00-advertencia.tex	2026-09-17 16:50:45.235899142 +0000
++++ cap/00-advertencia.tex	2026-09-17 16:56:06.146246829 +0000
+@@ -50,7 +50,7 @@
+ publicar, fundar, registrar y cruzar. El apéndice aclara además que son borradores de
+ contenido y no de técnica legislativa, y que quien los tome deberá pasarlos por asesoría. 
+ 
+-Las veinticinco láminas tampoco son ilustración. Seis son facsímiles de cartografía y cuadros oficiales que provienen de una misma pieza, el expediente de ejecución de sentencia del amparo colectivo que analiza el capítulo~\ref{cap:amparo}: tres mapas temáticos de la Secretaría de Recursos Hídricos de mayo de 2022, la hoja de firmas de ese informe, un cuadro de informes de impacto ambiental y el Anexo I del atlas del Código de Ordenamiento Territorial. Ninguna de esas seis estaba publicada en un boletín ni en un portal público. Otras tres provienen de los documentos del Plan de Manejo: su tabla de costos y dos diapositivas de la presentación del Plan Maestro de Drenaje. Once salen de fuentes públicas de consulta difícil: el Anexo II del mismo atlas tal como lo publica el municipio, el plano de mensura 000962 y un detalle de su recuadro vial, cuatro capturas del visor cartográfico provincial, tres mapas de la red de gas del ENARGAS y el organigrama de un ministerio provincial publicado como anexo del Boletín. Las cinco restantes son de elaboración propia ---dos mapas, el de formación por radio censal y el del ordenamiento de bosques en el departamento, y tres gráficos de censo, padrón y caudales--- y cada epígrafe dice con qué datos se hicieron. \textbf{Se reproducen porque el argumento de
++Las veintiséis láminas tampoco son ilustración. Seis son facsímiles de cartografía y cuadros oficiales que provienen de una misma pieza, el expediente de ejecución de sentencia del amparo colectivo que analiza el capítulo~\ref{cap:amparo}: tres mapas temáticos de la Secretaría de Recursos Hídricos de mayo de 2022, la hoja de firmas de ese informe, un cuadro de informes de impacto ambiental y el Anexo I del atlas del Código de Ordenamiento Territorial. Ninguna de esas seis estaba publicada en un boletín ni en un portal público. Otras tres provienen de los documentos del Plan de Manejo: su tabla de costos y dos diapositivas de la presentación del Plan Maestro de Drenaje. Once salen de fuentes públicas de consulta difícil: el Anexo II del mismo atlas tal como lo publica el municipio, el plano de mensura 000962 y un detalle de su recuadro vial, cuatro capturas del visor cartográfico provincial, tres mapas de la red de gas del ENARGAS y el organigrama de un ministerio provincial publicado como anexo del Boletín. Las seis restantes son de elaboración propia ---tres mapas, el de las líneas de ribera sobre el catastro, el de formación por radio censal y el del ordenamiento de bosques en el departamento, y tres gráficos de censo, padrón y caudales--- y cada epígrafe dice con qué datos se hicieron. \textbf{Se reproducen porque el argumento de
+ este libro sobre la opacidad se sostiene o cae en documentos como estos}, y el lector tiene
+ que poder mirarlos. El epígrafe de cada una dice de qué hoja salió; los retoques se limitaron a recortar márgenes, girar alguna hoja y ampliar un detalle, y cada epígrafe lo declara. Donde la reproducción no alcanza para medir --- y en
+ varias no alcanza --- se dice en el mismo lugar.
+diff -ru cap_orig/01-planteo.tex cap/01-planteo.tex
+--- cap_orig/01-planteo.tex	2026-09-17 16:50:45.235932271 +0000
++++ cap/01-planteo.tex	2026-09-17 17:10:24.889342385 +0000
+@@ -9,7 +9,7 @@
+ 
+ El segundo es estatal. La Provincia adjudica tierra fiscal a familias de bajos ingresos, por sorteo público o por regularización de ocupaciones consolidadas, con un régimen de inscripción, puntaje, tenencia precaria y adjudicación en venta financiada. Produce lotes de interés social en plazos que, en los casos documentados, se miden en años y, en algún caso, en décadas: en un barrio de la capital en el que, según su centro vecinal, se adjudicaron lotes a vecinos del departamento, hay un expediente iniciado en 1995 y resuelto en 2025.
+ 
+-Los dos circuitos están regulados en proporción inversa a la capacidad de sus destinatarios. Al solicitante de un lote fiscal se le exige certificado policial de residencia, declaración jurada bajo pena de falso testimonio, referencias vecinales con nombre y apellido, franja horaria de visita domiciliaria, informe socioambiental y construcción en tres meses bajo apercibimiento de revocación. Al desarrollador que convierte monte de yungas en cuarenta parcelas sobre una microcuenca judicialmente condenada se le exigen, en el papel, dos recaudos: un certificado de aptitud ambiental municipal y un \textbf{Certificado de No Inundabilidad} que la reglamentación del Código de Aguas califica de \textbf{recaudo indispensable} para todo loteo cuyo límite sea un río. \textbf{Ninguno de los dos aparece nombrado en el acto que aprobó el loteo más discutido del departamento}, y en el resto de los expedientes relevados sólo constan una vez, en la respuesta de un loteador a una intimación municipal (capítulo \ref{cap:amparo}).
++Los dos circuitos están regulados en proporción inversa a la capacidad de sus destinatarios. Al solicitante de un lote fiscal se le exige certificado policial de residencia, declaración jurada bajo pena de falso testimonio, referencias vecinales con nombre y apellido, franja horaria de visita domiciliaria, informe socioambiental y construcción en tres meses bajo apercibimiento de revocación. Al desarrollador que convierte monte de yungas en doscientas cuarenta y siete parcelas sobre una microcuenca judicialmente condenada se le exigen, en el papel, dos recaudos: un certificado de aptitud ambiental municipal y un \textbf{Certificado de No Inundabilidad} que la reglamentación del Código de Aguas califica de \textbf{recaudo indispensable} para todo loteo cuyo límite sea un río. \textbf{Ninguno de los dos aparece nombrado en el acto que aprobó el loteo más discutido del departamento}, y en el resto de los expedientes relevados sólo consta el de no inundabilidad, una vez, junto a un certificado ambiental provincial ---no el municipal---, en la respuesta de un loteador a una intimación municipal (capítulo \ref{cap:amparo}).
+ 
+ No se trata de un régimen laxo que favorece la discrecionalidad. Se trata de un régimen exigente aplicado a quien menos tiene y de un régimen tenue aplicado a quien más puede, sobre suelo del mismo corredor y bajo la misma autoridad provincial.
+ 
+@@ -44,7 +44,7 @@
+ presidente designado por el gobernador en 1908, lo sigue siendo en 1922 —cuando el
+ Interventor Nacional nombra a sus cinco miembros y el Poder Ejecutivo le aprueba el
+ presupuesto— y todavía en 1983, en vísperas del traspaso democrático. En 2022 sigue
+-clasificada en la tercera categoría, en un departamento de doce mil trescientos habitantes.
++clasificada en la tercera categoría, como Vaqueros, que ya tiene población de segunda: los dos municipios de un departamento de doce mil trescientos habitantes conservan la categoría de 1931.
+ 
+ Y lo mismo vale para el problema del río. En enero de 1910 los vecinos del pueblo pidieron
+ al gobierno que se los defendiera «de las invasiones del Río del mismo nombre», y la
+diff -ru cap_orig/03-fincas.tex cap/03-fincas.tex
+--- cap_orig/03-fincas.tex	2026-09-17 16:50:45.235965614 +0000
++++ cap/03-fincas.tex	2026-09-17 16:56:06.146737604 +0000
+@@ -135,7 +135,7 @@
+ ferrocarril ya organizaba el territorio por su cuenta. Y aparece un partido que en 1909 no
+ estaba: Campo Alegre y Angosto de Arrieta, con Francisco Sosaya como comisario auxiliar.
+ 
+-Sesenta y tres años después, la Ley 4486 declararía de utilidad pública las tierras
++Sesenta y un años después, la Ley 4486 declararía de utilidad pública las tierras
+ necesarias para construir allí el embalse que abastece a la ciudad de Salta. El topónimo,
+ entonces, es anterior a la obra: la obra pública heredó los nombres del territorio que
+ intervino.
+diff -ru cap_orig/04-siglo.tex cap/04-siglo.tex
+--- cap_orig/04-siglo.tex	2026-09-17 16:50:45.236001359 +0000
++++ cap/04-siglo.tex	2026-09-17 16:56:06.146847951 +0000
+@@ -152,9 +152,8 @@
+ 1925.
+ \end{ficha}
+ 
+-Esos tres pedimentos, de dos mil hectáreas cada uno, suman seis mil, sobre un departamento cuya superficie
+-ronda las ciento cuarenta y seis mil: sólo con ellos se solicitó explorar el cuatro por ciento
+-del territorio. Y como el edicto exigía identificar a los propietarios, sabemos que San
++Esos tres pedimentos, de dos mil hectáreas cada uno, suman seis mil, sobre un departamento de unas ciento nueve mil (capítulo \ref{cap:fincas}): sólo con ellos se solicitó explorar
++cerca del cinco y medio por ciento del territorio. Y como el edicto exigía identificar a los propietarios, sabemos que San
+ Alejo y Santa Rufina —partido de 1909, finca del artículo 6º— pertenecía en 1925 a Bernardo
+ Austerlitz\index{Austerlitz, Bernardo}, domiciliado en Alberdi 374 de la capital, y que Las Nieves era de Garzón y
+ Pintos, con terrenos linderos de E. Quipildor. Son los primeros nombres de propietarios que
+@@ -200,7 +199,7 @@
+ presentando por separado cubrían ocho mil.
+ 
+ Y el desenlace da la medida de lo que fue aquella fiebre. Las ocho solicitudes se declararon
+-abandonadas por sus propios titulares —el trámite se dio por abandonado entre abril y septiembre de \textbf{1925} ---según el decreto; una de las solicitudes se presentó el 18 de septiembre, de modo que la fecha debe cotejarse---, es decir a las pocas semanas o meses de presentarse— y la
++abandonadas por sus propios titulares ---según el decreto, entre abril y septiembre de \textbf{1925}, es decir a las pocas semanas o meses de presentarse; una de las solicitudes es del 18 de septiembre, de modo que la fecha debe cotejarse--- y la
+ caducidad se declaró formalmente cinco años más tarde. Nadie exploró: se pidió, se dejó
+ caer, y el registro tardó un lustro en anotarlo.
+ 
+@@ -215,11 +214,11 @@
+ La fiebre de 1925 no dejó nada, pero cinco años después alguien sí llegó a manifestar un
+ descubrimiento.
+ 
+-En 1930 ---el padrón minero registra la manifestación el 30 de abril---, \textbf{Juan Larrán} —el único solicitante de 1925 ---ajeno a los ocho caducados--- cuyo
+-cateo había sido concedido, sobre la finca Las Nieves— presenta el descubrimiento de una
++En 1930 ---el padrón minero registra la manifestación el 30 de abril---, \textbf{Juan Larrán}, el único solicitante de 1925 cuyo cateo había sido concedido ---ajeno a
++los ocho caducados, y sobre la finca Las Nieves---, presenta el descubrimiento de una
+ mina de \textbf{plomo y plata} de tres pertenencias, denominadas Caldera Nº 1, Nº 2 y Nº 3, sobre la finca \textbf{San José}.
+ 
+-\textbf{Ese mismo mes se le concedió otro cateo.} El 15 de octubre de 1930 la Dirección General de Minas otorgó a \textbf{Alberto Jaime Harrison y Juan Larrán} un permiso de exploración de dos mil hectáreas, para minerales de primera categoría, sobre la finca \textbf{Las Nieves}, «Departamento Caldera», en terrenos de \textbf{Julio Suárez y Francisco de la Vega}. El pedido era del 1º de junio de 1929 (expediente 38-H; Boletín Oficial Nº 1.346). Pero el padrón minero de 1933 fecha el registro de la manifestación de las minas (expediente 44-L) el \textbf{30 de abril de 1930}: el descubrimiento se registró mientras este segundo pedido estaba en trámite y seis meses antes de que se concediera. Qué relación hubo entre ambos, y con el cateo de 1925, el archivo relevado no lo dice; el apéndice \ref{cap:pedidos} pide los expedientes. El edicto muestra, además, que Las Nieves, de Garzón y Pintos en 1925, figuraba en 1930 a nombre de Suárez y de la Vega.
++\textbf{Ese mismo año se le concedió otro cateo.} El 15 de octubre de 1930 la Dirección General de Minas otorgó a \textbf{Alberto Jaime Harrison y Juan Larrán} un permiso de exploración de dos mil hectáreas, para minerales de primera categoría, sobre la finca \textbf{Las Nieves}, «Departamento Caldera», en terrenos de \textbf{Julio Suárez y Francisco de la Vega}. El pedido era del 1º de junio de 1929 (expediente 38-H; Boletín Oficial Nº 1.346). Pero el padrón minero de 1933 fecha el registro de la manifestación de las minas (expediente 44-L) el \textbf{30 de abril de 1930}: el descubrimiento se registró mientras este segundo pedido estaba en trámite y seis meses antes de que se concediera. Qué relación hubo entre ambos, y con el cateo de 1925, el archivo relevado no lo dice; el apéndice \ref{cap:pedidos} pide los expedientes. El edicto muestra, además, que Las Nieves, de Garzón y Pintos en 1925, figuraba en 1930 a nombre de Suárez y de la Vega.
+ 
+ El punto de partida que fija el edicto merece transcribirse, porque describe cómo se median
+ las cosas: «el vértice Noroeste de la casa de \textbf{los hermanos Quipildor}, ubicado a
+@@ -272,8 +271,8 @@
+ nada.
+ 
+ En \textbf{1908} se pide cateo de cobre en el partido de Potrero de Castillo. En \textbf{1925}
+-se presentan ocho solicitudes de dos mil hectáreas cada una --- cuatro de ellas a nombre de
+-cuatro Prémoli distintos --- y \textbf{todas se abandonan a los pocos meses}; la caducidad se
++se presentan ocho solicitudes ---al menos tres de ellas de dos mil hectáreas cada una; cuatro de ellas a nombre de
++cuatro Prémoli distintos--- y \textbf{todas se abandonan a los pocos meses}; la caducidad se
+ declara cinco años después. En \textbf{1930}, el único solicitante de 1925 cuyo cateo
+ prosperó ---Larrán, ajeno a los ocho caducados--- manifiesta el descubrimiento de plomo y plata en la finca San José. En \textbf{1933}
+ el padrón minero provincial registra esa mina con el canon al día y el expediente «a
+diff -ru cap_orig/05-tierra.tex cap/05-tierra.tex
+--- cap_orig/05-tierra.tex	2026-09-17 16:50:45.236018284 +0000
++++ cap/05-tierra.tex	2026-09-17 16:56:06.146941845 +0000
+@@ -2,7 +2,7 @@
+ 
+ \label{cap:tierra}
+ El capítulo \ref{cap:fincas} mostró de dónde vienen las unidades territoriales del departamento.
+-Éste mide qué quedó de ellas. Entre los dos censos agropecuarios disponibles, el
++Éste mide qué quedó de ellas. Entre los censos agropecuarios de 2002 y 2018, el
+ departamento La Caldera perdió el ochenta y ocho por ciento de su superficie agropecuaria
+ mientras la provincia ganaba. Ese dato es el punto de partida de todo lo que el libro documenta después, porque parte de la tierra que sale del registro agropecuario es la que entra al mercado de suelo urbano; el apartado sobre el censo de 2008 precisa qué era esa superficie y cuánto de ella era monte que simplemente dejó de declararse.
+ 
+diff -ru cap_orig/06-pdua.tex cap/06-pdua.tex
+--- cap_orig/06-pdua.tex	2026-09-17 16:50:45.236034991 +0000
++++ cap/06-pdua.tex	2026-09-17 16:56:06.147024679 +0000
+@@ -104,7 +104,7 @@
+ 
+ Tres consecuencias.
+ 
+-\textbf{Primera: el instrumento de Vaqueros existe desde 2014 y tiene autor.} Este libro venía consignando el PIDUA-VAQ como pendiente sin fecha ni origen. Su coordinación se contrató en febrero de 2014, con financiamiento internacional, un año y medio antes de que se aprobara el plan de La Caldera.
++\textbf{Primera: el instrumento de Vaqueros existe desde 2014 y tiene autor.} Este libro venía consignando el PIDUA-VAQ como pendiente sin fecha ni origen. Su coordinación se contrató en febrero de 2014, con financiamiento internacional, casi dos años antes de que se aprobara el plan de La Caldera.
+ 
+ \textbf{Segunda: los planes no son iniciativas municipales.} Son productos de programas financiados desde afuera del municipio: en Vaqueros, un préstamo del BID con unidad ejecutora en el Ministerio del Interior de la Nación; en La Caldera, el Consejo Federal de Inversiones. El municipio recibe el plan; no lo encarga ni lo paga. Eso vuelve verosímil la serialidad que este capítulo detectó en el error de plantilla, sin atribuirla a desidia local, aunque la plantilla de La Caldera no proviene de este préstamo.
+ 
+diff -ru cap_orig/08-vaqueros.tex cap/08-vaqueros.tex
+--- cap_orig/08-vaqueros.tex	2026-09-17 16:50:45.236079963 +0000
++++ cap/08-vaqueros.tex	2026-09-17 16:56:06.147104359 +0000
+@@ -100,7 +100,7 @@
+ del mismo municipio se manifestaban tras más de quince años de reclamos por agua potable.
+ 
+ \textbf{La ordenanza enuncia exactamente el criterio que el municipio no aplicó}, y lo enuncia
+-en el mismo año en que el Estado provincial homologaba, sobre ese territorio, un
++un año después de que el Estado provincial homologara, sobre ese territorio, un
+ abastecimiento privado.
+ 
+ No se sigue de ahí ninguna imputación: el reglamento que fija cómo se aplica ese criterio es
+diff -ru cap_orig/09-defensas.tex cap/09-defensas.tex
+--- cap_orig/09-defensas.tex	2026-09-17 16:50:45.236098279 +0000
++++ cap/09-defensas.tex	2026-09-17 16:56:06.147215148 +0000
+@@ -162,7 +162,7 @@
+ que ocurre exactamente lo mismo, porque en 1911 la obra de 1910 había requerido una
+ ampliación del cuarenta y ocho por ciento.
+ 
+-Dos obras hidráulicas separadas por veinticinco años, ambas ejecutadas por el municipio,
++Dos obras hidráulicas separadas por veinticinco años, la primera ejecutada por una comisión de vecinos presidida por un miembro del municipio y la segunda por el municipio,
+ ambas con déficit y ambas cubiertas por decreto posterior. No es un dato sobre la
+ administración de nadie en particular: es lo que ocurre cuando se presupuesta una obra de
+ emergencia sobre un río que nadie midió.
+diff -ru cap_orig/10-expropiacion.tex cap/10-expropiacion.tex
+--- cap_orig/10-expropiacion.tex	2026-09-17 16:50:45.236123426 +0000
++++ cap/10-expropiacion.tex	2026-09-17 16:56:06.147346936 +0000
+@@ -6,7 +6,7 @@
+ 
+ El 8 de junio de 1972, el gobernador de la provincia de Salta sancionó y promulgó, en un solo acto y sin intervención de ninguna cámara legislativa, una ley que declaraba de utilidad pública seiscientas ochenta y seis hectáreas del departamento La Caldera. La tierra se destinaba a construir un embalse que abastecería de agua potable al sector norte de la ciudad de Salta.
+ 
+-Cincuenta y cuatro años después, ese embalse abastece a la capital. El municipio que lo aloja no tiene red de gas natural ---en el departamento, sólo Vaqueros la tiene---, tiene cobertura cloacal parcial y tiene desigualdad documentada en el acceso al agua potable. En su zona alta hay vecinos que esperan el camión municipal dos veces por semana desde hace más de quince años.
++Cincuenta y cuatro años después, ese embalse abastece a la capital. El municipio que lo aloja no tiene red de gas natural ---en el departamento, sólo Vaqueros la tiene---, tiene cobertura cloacal parcial y tiene desigualdad documentada en el acceso al agua potable. En la zona alta de Vaqueros, el otro municipio del departamento, hay vecinos que esperan el camión municipal dos veces por semana desde hace más de quince años.
+ 
+ Entre esas dos frases está el libro entero.
+ 
+@@ -428,7 +428,7 @@
+ 
+ \begin{cautela}
+ \textbf{Una precisión sobre qué agua va por dónde, porque las fuentes no dicen lo mismo.} La planta del dique y su acueducto de veintidós kilómetros se inauguraron oficialmente en octubre de 2021 como «Planta Potabilizadora Dique Campo Alegre y Acueducto Norte», con una producción de cuatro mil metros cúbicos por hora tomada del embalse; la segunda etapa se licitó por cincuenta millones de dólares. El informe que Aguas del Norte elevó a Fiscalía de Estado en diciembre de 2022 (capítulo \ref{cap:amparo}) describe, en cambio, un \textbf{Acueducto Norte} que capta del río a la altura de la curva de El Gallinato ---la captación cuyas cámaras se protegieron en 2014 (capítulo \ref{cap:defensas})---, un \textbf{Acueducto Wierna} que capta en el río Las Nieves y un \textbf{Acueducto Campo Alegre} al que a esa fecha le faltaban «detalles menores» para operar. Las dos versiones pueden conciliarse ---el nombre designa sistemas de épocas distintas, y una obra inaugurada puede no estar todavía en operación regular---, pero este libro no puede establecer cuál es la situación actual. Qué parte del agua que recibe la capital sale hoy del embalse y qué parte del río es un dato que el apéndice \ref{cap:pedidos} pide.
+-\end{cautela} En el medio, el departamento pasó de tener menos de mil habitantes en su cabecera a ser el cuarto de mayor crecimiento demográfico del país, perdió el 88 por ciento de su superficie agropecuaria y su municipio cabecera no recibió red de gas ni cobertura cloacal completa.
++\end{cautela} En el medio, el departamento pasó de tener menos de mil habitantes en su cabecera a ser el cuarto de mayor crecimiento demográfico del país, perdió el 88 por ciento de su superficie agropecuaria declarada ---sobre todo monte y pastizal--- y su municipio cabecera no recibió red de gas ni cobertura cloacal completa.
+ 
+ El agua salió. Los servicios no entraron.
+ 
+diff -ru cap_orig/11-ribera.tex cap/11-ribera.tex
+--- cap_orig/11-ribera.tex	2026-09-17 16:50:45.236145217 +0000
++++ cap/11-ribera.tex	2026-09-17 16:56:06.145896264 +0000
+@@ -46,8 +46,8 @@
+ 
+ \textbf{Tercera: el trámite duró menos de un año en un caso y siete en el otro.} El expediente
+ del arroyo Vaqueros es de 2024 y se resolvió en marzo de 2025; el del río Ancho es de 2018.
+-El capítulo documenta que la determinación de Las Vertientes tardó sesenta y siete días.
+-\textbf{Los plazos de este procedimiento varían entre dos meses y siete años, y el libro no
++El capítulo documenta que el trámite de Las Vertientes ---comisión en julio de 2013, determinación en abril de 2014--- duró ocho meses y medio, y que la determinación llegó sesenta y siete días después de que el plano la exigiera; la comisión del arroyo Quintín de 2013 recién se cerró en 2025.
++\textbf{Los plazos de este procedimiento varían entre meses y más de una década, y el libro no
+ encontró criterio que lo explique.}
+ 
+ \textbf{Y cuarta: el edicto cita mal la norma.} El del arroyo Vaqueros remite al «Dcto.\ Nº
+@@ -380,10 +380,10 @@
+ \begin{cautela}
+ El decreto \textbf{no dice expresamente que deban publicarse las coordenadas}. Dice que debe
+ publicarse la resolución, y que el trabajo de campo consiste en amojonar los puntos de
+-ribera. Este libro \textbf{no puede afirmar}, entonces, que las dos resoluciones que
++ribera. Este libro \textbf{no puede afirmar}, entonces, que las tres resoluciones que
+ remitieron sus coordenadas a la sede del organismo hayan incumplido el decreto.
+ 
+-Lo que sí puede afirmar es que \textbf{once de las catorce determinaciones de
++Lo que sí puede afirmar es que \textbf{doce de las quince determinaciones de
+ 2013--2015 publicaron sus coordenadas y tres no}, bajo la misma norma y en el mismo período, y las tres con el mismo asesor legal firmante. Y que las dos de esas tres que se refieren a un inmueble recaen sobre suelo que este libro
+ encontró en proceso de loteo ---condición que comparten, sin embargo, otras dos que sí las publicaron---. La norma admite las dos prácticas; lo que no explica es por qué
+ se eligió una u otra en cada caso, y eso es exactamente lo que la segunda tesis sostiene.
+@@ -458,18 +458,6 @@
+ 
+ El material que este capítulo venía usando con reservas quedó identificado. Se trata de una presentación institucional titulada \textit{Línea de Ribera y Ordenamiento Territorial}, cuyo autor es el \textbf{geólogo Jorge G.\ Torres\index{Torres, Jorge G.}, de la Secretaría de Recursos Hídricos de Salta}, publicada por el \textbf{Consejo Hídrico Federal (COHIFE)}. La reserva se levanta: es un documento oficial, de autor identificable, y su autor figura en diciembre de 2025 como \textbf{Director General de Cuencas y Política Hídrica} de la Subsecretaría --- es decir, el funcionario a cargo del área donde vive el Plan de Manejo de esta causa.
+ 
+-\begin{ficha}{Decreto 1989/02, Anexo I --- procedimiento (texto citado en la presentación; el texto íntegro se transcribe más adelante)}
+-\begin{itemize}[leftmargin=*,nosep]
+-\item \textbf{Art.\ 1:} la determinación procede de oficio o \textbf{a solicitud de parte interesada}.
+-\item \textbf{Art.\ 3:} la Comisión Técnica se conforma con \textbf{ingeniero hidráulico, geólogo y agrimensor}.
+-\item \textbf{Art.\ 6:} el método debe ser técnicamente sustentable según la información existente y las características del río.
+-\item \textbf{Art.\ 7:} la línea se delimita por el nivel del \textbf{caudal de la máxima crecida ordinaria}, considerando los procesos de migración lateral por erosión natural.
+-\item \textbf{Art.\ 8 --- prelación:} 1) aforos sistemáticos con estadística \textbf{no menor de cincuenta años}; 2) registro fotográfico o satelital; 3) modelos matemáticos sobre estudio de cuenca, ``en caso que los datos sean insuficientes o no existan''.
+-\item \textbf{Art.\ 9:} trabajo de campo con amojonamiento del máximo nivel de las crecidas ordinarias.
+-\item \textbf{Art.\ 10:} la Comisión propone; la Autoridad notifica a los interesados que participaron, que tienen \textbf{diez días} para observar; evaluadas las observaciones, se dicta el acto en diez días hábiles, se registra en el Libro de Catastro y \textbf{se comunica a la Dirección de Inmuebles para su registración}, previa publicación por dos días.
+-\end{itemize}
+-\end{ficha}
+-
+ \begin{cautela}
+ La presentación agrega un dato que reordena el capítulo entero.
+ 
+@@ -562,7 +550,7 @@
+ \end{longtable}
+ }
+ 
+-Todos firmados por el Dr.\ Matías J.\ Brogin\index{Brogin, Matías J.}, Asesor Legal. Los que aprueban comisiones invocan el \textbf{Decreto 1989/02, art.\ 8 ap.\ 2 y 3}, prohíben a los ribereños modificar las márgenes mientras dure la operación y abren quince días hábiles para que terceros aporten estudios.
++Firmados por el Dr.\ Matías J.\ Brogin\index{Brogin, Matías J.}, Asesor Legal, salvo el de la Resolución 023/14, que firma el secretario Alfredo Fuertes. Los que aprueban comisiones invocan el \textbf{Decreto 1989/02, art.\ 8 ap.\ 2 y 3}, prohíben a los ribereños modificar las márgenes mientras dure la operación y abren quince días hábiles para que terceros aporten estudios.
+ 
+ Hay cuatro cuestiones que esta serie resuelve.
+ 
+@@ -570,7 +558,7 @@
+ 
+ \textbf{Segunda: las comisiones no tienen composición fija, y hay un nombre que se repite.} La 292/13 nombra al ingeniero civil \textbf{Antonio Alejandro Forns\index{Forns, Antonio Alejandro}} y al geólogo Teodoro Chafatinos. La 395/13 nombra al mismo Forns y al geólogo Mario Raúl Orte. La 208/13 nombra tres: el ingeniero civil César Soto, el geólogo Marcelo Ramón Olañeta y el técnico Félix Márquez. La 8/14 nombra tres: el ingeniero civil César Manuel Soto, el geólogo Jorge David Afranllie y el técnico universitario en topología Félix Márquez. La 96/14 nombra al ingeniero Wanny Caramella y a la geóloga Marcia Jesica Faviana. La 273/15, dos años después de la 292/13, vuelve a reunir a Forns y a Chafatinos, con un tercer integrante. La del río Bermejo, en 2019, nombra dos.
+ 
+-El artículo 3º del Anexo I prevé ingeniero hidráulico, geólogo y agrimensor. En la práctica la integración varía entre dos y tres miembros, la especialidad del ingeniero varía, y \textbf{en ninguno de los seis casos relevados aparece un agrimensor}. Entre todas las comisiones que este capítulo leyó después, de 2011 a 2019, sólo una ---la del río Vaqueros de 2016--- incluye un ingeniero hidráulico. Es un dato sobre la aplicación de la norma, no sobre su texto, y merece preguntarse a la autoridad de aplicación.
++El artículo 3º del Anexo I prevé ingeniero hidráulico, geólogo y agrimensor. En la práctica la integración varía entre dos y tres miembros, la especialidad del ingeniero varía, y \textbf{en ninguna de las ocho comisiones cuya integración consta aparece un agrimensor}. Entre todas las comisiones que este capítulo leyó después, de 2011 a 2019, sólo una ---la del río Vaqueros de 2016--- incluye un ingeniero hidráulico. Es un dato sobre la aplicación de la norma, no sobre su texto, y merece preguntarse a la autoridad de aplicación.
+ 
+ \textbf{Tercera: el departamento estaba siendo relevado sistemáticamente.} Veinticinco actos en veintiséis meses, sobre más de veinticinco inmuebles y trece cursos distintos --- los ríos La Caldera, Vaqueros, Mojotoro, Wierna, Lesser y Trancas, la Cañada Oeste, y los arroyos Quintín o Pacará, Los Nogales Norte o El Cajón, El Manzano, Isasmendi, El Durazno y Guaranguay. La línea de ribera no se fijaba de manera ocasional: \textbf{había un programa en curso}, y el departamento entero estuvo bajo relevamiento hídrico entre 2013 y 2015, con los ciclos de comisión y determinación completándose uno tras otro.
+ 
+@@ -617,7 +605,7 @@
+ 
+ \textbf{Corresponde una rectificación.} Una versión anterior de este apartado afirmaba que la 383/14 era la única de la serie sin coordenadas publicadas. \textbf{No lo es}: la 142/14, de mayo de 2014, usa exactamente la misma fórmula --- ``se encuentran a disposición de los interesados en la sede'' --- y también remite. La afirmación de unicidad era errónea y queda retirada.
+ 
+-Lo que subsiste, y es lo que importa, es que \textbf{la práctica dominante fue publicar}: nueve de once en 2013--2014. Las determinaciones de 2015 sobre la Finca Wierna y sobre el río Vaqueros también publicaron sus coordenadas; la tercera de ese año, la 467/15, no, y se analiza enseguida. Con ellas la serie queda en once de catorce, y la proporción se sostiene.
++Lo que subsiste, y es lo que importa, es que \textbf{la práctica dominante fue publicar}: nueve de once en 2013--2014. Las tres determinaciones de 2015 sobre la Finca Wierna ---la 293/15 y la 428/15--- y sobre el río Vaqueros ---la 322/15--- también publicaron sus coordenadas; la cuarta de ese año, la 467/15, no, y se analiza enseguida. Con ellas la serie queda en doce de quince, y la proporción se sostiene.
+ \end{cautela}
+ 
+ \begin{cautela}
+@@ -631,7 +619,7 @@
+ 
+ Y hay un dato que descarta la explicación benigna. \textbf{La Resolución 185/14 recae sobre la misma matrícula 4366 que la 383/14}: mismo inmueble ---la Finca La Caldera o Getsemaní---, mismo organismo, mismo asesor legal firmante, cinco meses de diferencia. Más aún, las dos salen del mismo expediente. En julio de 2014 ese edicto ---Boletines Oficiales Nº 19.346 y 19.347, del 21 y el 22 de julio--- publicó \textbf{ciento trece pares de coordenadas} ---veintiuno del río y noventa y dos del arroyo, trazados en la figura \ref{fig:formacionradios}--- de los otros dos cursos de la finca: veintiuno del río La Caldera, catorce en la margen derecha y siete en la izquierda, y noventa y dos del arroyo El Manzano, en dos tramos. Lo hizo con un arancel de doscientos cincuenta pesos; en diciembre, sobre El Durazno y Guaranguay, remitió las suyas a la sede. El edicto de la Resolución 348/13 había publicado once pares ---u ocho, si se cuentan sólo los de la línea; la diferencia sigue sin cotejarse--- por ciento ochenta pesos: \textbf{entre diez y catorce veces más coordenadas por un cuarenta por ciento más de arancel}. La hipótesis del costo, de la composición o de la extensión no se sostiene.
+ 
+-Este libro \textbf{no afirma} que la omisión haya sido deliberada, ni que alguien la decidiera para favorecer a nadie: puede ser una decisión de trámite, un criterio del profesional interviniente o un error, y con doce casos las coincidencias ocurren. Lo que hace es registrar el hecho y formular la pregunta: \textbf{por qué las coordenadas de los arroyos que atraviesan el loteo El Durazno no se publicaron, cuando las de los otros dos cursos de la misma finca sí.} Se responde con los dos expedientes y con el informe técnico de sus comisiones, y ninguno está en poder de este trabajo.
++Este libro \textbf{no afirma} que la omisión haya sido deliberada, ni que alguien la decidiera para favorecer a nadie: puede ser una decisión de trámite, un criterio del profesional interviniente o un error, y con trece casos las coincidencias ocurren. Lo que hace es registrar el hecho y formular la pregunta: \textbf{por qué las coordenadas de los arroyos que atraviesan el loteo El Durazno no se publicaron, cuando las de los otros dos cursos de la misma finca sí.} Se responde con los dos expedientes y con el informe técnico de sus comisiones, y ninguno está en poder de este trabajo.
+ \end{cautela}
+ 
+ \subsection*{Ocho años después, el organismo dibujó el resultado}
+@@ -686,7 +674,7 @@
+ 
+ \textbf{Sobre el expediente.} El sumario del Boletín Oficial Nº 19.466 consigna, para el aviso de la Resolución 383/14, el expediente \textbf{34-167.127/13}, el mismo de la secuencia 395/13--185/14. \textbf{Un solo expediente administrativo cubre la finca entera y sus cuatro cursos de agua}: de él salieron la 395/13, que designó la comisión técnica; la 185/14, que determinó la línea del río La Caldera y del arroyo El Manzano; y la 383/14, la de El Durazno y Guaranguay. Tres actos, un expediente, una matrícula ---la 4366, pese a que la 395/13 aparece transcripta con el catastro ``1366'', error de lectura del escaneo.
+ 
+-\textbf{Sobre las coordenadas.} Las publicadas para la Resolución 7/14 ---matrícula 3584, La Calderilla--- son \textbf{punto por punto idénticas} a las de la Resolución 6/14 ---matrícula 3593, fracción 17---: ciento treinta y cuatro puntos con los mismos valores. Puede que ambas describan el mismo tramo del río, o puede ser una repetición en la composición del Boletín. Este libro no lo establece y no usa esas coordenadas hasta que se aclare.
++\textbf{Sobre las coordenadas.} Las publicadas para la Resolución 7/14 ---matrícula 3584, La Calderilla--- son \textbf{punto por punto idénticas} a las de la Resolución 6/14 ---matrícula 3593, fracción 17---: ciento treinta y cuatro puntos con los mismos valores. Puede que ambas describan el mismo tramo del río, o puede ser una repetición en la composición del Boletín. Hay una tercera posibilidad: el anexo de la Resolución 023/14, sobre el mismo río y del mes siguiente, tiene también ciento treinta y cuatro puntos, de modo que la tabla repetida pudo arrastrarse de esa pieza. Este libro no lo establece y no usa esas coordenadas hasta que se aclare.
+ \end{cautela}
+ 
+ \begin{cautela}
+@@ -694,6 +682,8 @@
+ 
+ Los Boletines Nº 19.250 y 19.251, del 19 y el 21 de febrero de 2014, publican la \textbf{Resolución Nº 000023/14} de la Secretaría de Recursos Hídricos con un título ---«Río La Caldera, Pueblo La Caldera»--- y la leyenda «ver anexo». El anexo, vinculado a los dos avisos en la edición web, contiene la resolución completa.
+ 
++\end{cautela}
++
+ \begin{ficha}{Resolución SRH Nº 000023 del 6 de febrero de 2014 --- expte.\ 0090034-96837/2013}
+ \textbf{Origen:} nota del intendente de La Caldera, \textbf{Luis G.\ Mendaña\index{Mendaña, Luis Gerardo}}, que pide la línea de ribera de ambas márgenes del río La Caldera a lo largo del pueblo, con una imagen satelital (fs.\ 1 y 2). La Dirección General de Planificación Hídrica informa que la determinación \textbf{«se ha realizado por Administración»}, con coordenadas y plano, y que \textbf{«estará sujeta a la construcción de defensas con gaviones a lo largo de la misma»}, tramitada por expediente 34-253.934/13 (fs.\ 3). Dictamen jurídico por el art.\ 126 del Código de Aguas y el Decreto 1989/02 (fs.\ 7).
+ 
+@@ -706,6 +696,8 @@
+ Arts.\ 4 y 5: publicación por dos días y notificación a Inmuebles. Firma el secretario Alfredo Fuertes.
+ \end{ficha}
+ 
++\begin{cautela}
++
+ \textbf{La primera:} Jorge G.\ Torres\index{Torres, Jorge G.} es el autor de la presentación institucional sobre línea de ribera que este capítulo utiliza como fuente del procedimiento, y figura en diciembre de 2025 como Director General de Cuencas y Política Hídrica de la provincia. En febrero de 2014 fue designado para determinar la línea de ribera del río La Caldera \textbf{a la altura del pueblo}. La continuidad entre quien ejecutó la tarea en el terreno y quien hoy conduce el área es completa.
+ 
+ La figura \ref{fig:otbn} traza esa línea sobre el pueblo.
+@@ -724,6 +716,8 @@
+ \begin{cautela}
+ \textbf{Después de la serie, el mismo patrón.} La serie de 2013 a 2015 no fue la última palabra. El Boletín Oficial Nº 19.951, del 27 de enero de 2017, publica el edicto de la \textbf{Resolución Nº 360 del 7 de noviembre de 2016} de la Secretaría de Recursos Hídricos, expediente 34-171.172/15.
+ 
++\end{cautela}
++
+ \begin{ficha}{Resolución SRH Nº 360/16 --- B.O.\ Nº 19.951, pág.\ 71}
+ Aprueba la determinación de la línea de ribera realizada por la Comisión Técnica en \textbf{ambas márgenes del río Wierna}, en la zona de los inmuebles de \textbf{matrículas 4097, 4953, 391, 389, 1268, 3718 y 3438} del departamento La Caldera. Integran la comisión el geólogo \textbf{Jorge Genaro Torres} y el ingeniero civil Carlos Enrique Cerezo.
+ 
+@@ -732,6 +726,8 @@
+ Apelable ante el Tribunal de Aguas en diez días hábiles. Firman el secretario Alfredo Fuertes y la asesora legal Sandra Mabel Siegrist; edicto fechado el 16 de noviembre de 2016 y publicado el 26 y el 27 de enero de 2017.
+ \end{ficha}
+ 
++\begin{cautela}
++
+ Tres observaciones. La fórmula es literalmente la de las Resoluciones 142/14 y 383/14, con otro firmante, dos años después: la omisión de las coordenadas no fue un rasgo de un asesor ni de una racha. El geólogo que la Resolución 023/14 designó para el río La Caldera sigue integrando comisiones del departamento en 2016. Y el río Wierna ---donde el capítulo \ref{cap:amparo} registra cuatro canteras y el capítulo \ref{cap:defensas} un encauzamiento provincial en 1980--- tiene línea de ribera determinada desde 2016 sobre siete inmuebles cuya relación con esas canteras y obras este libro no estableció.
+ \end{cautela}
+ 
+@@ -844,7 +840,7 @@
+ 
+ El expediente del río Vaqueros quedó completo con la comisión de la Resolución 147/16 y la determinación de la 414/16. Entre la margen derecha y la izquierda median unos ciento veinte a ciento cuarenta metros; con la ampliación de 2017, la margen derecha suma unos doscientos cuarenta metros de poligonal publicada. Y la comisión tiene una composición que ninguna otra de las leídas repite: tres miembros, uno de ellos \textbf{ingeniero hidráulico}, que es la especialidad que el artículo 3º del Anexo I pone en primer lugar.
+ 
+-Dos datos más para la serie. La omisión de las coordenadas tampoco fue un rasgo de la nueva asesora: en noviembre de 2016 su edicto sobre el Wierna (Resolución 360/16) las remitió a la sede, y seis meses después su edicto sobre el río Vaqueros las publicó. Y una determinación publicada puede ampliarse después: la de la matrícula 40 se modificó a los seis meses. Qué motivó la ampliación, y si el tramo agregado coincide con una subdivisión o un proyecto sobre ese inmueble, es lo que diría el expediente. \pendiente{fundamentos de la ampliación de la Resolución 414/16 por la 144/17}
++Dos datos más para la serie. La omisión de las coordenadas tampoco fue un rasgo de la asesora que firma desde 2016: en noviembre de 2016 su edicto sobre el Wierna (Resolución 360/16) las remitió a la sede, y seis meses después su edicto sobre el río Vaqueros las publicó. Y una determinación publicada puede ampliarse después: la de la matrícula 40 se modificó a los seis meses. Qué motivó la ampliación, y si el tramo agregado coincide con una subdivisión o un proyecto sobre ese inmueble, es lo que diría el expediente. \pendiente{fundamentos de la ampliación de la Resolución 414/16 por la 144/17}
+ 
+ \subsection*{2016 y 2017: el relevamiento siguió}
+ 
+@@ -1088,7 +1084,7 @@
+ 
+ Una precisión sobre el error de numeración, que este edicto obliga a reformular. El de 2013 también cita ``Dcto.\ Nº 1898/02, art.\ 10'', igual que el de julio de 2014 ---el de la Resolución 185/14--- y el de 2015. El de 2019 y el de julio de 2025 citan 1989/02, que es el correcto; el de abril de 2025 sobre el arroyo Vaqueros vuelve a decir 1898/02. Y antes de la serie, el edicto de mayo de 2012 sobre Chacras del Gallinato, firmado por otro funcionario, también cita correctamente el 1989/02: la transposición no viene del origen del régimen.
+ 
+-No fue entonces un desliz aislado: fue un \textbf{error de plantilla que se repitió al menos dos años}, que los edictos de 2019 y de julio de 2025 ya no traen y que reaparece en abril de 2025: las dos versiones conviven. Es el segundo error de plantilla que este libro documenta --- el primero es el municipio de Rivadavia Banda Sur en el Plan de Desarrollo Urbano Ambiental --- y ambos comparten el mismo mecanismo: un texto que se reutiliza y que nadie relee.
++No fue entonces un desliz aislado: fue un \textbf{error de plantilla que atraviesa toda la serie}. Las tablas de este mismo capítulo lo registran en 2013, 2014 y 2015, en las Resoluciones 282/16, 389/16 y 279/17 y en la serie del arroyo Chaile de 2021 a 2024; el edicto de 2019 sobre el río Bermejo y el de julio de 2025 citan el número correcto, y el de abril de 2025 vuelve al error. Las dos versiones conviven desde 2013. Es el segundo error de plantilla que este libro documenta --- el primero es el municipio de Rivadavia Banda Sur en el Plan de Desarrollo Urbano Ambiental --- y ambos comparten el mismo mecanismo: un texto que se reutiliza y que nadie relee.
+ 
+ La pregunta que este capítulo había dejado abierta --- si la Ley 7017 fija, como su análoga cordobesa, un plazo para levantar los planos de zonas inundables --- ya tiene respuesta. Obtenido el texto completo del Código de Aguas y de su reglamentación: \textbf{no lo fija}.
+ 
+@@ -1154,7 +1150,7 @@
+ 
+ Queda resuelta, además, la discrepancia que este capítulo había señalado entre los decretos 1989/02 y 1898/02. El correcto es \textbf{1989/02}: así lo cita la presentación oficial, así lo cita el edicto del río Bermejo y así lo cita el edicto de julio de 2025; el de abril de ese año sobre el arroyo Vaqueros, en cambio, repite el error. La mención a ``1898/02'' en el edicto de la Resolución 383/14 es una transposición de dígitos \textbf{en el propio edicto}.
+ 
+-Es un error menor y sin consecuencia jurídica, pero se repite en los edictos de 2013 y 2015, no está en los de 2019 y julio de 2025, y reaparece en el de abril de 2025: es un defecto de plantilla que convive con la versión corregida. Conviene registrarlo por lo que dice del control de calidad de las publicaciones: durante años, el instrumento que informaba a los vecinos bajo qué norma podían apelar citó mal el número de esa norma.
++Es un error menor y sin consecuencia jurídica, pero se repite en edictos de 2013 a 2017 y de 2021 a 2025, falta en otros de esos mismos años ---y en los de 2019 y julio de 2025---, y reaparece en el de abril de 2025: es un defecto de plantilla que convive con la versión corregida. Conviene registrarlo por lo que dice del control de calidad de las publicaciones: durante años, el instrumento que informaba a los vecinos bajo qué norma podían apelar citó mal el número de esa norma.
+ 
+ Se obtuvo el texto del artículo 126 y un edicto de 2019 del mismo organismo que permite ver el procedimiento completo. Ambos corrigen datos que este apartado había tomado de un resumen intermedio, antes de identificar la presentación de Torres.
+ 
+@@ -1657,7 +1653,7 @@
+ que la norma establece}, y por eso el artículo 8 admite descender a registro fotográfico y,
+ en su defecto, a modelos matemáticos.
+ 
+-Este capítulo mostró que ninguna estación de aforo opera hoy dentro de la cuenca y que la serie más larga no llega a los cincuenta años. \textbf{De eso se sigue que el primer escalón del artículo 8 no estaba disponible para ninguna de las catorce determinaciones de 2013--2015, y que corresponde preguntar cuál de los otros dos se aplicó en cada una.}
++Este capítulo mostró que ninguna estación de aforo opera hoy dentro de la cuenca y que la serie más larga no llega a los cincuenta años. \textbf{De eso se sigue que el primer escalón del artículo 8 no estaba disponible para ninguna de las quince determinaciones de 2013--2015, y que corresponde preguntar cuál de los otros dos se aplicó en cada una.}
+ 
+ \section{La apelación, y quién firma}
+ 
+diff -ru cap_orig/12-amparo.tex cap/12-amparo.tex
+--- cap_orig/12-amparo.tex	2026-09-17 16:50:45.236187605 +0000
++++ cap/12-amparo.tex	2026-09-17 16:56:06.147706893 +0000
+@@ -26,7 +26,7 @@
+ \end{ficha}
+ 
+ \begin{ficha}{Lo que el escrito de febrero de 2019 invocaba}
+-La presentación, con patrocinio del abogado Lazarte ante el Juzgado de Minas y Ambiente, se apoyaba en \textbf{informes técnicos públicos previos}, que el escrito hace corresponder con otros del \textbf{INTA} y de organizaciones ambientales: la \textbf{Asociación Bosque Modelo Jujuy} y la \textbf{Fundación Oikos para el Desarrollo}. Según el escrito, esas instituciones \textbf{ya habían advertido la alta peligrosidad que revestía la cuenca sin manejo apropiado}, dadas sus características de cuenca de montaña con arroyos y ríos de pendiente elevada, sumados a los impactos antrópicos autorizados por la Municipalidad de La Caldera para actividades industriales, mineras y de desarrollo urbanístico.
++La presentación, con patrocinio del abogado Lazarte ante el Juzgado de Minas, se apoyaba en \textbf{informes técnicos públicos previos}, que el escrito hace corresponder con otros del \textbf{INTA} y de organizaciones ambientales: la \textbf{Asociación Bosque Modelo Jujuy} y la \textbf{Fundación Oikos para el Desarrollo}. Según el escrito, esas instituciones \textbf{ya habían advertido la alta peligrosidad que revestía la cuenca sin manejo apropiado}, dadas sus características de cuenca de montaña con arroyos y ríos de pendiente elevada, sumados a los impactos antrópicos autorizados por la Municipalidad de La Caldera para actividades industriales, mineras y de desarrollo urbanístico.
+ 
+ El área de afectación comprende los caminos vecinales que cruzan los arroyos \textbf{Guaranguay, Los Duraznos, Los Manzanos y uno sin identificación}, todos de paso obligado hacia El Nogalar I, II y IV y hacia \textbf{todas las etapas de El Durazno}, y las actividades en la playa del río sobre la avenida Costanera sur.
+ \end{ficha}
+@@ -960,7 +960,7 @@
+ \begin{itemize}[leftmargin=*,nosep]
+ \item El Nogalar, etapas I y II: \textbf{irregular}; matrícula 6557; radicado en 2012.
+ \item La Milagrosa: \textbf{irregular}; matrícula 5800.
+-\item El Durazno, etapas I, III y IV: aprobadas en 2022; radicado en 2009.
++\item El Durazno, etapas I, III y IV: aprobadas en 2022; radicado en 2009. (La Resolución 646D/21 había aprobado las etapas 1, 2 y 4: el capítulo \ref{cap:loteo} registra la discordancia.)
+ \item El Durazno, etapas II y V: \textbf{irregulares}; matrícula 6558; 2019 y 2018.
+ \item Club de Campo Potreros de La Caldera: \textbf{irregular}; matrícula 4207; 2013.
+ \item El Nogalar IV: \textbf{irregular}; «zona aluvional»; 2012.
+diff -ru cap_orig/13-loteo.tex cap/13-loteo.tex
+--- cap_orig/13-loteo.tex	2026-09-17 16:50:45.236224425 +0000
++++ cap/13-loteo.tex	2026-09-17 17:07:40.456380744 +0000
+@@ -63,7 +63,7 @@
+ ancho}. El conjunto ocupa aproximadamente \textbf{un kilómetro por un kilómetro}: unas cien
+ hectáreas.
+ 
+-\textbf{Esa magnitud es lo que vuelve interesante el apartado.} El loteo El Durazno ---la única
++\textbf{Esa magnitud es lo que vuelve interesante el apartado.} El loteo El Durazno ---la primera
+ magnitud documentada de este capítulo--- tiene veintiséis hectáreas y media. \textbf{El conjunto
+ de cintas es casi cuatro veces mayor}, y su geometría no se parece a la de un loteo: los loteos
+ de este capítulo forman manzanas, no franjas de un kilómetro.
+@@ -139,7 +139,7 @@
+ \end{ficha}
+ 
+ \begin{cautela}
+-En La Caldera, uno de cada cinco habitantes de vivienda propia la tiene por boleto de compraventa: el doble del promedio provincial, más del triple que en la Capital, y la tercera proporción más alta de los veintitrés departamentos, detrás de Santa Victoria y La Candelaria. El boleto no es una irregularidad: es la forma normal de una compra cuya escritura todavía no se otorgó. Pero es exactamente la forma que adopta una compra de lote en un fraccionamiento cuyo plano no está aprobado y cuyas parcelas no tienen matrícula propia, que es lo que este capítulo documenta para El Durazno. El censo no dice qué parte de esas 1.928 personas vive en los loteos del corredor; dice que el departamento tiene, en proporción, una población propietaria sin título escriturado que duplica la de la provincia, en un territorio donde la informalidad sin papeles ---el 8 por ciento--- es menos de la mitad de la provincial. La falta de escritura, aquí, no es la del asentamiento precario: es la de la compra formal a medio terminar.
++En La Caldera, uno de cada cinco habitantes de vivienda propia la tiene por boleto de compraventa: el doble del promedio provincial, más del triple que en la Capital, y la tercera proporción más alta de los veintitrés departamentos, detrás de Santa Victoria y La Candelaria. El boleto no es una irregularidad: es la forma normal de una compra cuya escritura todavía no se otorgó. Pero es exactamente la forma que adopta una compra de lote en un fraccionamiento cuyo plano no está aprobado y cuyas parcelas no tienen matrícula propia, que es lo que este capítulo documenta para El Durazno. El censo no dice qué parte de esas 1.928 personas vive en los loteos del corredor; dice que el departamento tiene, en proporción, una proporción de propietarios con boleto de compraventa que duplica la provincial ---la de propietarios sin escritura por cualquier causa es, en cambio, menor que la provincial---, en un territorio donde la informalidad sin papeles ---el 8 por ciento--- es menos de la mitad de la provincial. La falta de escritura, aquí, no es la del asentamiento precario: es la de la compra formal a medio terminar.
+ \end{cautela}
+ 
+ \begin{cautela}
+@@ -315,7 +315,7 @@
+ \begin{cautela}
+ Corresponde establecer con precisión qué prueba y qué no prueba esta secuencia, porque es el punto del libro donde más fácil sería excederse.
+ 
+-\textbf{No prueba ilicitud.} Participar en una sociedad comercial no lo es. Que un pariente de un funcionario sea socio de una firma, tampoco. Que un ex funcionario acepte un cargo de gerente suplente en una empresa privada, tampoco. Y el gerente suplente de una sociedad de responsabilidad limitada no administra: reemplaza al titular en caso de ausencia o vacancia.
++\textbf{No prueba ilicitud.} Participar en una sociedad comercial no lo es. Que un pariente de un funcionario sea socio de una firma, tampoco. Que un funcionario provincial ---en noviembre de 2018 era Secretario de Asuntos Municipales--- acepte un cargo de gerente suplente en una empresa privada, tampoco, aunque sí plantea la pregunta por el régimen de incompatibilidades que le correspondía. Y el gerente suplente de una sociedad de responsabilidad limitada no administra: reemplaza al titular en caso de ausencia o vacancia.
+ 
+ \textbf{No prueba que el loteo se haya aprobado por influencia.} La aprobación provincial del plano tramitó entre 2019 y 2021, período en el cual la intendencia de La Caldera \textbf{no era ejercida por Calabró} sino por Diego Sumbay\index{Sumbay, Diego Ramiro}, en funciones desde 2019. La intervención municipal que consta en el expediente corresponde a esa gestión.
+ 
+@@ -479,12 +479,16 @@
+ \begin{cautela}
+ \textbf{Y la exigencia se cumplió, con fecha.} El 7 de abril de 2014, sesenta y siete días después de la resolución que aprobó el plano, la Secretaría de Recursos Hídricos dictó la \textbf{Resolución Nº 80}, publicada en el Boletín Oficial los días 21 y 22 de abril.
+ 
++\end{cautela}
++
+ \begin{ficha}{Resolución Nº 80 del 7 de abril de 2014 --- B.O.\ Nº 19.286 y 19.287}
+ Expediente 34-240.329/12. Aprueba la determinación de la línea de ribera realizada por la Comisión Técnica en ambas márgenes del \textbf{arroyo Quintín o Pacará}, en la zona del inmueble de \textbf{matrícula catastral Nº 3989, Fracción 78 de Finca Vaqueros}, departamento La Caldera.
+ 
+ \textbf{El edicto publica las coordenadas}: veinte puntos de margen izquierda y dieciséis de margen derecha, en Gauss Krüger, con sus valores completos. Firma: Dr.\ Matías J.\ Brogin\index{Brogin, Matías J.}, Asesor Legal.
+ \end{ficha}
+ 
++\begin{cautela}
++
+ Es la misma matrícula --- 3989, fracción 78 --- y el mismo inmueble que la Resolución 59D/14 identifica como el Club de Campo Las Vertientes. \textbf{El requisito se impuso en enero y se satisfizo en abril.}
+ 
+ De modo que el contraste con El Durazno deja de ser una comparación entre dos redacciones y pasa a ser una comparación entre dos trayectorias completas:
+@@ -644,7 +648,6 @@
+ Y el caso del Barrio La Misión, ya señalado, impide atribuir la diferencia enteramente a la figura jurídica.
+ \end{cautela}
+ 
+-\begin{cautela}
+ \begin{ficha}{La línea de ribera de Chacras del Gallinato, 2011--2012}
+ \textbf{Comisión}: Resolución 396 del 27/08/2011, rectificada por la 418 del 02/09/2011 (B.O.\ Nº 18.673 y 18.674, 20 y 21 de septiembre de 2011). Ambas márgenes del arroyo Gallinato, «Lote Chacras del Gallinato», catastro 3709. Integran el ingeniero civil Marcelo Ricardo Toigo y el geólogo José A.\ Medina; trabajos desde el 12 de septiembre de 2011. Firma el asesor legal Matías J.\ Brogin\index{Brogin, Matías J.}.
+ 
+@@ -657,6 +660,7 @@
+ Dos rasgos del trámite, que el capítulo \ref{cap:ribera} retoma: cada etapa necesitó una resolución rectificatoria, y el edicto de 2012 ya remitía las coordenadas a la sede, dos años antes de las Resoluciones 142/14 y 383/14.
+ \end{cautela}
+ 
++\begin{cautela}
+ Un apunte sobre nombres, registrado sin conclusión. La firma propietaria de las mil quinientas hectáreas se llama \textbf{El Gallinato S.R.L.}, y el desmembramiento incluye el \textbf{arroyo Gallinato}. El capítulo \ref{cap:tierrafiscal} documenta que en 2015 la Provincia adquirió por prescripción administrativa una fracción de la \textbf{Finca Potrero de Gallinato} para una escuela; y el artículo 6º del PDUA, del capítulo \ref{cap:pdua}, enumera una \textbf{Finca El Gallinato}.
+ 
+ Cuatro apariciones del mismo topónimo en cuatro actos de distinta naturaleza y distinta época. Puede tratarse de una única unidad territorial histórica fraccionada a lo largo del tiempo, o de un nombre de paraje que se repite. \textbf{Sólo el antecedente dominial lo resuelve}, y es el mismo que este libro viene pidiendo desde su primer capítulo.
+@@ -715,13 +719,13 @@
+ 
+ \textbf{Artículo 1º:} encomendar a la \textbf{Secretaría de Tierras y Bienes}, dependiente de la Secretaría General de la Gobernación, las competencias asignadas a la Unidad Coordinadora de Loteos, Loteadores y Desarrolladores Inmobiliarios.
+ 
+-Fundamentos: la Ley 8.171 asignó a la Secretaría General de la Gobernación la competencia sobre catastro, registro de la propiedad inmobiliaria privada y fiscal y demás derechos reales (art.\ 28 inc.\ 12), y dispuso que toda norma sobre creación o funcionamiento de instituciones públicas \textbf{queda automáticamente modificada} por las competencias que ella establece (art.\ 33). Los Decretos 16/19 y 127/20 habían creado la Secretaría de Tierras y Bienes.
++Fundamentos: la Ley 8.171 asignó a la Secretaría General de la Gobernación la competencia sobre catastro, registro de la propiedad inmobiliaria privada y fiscal y demás derechos reales (art.\ 28 inc.\ 12), y dispuso que toda norma sobre creación o funcionamiento de instituciones públicas \textbf{queda automáticamente modificada} por las competencias que ella establece (art.\ 33). Los Decretos 16/19 y 127/20 habían creado la Secretaría de Tierras y Bienes del Estado.
+ \end{ficha}
+ 
+ \begin{cautela}
+ Dos consecuencias, una fáctica y otra estructural.
+ 
+-\textbf{La fáctica identifica una foja.} La Resolución 646D/21 acredita que ``la Unidad Coordinadora de Loteos, Loteadores y Desarrolladores ha tomado la intervención que le compete'' a fojas 137, en noviembre de 2021. Un año antes de esa intervención, esas competencias habían sido encomendadas a la Secretaría de Tierras y Bienes. \textbf{La foja 137 del expediente de El Durazno es, entonces, un dictamen de la Secretaría de Tierras y Bienes}, y a esa oficina hay que pedírsela.
++\textbf{La fáctica identifica una foja.} La Resolución 646D/21 acredita que ``la Unidad Coordinadora de Loteos, Loteadores y Desarrolladores ha tomado la intervención que le compete'' a fojas 137, en noviembre de 2021. Un año antes de esa intervención, esas competencias habían sido encomendadas a la Secretaría de Tierras y Bienes del Estado. \textbf{La foja 137 del expediente de El Durazno es, entonces, un dictamen de la Secretaría de Tierras y Bienes del Estado}, y a esa oficina hay que pedírsela.
+ 
+ Eso une dos hilos que este libro venía llevando por separado. La oficina que controla los loteos privados es la misma que administra la tierra fiscal y que dictó la Resolución 82/16 sobre asignación de lotes de interés social, cuyo anexo sólo se publicó como imagen escaneada. El capítulo \ref{cap:tierrafiscal} y este capítulo tienen el mismo destinatario.
+ 
+@@ -771,15 +775,13 @@
+ 
+ El artículo 11 de la reglamentación crea la \textbf{Unidad Coordinadora de Loteos, Loteadores y Desarrolladores Inmobiliarios}, que es el organismo llamado a llevar el registro y el contralor de los proyectos.
+ 
+-\begin{ficha}{Resolución Nº 466 D/20}
+-En el marco de la Ley Nº 8.171 y del Decreto Nº 1.682/19, \textbf{encomienda a la Secretaría de Tierras y Bienes las competencias asignadas a la Unidad Coordinadora de Loteos, Loteadores y Desarrolladores Inmobiliarios}.
+-\end{ficha}
++Como ya se vio, la \textbf{Resolución 466 D/20} le encomendó esas competencias a la Secretaría de Tierras y Bienes del Estado.
+ 
+ Éste es el hallazgo que cierra la primera tesis del libro.
+ 
+-\textbf{El mismo organismo que administra y adjudica la tierra fiscal a las familias de menores ingresos --- la Secretaría de Tierra y Bienes del Estado --- es también el que ejerce el registro y el contralor de los loteos privados de la provincia.}
++\textbf{El mismo organismo que administra y adjudica la tierra fiscal a las familias de menores ingresos --- la Secretaría de Tierras y Bienes del Estado --- es también el que ejerce el registro y el contralor de los loteos privados de la provincia.}
+ 
+-Los dos circuitos que este libro describió como paralelos, con normas propias, ritmos propios y poblaciones destinatarias distintas, no sólo convergen en el organigrama del Ministerio de Infraestructura, como señaló el capítulo \ref{cap:tierrafiscal} a propósito de la Dirección General de Inmuebles. Convergen en una misma repartición, con la misma autoridad: la Dirección General de Inmuebles fue una dependencia de la Secretaría de Tierra y Bienes desde diciembre de 2019 (Decreto 127/20), y el control de los loteos se sumó en octubre de 2020.
++Los dos circuitos que este libro describió como paralelos, con normas propias, ritmos propios y poblaciones destinatarias distintas, no sólo convergen en el organigrama del Ministerio de Infraestructura, como señaló el capítulo \ref{cap:tierrafiscal} a propósito de la Dirección General de Inmuebles. Convergen en una misma repartición, con la misma autoridad: la Dirección General de Inmuebles fue una dependencia de la Secretaría de Tierras y Bienes del Estado desde diciembre de 2019 (Decreto 127/20), y el control de los loteos se sumó en octubre de 2020.
+ 
+ Y esa autoridad, desde diciembre de 2023, es la ex senadora provincial por el departamento La Caldera.
+ 
+diff -ru cap_orig/14-poblacion.tex cap/14-poblacion.tex
+--- cap_orig/14-poblacion.tex	2026-09-17 16:50:45.236252705 +0000
++++ cap/14-poblacion.tex	2026-09-17 16:56:06.148012458 +0000
+@@ -213,7 +213,7 @@
+ 
+ \textbf{Segundo, qué significa ``sin hogar residente''.} La cifra resulta de restar hogares a viviendas particulares, y el Censo cuenta las viviendas particulares habitadas y deshabitadas. Una vivienda sin hogar puede ser una segunda residencia, una unidad en venta o alquiler, una obra en construcción o una vivienda abandonada. La cifra mide la magnitud del fenómeno, no su composición.
+ 
+-\textbf{Tercero, lo que sí se puede afirmar.} Cualquiera sea la composición, el departamento tiene una proporción de vivienda sin residentes que duplica la provincial, y contiene una fracción censal que está entre las cinco más altas de Salta. Eso no se explica por hogares pequeños: el tamaño medio del hogar caldereño es de 3,06 personas, apenas por debajo de las 3,43 provinciales, mientras que la relación por vivienda cae de 3,13 a 2,45. La diferencia la produce la vivienda vacía, no la familia chica.
++\textbf{Tercero, lo que sí se puede afirmar.} Cualquiera sea la composición, el departamento tiene una proporción de vivienda sin residentes que duplica la provincial, y contiene una fracción censal que está entre las cinco más altas de Salta. Eso no se explica por hogares pequeños: el tamaño medio del hogar caldereño es de 3,06 personas, algo más de un diez por ciento por debajo de las 3,43 provinciales, mientras que la relación por vivienda cae de 3,13 a 2,45. La diferencia la produce la vivienda vacía, no la familia chica.
+ \end{cautela}
+ 
+ Corresponde además una corrección expresa. Una versión anterior de este capítulo sostuvo, sobre la sola comparación de tasas de crecimiento entre 2010 y 2022, que el Censo no aportaba evidencia de un excedente de viviendas y que el argumento del propietario no residente se apoyaba únicamente en la intimación municipal de agosto de 2024. Esa afirmación era incorrecta y su error fue metodológico: comparaba variaciones cuando debía comparar niveles, y no disponía del recuento de hogares.
+diff -ru cap_orig/16-redes.tex cap/16-redes.tex
+--- cap_orig/16-redes.tex	2026-09-17 16:50:45.236299486 +0000
++++ cap/16-redes.tex	2026-09-17 17:25:53.081785195 +0000
+@@ -48,7 +48,7 @@
+ \end{ficha}
+ 
+ \begin{cautela}
+-Con esto el tercer club de campo tiene su agua documentada, y la comparación se amplía. Finca Lesser gestionaba 115 metros cúbicos diarios; Las Vertientes, en 2017, más de cinco veces esa cantidad, para 630 familias: unos 950 litros por familia por día. El derecho pedido es permanente y se toma de una acequia del Wierna, el mismo río cuyas márgenes la Provincia determinaba en esos meses (capítulo \ref{cap:ribera}). Y la solicitud es de 2017, tres años después de que Inmuebles aprobara el club con la condición de un «reglamento de condominio con servicio de agua privado» (capítulo \ref{cap:loteo}): el agua que el plano presuponía privada se gestiona después como concesión pública. Cuatro años más tarde, en 2021, los vecinos de la zona alta de Vaqueros reclamaban agua de camión. El aviso no dice si la concesión se otorgó ni con qué caudal. \pendiente{resolución que otorgó o denegó la concesión del expediente 0090034-263317/2015, y relación entre el catastro 4095 y la matrícula 3989 del plano de 2014}
++Con esto Las Vertientes, el primero de los clubes de campo de este capítulo, tiene su agua documentada, y la comparación se amplía. Finca Lesser gestionaba 115 metros cúbicos diarios; Las Vertientes, en 2017, más de cinco veces esa cantidad, para 630 familias: unos 950 litros por familia por día. El derecho pedido es permanente y se toma de una acequia del Wierna, el mismo río cuyas márgenes la Provincia determinaba en esos meses (capítulo \ref{cap:ribera}). Y la solicitud es de 2017, tres años después de que Inmuebles aprobara el club con la condición de un «reglamento de condominio con servicio de agua privado» (capítulo \ref{cap:loteo}): el agua que el plano presuponía privada se gestiona después como concesión pública. Cuatro años más tarde, en 2021, los vecinos de la zona alta de Vaqueros reclamaban agua de camión. El aviso no dice si la concesión se otorgó ni con qué caudal. \pendiente{resolución que otorgó o denegó la concesión del expediente 0090034-263317/2015, y relación entre el catastro 4095 y la matrícula 3989 del plano de 2014}
+ \end{cautela}
+ 
+ \subsection*{Quién firma, once años después}
+@@ -256,7 +256,7 @@
+ 
+ De modo que la ausencia de red de gas en el municipio de La Caldera no responde a un impedimento normativo ni a una imposibilidad técnica declarada. Responde a que, hasta donde alcanza este relevamiento, \textbf{nadie solicitó que se calculara el Valor de Negocio del proyecto}. Y ese cálculo es el que determinaría si la obra le corresponde a la distribuidora o si requiere aporte de terceros.
+ 
+-La diferencia entre ``no hay red porque no se puede'' y ``no hay red porque nadie pidió que se evaluara'' es la diferencia entre una carencia y una omisión. Establecer cuál de las dos es requiere consultar al ENARGAS si existen expediencias de expansión para el departamento, y a la distribuidora si evaluó alguna. Ninguna de las dos consultas fue realizada por este libro.
++La diferencia entre ``no hay red porque no se puede'' y ``no hay red porque nadie pidió que se evaluara'' es la diferencia entre una carencia y una omisión. Establecer cuál de las dos es requiere consultar al ENARGAS si existen expedientes de expansión para el departamento, y a la distribuidora si evaluó alguna. Ninguna de las dos consultas fue realizada por este libro.
+ 
+ \subsection*{Quién se beneficia de la ausencia}
+ 
+@@ -475,7 +475,7 @@
+ los vecinos para informar plazos y tareas.
+ \end{ficha}
+ 
+-\textbf{El barrio Santiago Apóstol es el del capítulo \ref{cap:loteo}}, y la obra la ejecuta la
++\textbf{El barrio Santiago Apóstol es el del capítulo \ref{cap:amparo}}, y la obra la ejecuta la
+ misma prestadora cuyo convenio sobre la Zona de Exclusión el capítulo \ref{cap:resistencias}
+ encontró caducado en 2022.
+ 
+@@ -569,7 +569,7 @@
+ \textbf{reconcentrar el agua, desde las juntas del Río de Wierna con el de La Caldera},
+ vigilar y \textbf{prohibir se abran nuevas bocas-tomas no autorizadas por Ley}.»
+ 
+-Promulgada por Cornejo el 1º de octubre de 1929, con la firma del ministro L.\ C.\ Uriburu, y publicada en el Boletín Oficial Nº 1.292 del 11 de octubre. No fija monto ni plazo.\par\textit{En el Digesto provincial figura como \textbf{Ley 1269 (original Nº 11078)}; con ese número hay que pedirla. \textbf{Ya no rige}: el Digesto de la Cámara de Diputados la lista entre las leyes de objeto cumplido, plazo vencido o no vigentes. Firmaron la sanción W.\ Toledo, C.\ Arias Aranda, E.\ Campilongo y Marcos B.\ Figueroa.}
++Promulgada por Cornejo el 1º de octubre de 1929, con la firma del ministro L.\ C.\ Uriburu, y publicada en el Boletín Oficial Nº 1.292 del 11 de octubre. No fija monto ni plazo.\par\textit{En el Digesto provincial figura como \textbf{Ley 1269 (original Nº 11078)}: el número original no sigue la serie de las leyes vecinas de la época, y es el que consigna la fuente que el propio Digesto cita, la \textit{Recopilación General de Leyes} compilada por Gavino Ojeda. \textbf{Ya no rige}: el Digesto de la Cámara de Diputados la lista entre las leyes de objeto cumplido, plazo vencido o no vigentes. Firmaron la sanción W.\ Toledo, C.\ Arias Aranda, E.\ Campilongo y Marcos B.\ Figueroa.}
+ \end{ficha}
+ 
+ Léase el alcance. La Legislatura autoriza a un municipio —Campo Santo— a intervenir sobre
+diff -ru cap_orig/17-aguabaja.tex cap/17-aguabaja.tex
+--- cap_orig/17-aguabaja.tex	2026-09-17 16:50:45.236322069 +0000
++++ cap/17-aguabaja.tex	2026-09-17 16:56:06.145626813 +0000
+@@ -24,7 +24,7 @@
+ 
+ \section{Lo que sale}
+ 
+-Tres obras, separadas por medio siglo, y las tres llevan el agua en el mismo sentido.
++Tres obras, separadas por casi noventa años, y las tres llevan el agua en el mismo sentido.
+ 
+ \textbf{El embalse.} En 1972 se expropiaron \textbf{seiscientas ochenta y seis hectáreas} para
+ el dique Campo Alegre. El capítulo \ref{cap:expropiacion} reconstruye quiénes perdieron esa
+@@ -50,8 +50,8 @@
+ emprendimientos resolvieron su abastecimiento por cuenta propia y qué obras públicas quedaron
+ proyectadas.
+ 
+-Los dos movimientos conviven sin tocarse. \textbf{Los clubes de campo resuelven su agua con
+-pozo propio y concesión; el municipio no tiene con qué extender una red.} Cada solución
++Los dos movimientos conviven sin tocarse. \textbf{Los clubes de campo y los loteos resuelven su agua con
++captación propia ---río, acequia, dren o pozo--- y concesión; el municipio no tiene con qué extender una red.} Cada solución
+ privada es, además, perfectamente legal: el régimen prevé que quien quiera el servicio lo
+ costee.
+ 
+@@ -334,7 +334,7 @@
+ Dos series más, que los capítulos \ref{cap:ribera} y \ref{cap:resistencias} documentan y que
+ solo puestas juntas dan la escena completa.
+ 
+-\textbf{Veintidós actos de línea de ribera} entre 2013 y 2015, con la asimetría que
++\textbf{Veinticinco actos de línea de ribera} entre 2013 y 2015, con la asimetría que
+ el capítulo \ref{cap:ribera} reconstruye: la misma matrícula, el mismo organismo, cinco meses
+ de diferencia, y una publica ciento trece pares de coordenadas mientras la otra las remite a
+ la sede.
+@@ -355,7 +355,7 @@
+ áridos, una tercera que evalúa impacto, un juzgado que aprueba un plan y una ley de 1929 que le
+ dio potestad de policía a un municipio de otro departamento.
+ 
+-\textbf{No hay autoridad de cuenca.} La única figura metropolitana del corredor es la del transporte de pasajeros (capítulo \ref{cap:redes}).
++\textbf{No hay autoridad de cuenca.} La única figura metropolitana con ley, organismo y presupuesto es la del transporte de pasajeros; el Corredor Intermunicipal de 2009 existe como convenio, sin actos de funcionamiento conocidos (capítulo \ref{cap:redes}).
+ 
+ \section{Qué afirma este capítulo y qué no}
+ 
+diff -ru cap_orig/17-tierrafiscal.tex cap/17-tierrafiscal.tex
+--- cap_orig/17-tierrafiscal.tex	2026-09-17 16:50:45.236717979 +0000
++++ cap/17-tierrafiscal.tex	2026-09-17 17:24:11.638257160 +0000
+@@ -3,7 +3,7 @@
+ \label{cap:tierrafiscal}
+ \section{El segundo circuito}
+ 
+-Los capítulos anteriores siguieron sobre todo el mecanismo privado de producción de suelo. Es el dominante, pero no el único, y el capítulo \ref{cap:planteo} ya anunció el otro. Existe un segundo circuito, estatal y provincial, que distribuye tierra fiscal con finalidad social. Su órgano es la Secretaría de Tierra y Bienes del Estado, articulada con el Instituto Provincial de Vivienda, y su programa contemporáneo es el Plan Provincial ``Mi Lote''.
++Los capítulos anteriores siguieron sobre todo el mecanismo privado de producción de suelo. Es el dominante, pero no el único, y el capítulo \ref{cap:planteo} ya anunció el otro. Existe un segundo circuito, estatal y provincial, que distribuye tierra fiscal con finalidad social. Su órgano es la Secretaría de Tierras y Bienes del Estado, articulada con el Instituto Provincial de Vivienda, y su programa contemporáneo es el Plan Provincial ``Mi Lote''.
+ 
+ Un libro que describe la producción de suelo en un departamento periurbano y sólo mira al mercado privado deja fuera el instrumento con el que el Estado provincial interviene sobre el mismo objeto. Este capítulo lo documenta, y con él la primera tesis del libro queda completa.
+ 
+@@ -26,11 +26,15 @@
+ \end{itemize}
+ \end{ficha}
+ 
++\begin{cautela}
++\textbf{Sobre el nombre del organismo.} Los propios actos oficiales no lo escriben igual, y a veces difieren dentro del mismo año. Las normas de 2015 crean la «Secretaría de Tierra y Bienes». El Decreto 16/19 la vuelve a crear como «de Tierras y Bienes del Estado», el anexo del Decreto 127/20 la llama «de Tierra y Bienes del Estado» y la Resolución 466 D/20, «de Tierras y Bienes». En 2023, el Decreto 64/23 designa a su titular como «Secretaria de Tierras y Bienes del Estado» y el anexo de la Decisión Administrativa 19/23 dice «Tierra y Bienes del Estado»; la Decisión Administrativa 569/25 repite esta última forma, y la ficha oficial del portal provincial, consultada en septiembre de 2026, usa la primera, bajo la Jefatura de Gabinete de Ministros. \textbf{Este libro usa, en su propia prosa, «Secretaría de Tierra y Bienes» para 2015--2019 y «Secretaría de Tierras y Bienes del Estado» desde diciembre de 2019, que es la forma del portal vigente; en las citas y en las fichas conserva la grafía de cada instrumento.} La alternancia no indica organismos distintos: es el mismo, recreado y trasladado.
++\end{cautela}
++
+ El artículo 2º del Decreto 844/21 merece atención por sí solo. Colocar a la Dirección General de Inmuebles bajo dependencia directa del Ministro de Infraestructura reúne, en una sola línea de mando, el organismo que confecciona y aprueba los planos de mensura y loteo --- el mismo que aprobó el plano 1.164 de El Durazno --- y el organismo que administra la tierra fiscal.
+ 
+ Los dos circuitos que este libro describe como paralelos convergen, en el organigrama, en el mismo despacho.
+ 
+-Y la convergencia es anterior a ese decreto. Entre diciembre de 2019 y septiembre de 2021, según el anexo del Decreto 127/20, la Dirección General de Inmuebles no estaba junto a la Secretaría de Tierra y Bienes: estaba dentro de ella, como una de sus cuatro direcciones generales. En ese mismo lapso, desde octubre de 2020, la Secretaría asumió además las competencias de la Unidad Coordinadora de Loteos (capítulo \ref{cap:loteo}). Durante casi dos años, una sola secretaría reunió la tierra fiscal, el registro y la aprobación de planos, y el control de los loteos privados. Es el período en que tramitó el expediente del plano de El Durazno, iniciado en 2019; la resolución que lo aprobó, en noviembre de 2021, la firmó ya el ministro de Infraestructura, dos meses después del traslado. El esquema de 2021 se mantuvo: la estructura aprobada en diciembre de 2023 (Decisión Administrativa 19/23) conserva a Inmuebles bajo el ministro y a la Secretaría de Tierra y Bienes a su lado, en el mismo ministerio. Y en ese organigrama la Unidad Coordinadora de Loteos no figura como unidad propia: sus competencias, encomendadas en 2020, no tienen un casillero visible.
++Y la convergencia es anterior a ese decreto. Entre diciembre de 2019 y septiembre de 2021, según el anexo del Decreto 127/20, la Dirección General de Inmuebles no estaba junto a la Secretaría de Tierras y Bienes del Estado: estaba dentro de ella, como una de sus cuatro direcciones generales. En ese mismo lapso, desde octubre de 2020, la Secretaría asumió además las competencias de la Unidad Coordinadora de Loteos (capítulo \ref{cap:loteo}). Durante casi dos años, una sola secretaría reunió la tierra fiscal, el registro y la aprobación de planos, y el control de los loteos privados. Es el período en que tramitó el expediente del plano de El Durazno, iniciado en 2019; la resolución que lo aprobó, en noviembre de 2021, la firmó ya el ministro de Infraestructura, dos meses después del traslado. El esquema de 2021 se mantuvo: la estructura aprobada en diciembre de 2023 (Decisión Administrativa 19/23) conserva a Inmuebles bajo el ministro y a la Secretaría de Tierras y Bienes del Estado a su lado, en el mismo ministerio. Y en ese organigrama la Unidad Coordinadora de Loteos no figura como unidad propia: sus competencias, encomendadas en 2020, no tienen un casillero visible.
+ 
+ La ficha oficial vigente lo dice sin rodeos. Entre las competencias publicadas de la Secretaría figuran «intervenir en todo lo relativo a la elaboración de planos y su posterior aprobación», «avalar las operaciones que realice la Dirección General de Inmuebles» y «analizar la pertinencia de requerir autorización legislativa para la disposición de bienes inmuebles». Lo que en 2021 fue una decisión de organigrama figura hoy como competencia propia del organismo que adjudica la tierra fiscal. La misma ficha, en el currículum de su titular, consigna su mandato como senadora provincial por el departamento La Caldera entre 2013 y 2021.
+ 
+@@ -48,7 +52,7 @@
+ \item \textbf{Decreto 64/23} (10/12/2023; B.O.\ Nº 21.610 del 12/12/2023): designa a la \textbf{Dra. María Silvina Abilés}, Secretaria de Tierras y Bienes del Estado. Lo tramita el \textbf{Ministerio de Infraestructura} y lo refrendan su ministro y la Secretaria General de la Gobernación. Los Decretos 197/24 y 198/24 la designan interventora \textit{ad honorem} del Programa de Vivienda Popular Sociedad del Estado y la autorizan, junto con la Subsecretaria de Regularización Dominial Ing. Alicia Virginia Galli, a suscribir actos jurídicos en nombre de la Provincia.
+ \end{itemize}
+ 
+-El sitio oficial de la Municipalidad de La Caldera documenta la relación de trabajo entre el municipio y la Secretaría: consigna que el intendente Diego Sumbay\index{Sumbay, Diego Ramiro}, acompañado por el responsable de Medio Ambiente, Tierra y Hábitat municipal, Rodrigo Páez, se reunió con la secretaria de Tierras y Bienes; y que ambos organismos iniciaron la primera etapa del proceso de escrituración de terrenos municipales para una quincena de familias caldereñas.
++El sitio oficial de la Municipalidad de La Caldera documenta la relación de trabajo entre el municipio y la Secretaría: consigna que el intendente Diego Sumbay\index{Sumbay, Diego Ramiro}, acompañado por el responsable de Medio Ambiente, Tierra y Hábitat municipal, Rodrigo Páez, se reunió con la secretaria de Tierras y Bienes del Estado; y que ambos organismos iniciaron la primera etapa del proceso de escrituración de terrenos municipales para una quincena de familias caldereñas.
+ 
+ La grafía oficial del apellido es \textbf{Abilés}, la misma que emplea el registro de la Cámara de Senadores; ``Avilés'', que aparece en parte de la cobertura periodística, es error de prensa y no una persona distinta.
+ 
+@@ -68,6 +72,10 @@
+ \end{itemize}
+ \end{ficha}
+ 
++El Anexo II es el modelo de Acta de Tenencia Precaria, y conviene mirarlo porque es el único instrumento del régimen que el beneficiario firma. Lo suscriben el Subsecretario de Tierra y Hábitat y el beneficiario; obliga a destinar el lote «única y exclusivamente al uso habitación» del grupo familiar declarado; deja al organismo las obras hechas si la tenencia se revoca, sin derecho a repetir gasto alguno; y da cinco días para restituir el lote libre de ocupantes desde el acto que ordene la revocación. Con un detalle que importa: \textbf{la cláusula primera, la que fija en cuántos meses hay que ocupar el lote, está en blanco en el modelo}, mientras el artículo 11º del Anexo I fija tres meses para empezar a construir. Cuál de los dos plazos rige lo decide, caso por caso, quien completa el acta.
++
++Y el artículo 4º agrega dos plazos que el resto del régimen no tiene: la Subsecretaría debe pedir el escribano a Escribanía de Gobierno con \textbf{siete días} de anticipación, y el administrador del sorteo debe remitir los resultados con los padrones de beneficiarios dentro de los \textbf{dos días} posteriores. Son los únicos plazos en días que el procedimiento fija por sí mismo, y los dos rigen hacia adentro de la administración; el que corre para el vecino ---cuántos días se exhibe el padrón--- sigue remitido al Anexo de la Resolución 82/16.
++
+ Conviene distinguir dos institutos cuyos nombres se parecen y que este relevamiento confundió antes de leer el anexo. La \textbf{asignación directa} del artículo 7º --- 2\% de cupo, riesgo vital, tenencia precaria sobre lote de urbanización nueva --- no es lo mismo que la \textbf{adjudicación en venta por adjudicación directa} del artículo 1º inciso a de la Ley 2616, que es regularización dominial de ocupantes preexistentes y termina en título de propiedad.
+ 
+ \section{El baremo}
+@@ -90,6 +98,8 @@
+ 
+ Los artículos 4º inciso e y 6º exigen Certificado original de Residencia y Convivencia expedido por la Seccional Policial, emitido con un máximo de treinta días de anticipación, y el formulario registra la residencia en la localidad donde se solicita el lote y desde qué fecha.
+ 
++Y el artículo 8º agrega tres reglas que importan para este libro. El trámite es personal y gratuito, y se hace \textbf{en la Subsecretaría de Tierra y Hábitat o en el municipio donde se lleve adelante la urbanización, «en caso de Convenio vigente»} (inc.\ a): el municipio puede ser la ventanilla del circuito, de modo que los convenios que el apéndice \ref{cap:pedidos} pide a la Secretaría dirían si La Caldera o Vaqueros lo fueron alguna vez. El acceso es \textbf{únicamente por sorteo público, salvo los casos de asignación directa} (inc.\ j). Y el artículo 9º remite las impugnaciones a la Ley 5.348.
++
+ \begin{cautela}
+ El inciso d prohíbe que una autoridad superior \textit{reciba} un lote de interés social; no dice nada sobre que una autoridad sea propietaria de suelo privado. La situación descripta en el capítulo \ref{cap:politica} no está alcanzada por este artículo. Lo que el artículo sí establece, y vale como criterio, es que el propio organismo consideró necesario escribir que quien ejerce autoridad sobre la distribución de tierra no puede ser destinatario de ella.
+ 
+@@ -98,7 +108,7 @@
+ 
+ \section{Juan Manuel de Rosas}
+ 
+-En abril de 2025, días antes de la elección provincial, se realizó un acto de firma de decretos de adjudicación de terrenos en el barrio Juan Manuel de Rosas, en la zona norte de la ciudad de Salta, contiguo al río Vaqueros. La firma estuvo a cargo de la secretaria de Tierra y Bienes; el discurso de entrega, a cargo del entonces senador provincial por La Caldera y candidato a renovar la banca, Miguel Calabró, quien destacó que entre los beneficiarios había vecinos vaquereños y caldereños residentes en ese barrio de la capital.
++En abril de 2025, días antes de la elección provincial, se realizó un acto de firma de decretos de adjudicación de terrenos en el barrio Juan Manuel de Rosas, en la zona norte de la ciudad de Salta, contiguo al río Vaqueros. La firma estuvo a cargo de la secretaria de Tierras y Bienes del Estado; el discurso de entrega, a cargo del entonces senador provincial por La Caldera y candidato a renovar la banca, Miguel Calabró, quien destacó que entre los beneficiarios había vecinos vaquereños y caldereños residentes en ese barrio de la capital.
+ 
+ La presidenta del centro vecinal del barrio, María Fernanda Mamaní, cuestionó públicamente la atribución del logro, sostuvo que lleva más de siete años gestionando la regularización, que en el acto se firmaron decretos para treinta vecinos y que \textbf{veintiséis de esos treinta son vecinos de La Caldera que reciben un terreno en Salta capital}, y afirmó que existe una norma que prohíbe adjudicar a habitantes de otros municipios y que está prohibido realizar actos de este tipo dentro de los treinta y cinco días previos a una elección.
+ 
+@@ -642,7 +652,7 @@
+ 
+ Cuatro mil lotes proyectados para el aglomerado que integran Salta capital, Vaqueros, La Caldera, San Lorenzo y Cerrillos, en cuatro años. Es la primera magnitud cuantificada del segundo circuito y es contrastable contra la ejecución real.
+ 
+-Dos tensiones, nombradas sin exagerarlas. El artículo 4º excluye a quienes estén incursos en infracciones por ocupación ilegal, y el Decreto 63/25 adjudica a actuales ocupantes: no hay contradicción jurídica --- ocupar no equivale a estar incurso en una infracción, y la regularización de ocupaciones es uno de los dos objetos expresos del plan --- pero la distinción entre uno y otro no está definida en el decreto y la traza la administración caso por caso. Y el plan se asignó al IPV mientras hoy lo ejecuta la Secretaría de Tierra y Bienes: esa migración debe documentarse.
++Dos tensiones, nombradas sin exagerarlas. El artículo 4º excluye a quienes estén incursos en infracciones por ocupación ilegal, y el Decreto 63/25 adjudica a actuales ocupantes: no hay contradicción jurídica --- ocupar no equivale a estar incurso en una infracción, y la regularización de ocupaciones es uno de los dos objetos expresos del plan --- pero la distinción entre uno y otro no está definida en el decreto y la traza la administración caso por caso. Y el plan se asignó al IPV mientras hoy lo ejecuta la Secretaría de Tierras y Bienes del Estado: esa migración debe documentarse.
+ 
+ \section{Estado del aparato y valoración}
+ 
+diff -ru cap_orig/18-politica.tex cap/18-politica.tex
+--- cap_orig/18-politica.tex	2026-09-17 16:50:45.236754029 +0000
++++ cap/18-politica.tex	2026-09-17 17:07:40.456108296 +0000
+@@ -33,7 +33,7 @@
+ Lo que corresponde registrar es el patrón, porque el capítulo lo va a encontrar otra vez.
+ El propietario de una de las fincas mayores del departamento —una de las que la norma
+ todavía nombra— ocupa su banca en el Senado provincial. Casi un siglo después, este
+-libro documenta a un senador por el mismo departamento que figura como gerente suplente
++libro documenta a un senador por el mismo departamento designado años antes gerente suplente
+ de una sociedad copropietaria del inmueble de un loteo.
+ 
+ Ninguno de los dos hechos prueba nada por sí solo, y este libro no los presenta como
+@@ -508,13 +508,13 @@
+ \begin{cautela}
+ Corresponde ahora enunciar, con la mayor precisión posible, una tensión que este libro documenta y no resuelve.
+ 
+-El capítulo \ref{cap:loteo} establece, con avisos del Boletín Oficial, que \textbf{Héctor Miguel Calabró\index{Calabró, Héctor Miguel} ---identificado por el mismo número de documento que en el acta de proclamación de 2011--- es gerente suplente de Jardín Celestial S.R.L.} por acta del 8 de noviembre de 2018, publicada en enero de 2020; y que esa sociedad es copropietaria del inmueble sobre el que se aprobó el plano del loteo El Durazno, en el sur del pueblo de La Caldera. Este capítulo establece que, en marzo de 2023, el mismo Calabró impulsó como senador un área protegida para frenar el avance inmobiliario, en el norte del departamento.
++El capítulo \ref{cap:loteo} establece, con avisos del Boletín Oficial, que \textbf{Héctor Miguel Calabró\index{Calabró, Héctor Miguel} ---identificado por el mismo número de documento que en el acta de proclamación de 2011--- fue designado gerente suplente de Jardín Celestial S.R.L.} por acta del 8 de noviembre de 2018, publicada en enero de 2020, sin que este relevamiento haya encontrado constancia posterior de su cese ni de su continuidad; y que esa sociedad es copropietaria del inmueble sobre el que se aprobó el plano del loteo El Durazno, en el sur del pueblo de La Caldera. Este capítulo establece que, en marzo de 2023, el mismo Calabró impulsó como senador un área protegida para frenar el avance inmobiliario, en el norte del departamento.
+ 
+ \textbf{Las dos cosas no se contradicen en el plano de los hechos.} La reserva propuesta y el loteo están en extremos opuestos del departamento, separados por el pueblo y por el embalse; proteger un tramo de Yungas sobre la cornisa no impide nada en la zona sur. Un legislador puede impulsar conservación en un lugar y tener interés societario en otro sin incurrir en irregularidad alguna, y este libro no afirma que la haya.
+ 
+-Lo que efectivamente queda registrado, y es un dato estructural, es que \textbf{la misma persona ocupa simultáneamente una posición en el órgano de administración de una sociedad desarrolladora del departamento y la banca que legisla sobre el uso del suelo de ese departamento}, y que desde esa banca votó en diciembre de 2024 contra la Ley 8483 e impulsó en 2023 un área protegida.
++Lo que efectivamente queda registrado, y es un dato estructural, es que \textbf{la misma persona fue designada en 2018 en el órgano de administración de una sociedad desarrolladora del departamento ---designación publicada en 2020, sin constancia posterior de cese--- y ocupó entre 2021 y 2025 la banca que legisla sobre el uso del suelo de ese departamento}, y que desde esa banca votó en diciembre de 2024 contra la Ley 8483 e impulsó en 2023 un área protegida.
+ 
+-Este libro no atribuye intención a ninguno de esos actos. Enuncia la superposición de posiciones porque es verificable en instrumentos públicos, y porque la superposición de posiciones --- no la mala fe --- es exactamente el objeto que ambos libros describen. La verificación que falta, y que es previa a cualquier publicación, es el derecho a réplica: qué dice el propio Calabró sobre la compatibilidad entre ambas posiciones, si informó la participación societaria en las declaraciones juradas patrimoniales que la normativa exige a los legisladores, y si se excusó en alguna votación relativa al departamento.
++Este libro no atribuye intención a ninguno de esos actos. Enuncia la superposición de posiciones porque es verificable en instrumentos públicos, y porque la superposición de posiciones --- no la mala fe --- es exactamente el objeto que ambos libros describen. La verificación que falta, y que es previa a cualquier publicación, es el derecho a réplica: si seguía siendo gerente suplente durante su mandato de senador y, en ese caso, qué dice el propio Calabró sobre la compatibilidad entre ambas posiciones, si informó la participación societaria en las declaraciones juradas patrimoniales que la normativa exige a los legisladores, y si se excusó en alguna votación relativa al departamento.
+ \end{cautela}
+ 
+ 
+diff -ru cap_orig/18-trabajo.tex cap/18-trabajo.tex
+--- cap_orig/18-trabajo.tex	2026-09-17 16:50:45.236779013 +0000
++++ cap/18-trabajo.tex	2026-09-17 16:56:06.148307532 +0000
+@@ -361,7 +361,7 @@
+ de Salta 2030.} Una, en la lista de instituciones que participaron del Diagnóstico:
+ «\textit{Intendencia de La Caldera}». Y otra, en un inventario de establecimientos hoteleros del
+ capítulo de Turismo, donde figura con \textbf{tres hoteles y parahoteles} ---ninguno
+-categorizado como hotel, una hostería, una casa de campo---, contra seis de Vaqueros,
++categorizado como hotel; el inventario nombra una hostería y una casa de campo---, contra seis de Vaqueros,
+ veinticinco de San Lorenzo y ciento ochenta y siete de la ciudad de Salta.
+ 
+ \textbf{Eso es todo.} No hay asignación de perfil, ni zonificación, ni mención del corredor. La
+diff -ru cap_orig/19-resistencias.tex cap/19-resistencias.tex
+--- cap_orig/19-resistencias.tex	2026-09-17 16:50:45.236795954 +0000
++++ cap/19-resistencias.tex	2026-09-17 16:56:06.148441515 +0000
+@@ -685,7 +685,7 @@
+ un ministerio a otro y adjuntando una imagen satelital para que le identificaran el área.
+ 
+ El dato existía desde 2011 y estaba aprobado por resolución desde 2013. \textbf{No fue
+-necesario producirlo: fue necesario encontrarlo.} Y lo encontró, en dos días, una dirección
++necesario producirlo: fue necesario encontrarlo.} Y lo encontró, en una semana, una dirección
+ de otro ministerio de la misma provincia.
+ 
+ Este libro sostiene en el capítulo \ref{cap:opacidad} que la opacidad de este dispositivo rara vez consiste
+diff -ru cap_orig/20-opacidad.tex cap/20-opacidad.tex
+--- cap_orig/20-opacidad.tex	2026-09-17 16:50:45.236830668 +0000
++++ cap/20-opacidad.tex	2026-09-17 16:56:06.146107099 +0000
+@@ -113,7 +113,7 @@
+ \item \textbf{Resolución Nº 383/14, Secretaría de Recursos Hídricos} (edicto en los B.O.\ Nº 19.466 y 19.467, 21 y 22/01/2015; la ficha web no ofrece enlace «Ver anexo»). Aprueba la determinación de la línea de ribera en ambas márgenes de los arroyos El Durazno y Guaranguay, matrícula 4366, departamento La Caldera. Publicado: que la línea fue determinada. No publicado: \textbf{las coordenadas Posgar que indican dónde está}, que quedan ``a disposición de los interesados en la sede de la Secretaría''. Otro expediente de la misma sección, en la misma edición del Boletín, sí publica su tabla de coordenadas. \textbf{No obtenidas.}
+ \item \textbf{Decreto Nº 463/15} (09/02/2015; B.O.\ Nº 19.485). Ratifica el contrato de promoción turística con Proyecto 1 S.A.\ para ampliar el Hotel La Caldera. Publicado: el acto ratificatorio. \textbf{No publicado: el contrato}; al pie, la leyenda «anexo para su consulta en oficinas de nuestra repartición», la misma fórmula de la Ordenanza 437. No obtenido.
+ \item \textbf{Decreto Nº 3069/14} (14/10/2014). Ratifica el contrato de promoción turística con La Caldera S.A. Publicado: el acto ratificatorio. \textbf{No publicado: el contrato}, que fija los alcances de las exenciones impositivas concedidas; la ficha del decreto en la edición web del Boletín no ofrece enlace «Ver anexo». No obtenido.
+-\item \textbf{Resolución Nº 142/14}, Secretaría de Recursos Hídricos. Aprueba la determinación de línea de ribera de los ríos Mojotoro y La Caldera sobre la matrícula 3616, y la Resolución 236/14 la rectifica. Publicado: el acto y el inmueble. \textbf{No publicadas: las coordenadas}, ni las erróneas ni las corregidas, remitidas a la sede del organismo (avisos en los B.O.\ Nº 19.364 y 19.377, agosto y septiembre de 2014, sin enlace «Ver anexo»). Con la 383/14, son las dos únicas de las doce determinaciones de 2013--2015 referidas a inmuebles que no las publicaron, y ambas recaen sobre suelo en proceso de loteo, aunque esa condición la comparten otras dos que sí las publicaron (capítulo \ref{cap:ribera}). No obtenidas.
++\item \textbf{Resolución Nº 142/14}, Secretaría de Recursos Hídricos. Aprueba la determinación de línea de ribera de los ríos Mojotoro y La Caldera sobre la matrícula 3616, y la Resolución 236/14 la rectifica. Publicado: el acto y el inmueble. \textbf{No publicadas: las coordenadas}, ni las erróneas ni las corregidas, remitidas a la sede del organismo (avisos en los B.O.\ Nº 19.364 y 19.377, agosto y septiembre de 2014, sin enlace «Ver anexo»). Con la 383/14, son las dos únicas de las trece determinaciones de 2013--2015 referidas a inmuebles que no las publicaron, y ambas recaen sobre suelo en proceso de loteo, aunque esa condición la comparten otras dos que sí las publicaron (capítulo \ref{cap:ribera}). No obtenidas.
+ \item \textbf{Informe técnico del inciso e}, que funda la contratación por vía abreviada del Plan de Manejo. Publicado: el encuadre legal. \textbf{No publicado: el informe}. No obtenido.
+ \end{itemize}
+ \end{ficha}
+@@ -268,7 +268,7 @@
+ 
+ \textbf{Y la consecuencia práctica, que es lo que importa.} Este libro necesitó, capítulo tras
+ capítulo, saber a qué matrícula corresponde un polígono. Lo pidió a la Dirección General de
+-Inmuebles ---veinte veces, según el apéndice \ref{cap:pedidos}--- porque no encontró
++Inmuebles ---diecinueve veces, según el apéndice \ref{cap:pedidos}--- porque no encontró
+ manera de obtenerlo de otro modo. \textbf{El polígono está publicado; lo que lo vuelve útil,
+ no.}
+ 
+@@ -394,7 +394,7 @@
+ 
+ \textbf{La categoría de mayor protección del ordenamiento de bosques sigue, sobre este
+ corredor, las mismas márgenes} donde el capítulo \ref{cap:resistencias} documenta veinte
+-concesiones de áridos y el capítulo \ref{cap:ribera} reconstruye diecisiete años de
++concesiones de áridos y el capítulo \ref{cap:ribera} reconstruye más de dos décadas de
+ determinaciones de línea de ribera.
+ 
+ \textbf{No hay contradicción normativa en eso}: la Categoría I protege el bosque, no prohíbe la
+@@ -564,7 +564,7 @@
+ 
+ Lo que corresponde registrar es el \textbf{efecto}, que es idéntico al de los otros casos de este capítulo. La información está publicada: cualquiera puede leer el Boletín de 2019 acto por acto. Lo que no puede es \textbf{leerlo entero}, ni buscar dentro de él, ni preguntarle cuántas veces aparece un topónimo, una empresa o una matrícula. Y esas son, exactamente, las preguntas que permiten reconstruir un dispositivo.
+ 
+-El resultado práctico es una asimetría curiosa: \textbf{los años más antiguos son los más accesibles}. Este libro pudo reconstruir con detalle el ciclo hídrico de 2013 a 2015 --- veinticinco actos, más de veinticinco inmuebles, doce cursos --- y no puede hacer lo mismo con el período que va del primer aluvión a la sentencia. Para 2018 y 2019, los años decisivos de esta historia, la reconstrucción documental depende de conocer de antemano qué buscar.
++El resultado práctico es una asimetría curiosa: \textbf{los años más antiguos son los más accesibles}. Este libro pudo reconstruir con detalle el ciclo hídrico de 2013 a 2015 --- veinticinco actos, más de veinticinco inmuebles, trece cursos --- y no puede hacer lo mismo con el período que va del primer aluvión a la sentencia. Para 2018 y 2019, los años decisivos de esta historia, la reconstrucción documental depende de conocer de antemano qué buscar.
+ 
+ Quien quiera contar lo que pasó en el corredor entre 2016 y 2026 deberá pedirlo pieza por pieza, y sólo encontrará lo que ya sospechaba.
+ \end{cautela}
+diff -ru cap_orig/21-conclusion.tex cap/21-conclusion.tex
+--- cap_orig/21-conclusion.tex	2026-09-17 16:50:45.236870246 +0000
++++ cap/21-conclusion.tex	2026-09-17 16:56:06.147434113 +0000
+@@ -11,11 +11,11 @@
+ 
+ Ese municipio ---al que su propio plan atribuye mil doscientos kilómetros cuadrados, más que los mil noventa y dos que el INDEC asigna a todo el departamento (capítulo \ref{cap:fincas})--- recibió en 2015 un plan urbano ambiental, financiado por el Consejo Federal de Inversiones y asistido técnicamente por la Provincia, cuyo informe final nombra en su primer párrafo a un municipio distinto, situado a cuatrocientos kilómetros; al año siguiente lo reglamentó con un Código de ciento cincuenta y dos artículos. Ese Código clasifica el suelo con precisión, declara no urbanizable la ribera del río, nombra uno por uno los barrios que considera espontáneos, ordena gravar de manera permanente los loteos en áreas no aptas y somete la venta de parcelas a garantía de obra y licencia municipal previa. El plan había dejado como proyecto pendiente el estudio que determina hasta qué cota es seguro construir.
+ 
+-Cinco años después, el mismo municipio declaró públicamente que la coparticipación no le alcanzaba para pagar los sueldos de su personal.
++En 2020, cinco años después de recibir el plan, el mismo municipio declaró públicamente que la coparticipación no le alcanzaba para pagar los sueldos de su personal.
+ 
+ Entre una cosa y la otra ocurrió todo lo demás. Los loteos que el Código llama no planificados se inundaron dos veces y una sentencia declaró la obligación estatal de proteger y recomponer la cuenca, con criterio ecocéntrico y cita de la Corte Interamericana. La orden se reabsorbió y reapareció cuatro años más tarde como propuesta de gestión del propio obligado. El Plan se aprobó en febrero de 2026, con el municipio intimado bajo apercibimiento de remisión a la justicia penal, siete años y dos meses después de los hechos, en una causa que la Constitución define como vía expedita. El desarrollador de uno de esos loteos quedó identificado en un boletín oficial y figura como tercero en el expediente. Un loteo cuya urbanización el propio municipio declaró incompatible con su Código recibió, en el mismo acto, la indicación del procedimiento para urbanizarlo igual. Un tercer loteo, cerrado, cedió su ingreso sobre una ruta nacional.
+ 
+-Al final del período, el departamento tenía una de cada cinco viviendas sin nadie viviendo en ella, más del doble de la proporción provincial. Al comienzo también: el ciclo duplicó el parque habitacional sin alterar esa proporción. En esos mismos años perdió el 88 por ciento de su superficie agropecuaria, mientras la provincia ganaba.
++Al final del período, el departamento tenía una de cada cinco viviendas sin nadie viviendo en ella, más del doble de la proporción provincial. Al comienzo también: el ciclo duplicó el parque habitacional sin alterar esa proporción. En esos mismos años perdió el 88 por ciento de su superficie agropecuaria declarada ---en su mayor parte monte y pastizal, según el censo de 2008---, mientras la provincia ganaba.
+ 
+ Simultáneamente, bajo la misma autoridad provincial, funcionó el otro circuito. En un barrio de la capital contiguo al departamento, donde según su centro vecinal buena parte de los adjudicatarios son caldereños, familias que ocupaban terrenos fiscales obtuvieron en 2025 su adjudicación en venta ---en un caso, tras un expediente iniciado en 1995---, en cien cuotas y con hipoteca, después de que Inmuebles y el Instituto Provincial de Vivienda informaran que no tenían otro inmueble ni otra solución habitacional, y con la obligación de habitar de manera continua bajo pena de perder, sin indemnización, el lote y todo lo construido en él. Y quien no ocupa y pide un lote fiscal por sorteo debe acreditar residencia policial, declarar bajo pena de falso testimonio, dar referencias vecinales con nombre y apellido y una franja horaria de visita domiciliaria, ser argentino nativo y no tener inmuebles en ningún lugar del mundo.
+ 
+diff -ru cap_orig/22-infraestructura.tex cap/22-infraestructura.tex
+--- cap_orig/22-infraestructura.tex	2026-09-17 16:50:45.236888577 +0000
++++ cap/22-infraestructura.tex	2026-09-17 17:10:24.889509374 +0000
+@@ -78,8 +78,8 @@
+ cuerpo deliberativo por decreto de la dictadura, y cuyas ordenanzas —incluida una rebaja de
+ tasas para jubilados— necesitaban aprobación de la Secretaría de Estado de Municipalidades.
+ 
+-En 2022, con el departamento en doce mil doscientos noventa y nueve habitantes tras crecer un cincuenta y ocho por ciento, el municipio sigue clasificado en \textbf{tercera categoría}: la que la ley orgánica
+-reserva a las comisiones municipales.
++En 2022, con el departamento en doce mil doscientos noventa y nueve habitantes tras crecer un cincuenta y ocho por ciento, sus dos municipios siguen clasificados en \textbf{tercera categoría} ---la que la ley orgánica
++reserva a las comisiones municipales---, aunque Vaqueros, con 7.774 habitantes, ya tiene población de segunda.
+ 
+ \textbf{Noventa y cinco años desde que se la fijó, y la categoría del municipio no cambió de nombre}, aunque hoy lo gobiernen un intendente electo y un Concejo Deliberante (capítulo \ref{cap:poblacion}).
+ 
+@@ -148,7 +148,7 @@
+ copete, Barros en el cuerpo ---, de modo que su identificación exacta queda pendiente.}
+ \end{ficha}
+ 
+-Las cuatro frases corresponden, una por una, a las cuatro cosas que este libro tardó cuatrocientas páginas en documentar.
++Las cuatro frases corresponden, una por una, a las cuatro cosas que este libro tardó más de quinientas páginas en documentar.
+ 
+ La primera es la \textbf{segunda tesis}: la opacidad no está en la existencia del acto sino
+ en la imposibilidad de saber si existe. Un vecino que pregunta al municipio si un loteo está
+@@ -171,7 +171,7 @@
+ Y la cuarta es \textbf{la tesis de este capítulo}, dicha sin rodeos por alguien que no
+ escribió un libro para llegar a ella. La planta potabilizadora está ahí. Las tomas por
+ filtración están debajo del lecho del río. Los loteos están aguas arriba de las tomas. Y la
+-conclusión que ese vecino extrae es exactamente la que se extrae de cuatrocientas páginas de expedientes: \textbf{esto no es sólo un problema de La Caldera}.
++conclusión que ese vecino extrae es exactamente la que se extrae de más de quinientas páginas de expedientes: \textbf{esto no es sólo un problema de La Caldera}.
+ 
+ \section{Y hubo un momento en que no era así}
+ 
+@@ -264,7 +264,7 @@
+ canteras sobre tierra fiscal} en este corredor: «El Vaquero», en Vaqueros, sobre nueve
+ hectáreas fiscales, y «Los Yacones», \textbf{sobre el cauce del río Wierna}, con veintiuna hectáreas y 6.374 metros cuadrados, aunque el informe de Minería de 2023 registra que la renovación de esta última fue rechazada en junio de 2020 (capítulo \ref{cap:amparo}). \textbf{Más de treinta hectáreas fiscales entre ambas.}
+ 
+-\textbf{Dos de las concesionarias de áridos del corredor ---las dos del Wierna que figuran en la nómina de 2022---
++\textbf{Dos de las concesionarias de áridos del corredor ---las dos que los edictos de 2014 ubican sobre el Wierna, ambas en la nómina de 2022---
+ son contratistas de obra pública de la capital.} La coincidencia deja de ser un caso.
+ 
+ \begin{cautela}
+diff -ru cap_orig/22-prospectiva.tex cap/22-prospectiva.tex
+--- cap_orig/22-prospectiva.tex	2026-09-17 16:50:45.236905520 +0000
++++ cap/22-prospectiva.tex	2026-09-17 17:22:07.909279391 +0000
+@@ -130,7 +130,7 @@
+ ninguna denuncia.
+ 
+ Si hubiera un culpable, el libro sería una acusación. \textbf{Como no lo hay, es un inventario}:
+-ciento ochenta y tres pedidos, ordenados en doce secciones por destinatario, y la mayoría pide lo que la propia norma
++ciento ochenta y dos pedidos, ordenados en doce secciones por destinatario, y la mayoría pide lo que la propia norma
+ manda producir.
+ 
+ \section{Qué viene, entonces}
+diff -ru cap_orig/23-plan.tex cap/23-plan.tex
+--- cap_orig/23-plan.tex	2026-09-17 16:50:45.236927802 +0000
++++ cap/23-plan.tex	2026-09-17 17:10:24.889656510 +0000
+@@ -40,7 +40,7 @@
+ 1936, para negarle una indemnización a quien había ganado su juicio. \textbf{La ausencia de
+ aforos no es neutral: favorece a quien decide, porque vuelve indiscutible cualquier decisión.}
+ 
+-\textbf{Publicar las cotas y las líneas de ribera con sus coordenadas.} Once de catorce determinaciones del período relevado publicaron sus coordenadas; de las tres que no lo hicieron, las dos referidas a un inmueble recaen sobre suelo en proceso de loteo, condición que comparten otras dos que sí las publicaron. Publicarlas todas es un acto administrativo de una página, y hacerlas legibles ---las del pueblo están sólo en una imagen escaneada--- es otro.
++\textbf{Publicar las cotas y las líneas de ribera con sus coordenadas.} Doce de quince determinaciones del período relevado publicaron sus coordenadas; de las tres que no lo hicieron, las dos referidas a un inmueble recaen sobre suelo en proceso de loteo, condición que comparten otras dos que sí las publicaron. Publicarlas todas es un acto administrativo de una página, y hacerlas legibles ---las del pueblo están sólo en una imagen escaneada--- es otro.
+ 
+ \textbf{Levantar el estado dominial de las fincas del corredor.} El departamento está
+ catastrado desde 1929. El registro existe, funciona y no es consultable sin arancel ni
+@@ -51,7 +51,7 @@
+ \textbf{Publicar el padrón de servicios.} Qué manzanas tienen red de agua, cuáles cloaca,
+ cuáles gas, y cuáles no. Sin ese mapa no se puede saber si un loteo nuevo está donde hay
+ infraestructura o donde no la hay, que es exactamente lo que la Ordenanza 437 de Vaqueros se
+-propuso evitar en 2014.
++propuso evitar en 2015.
+ 
+ \section{El río}
+ 
+@@ -191,13 +191,13 @@
+ Nada de lo anterior se sostiene sin esto, y es lo más difícil.
+ 
+ Este libro documenta que el municipio de La Caldera está clasificado en tercera categoría
+-desde el 9 de diciembre de 1931 y que en 2022 sigue en la misma, en un departamento que ya tiene doce mil doscientos noventa y nueve habitantes; que en 1908 vendía en licitación el derecho a cobrar sus
++desde el 9 de diciembre de 1931 y que en 2022 sigue en la misma, como Vaqueros, que con 7.774 habitantes ya supera el umbral de la segunda; que en 1908 vendía en licitación el derecho a cobrar sus
+ impuestos; que en 1922 el Interventor Nacional designaba a los cinco miembros de su comisión y le
+ aprobaba el presupuesto; que en 1933 gastaba en sueldos administrativos más de lo que la ley
+ permitía; que en 1940 debía a Sanidad cerca de un tercio de su renta anual; y que en julio de
+ 2020 declaró por escrito no poder pagar los sueldos de su personal.
+ 
+-\textbf{Recategorizar los municipios del departamento} conforme su población real es lo que hizo, para su época, el Decreto 14.205 de 1931; hoy la Ley 1349 exige hacerlo por ley, a iniciativa del Ejecutivo, después de cada censo. Aquella clasificación era
++\textbf{Revisar la categoría de los municipios del departamento} conforme su población real ---empezando por Vaqueros, el único que hoy la excede--- es lo que hizo, para su época, el Decreto 14.205 de 1931; hoy la Ley 1349 exige hacerlo por ley, a iniciativa del Ejecutivo, después de cada censo. Aquella clasificación era
+ correcta cuando se hizo. Lo que nunca ocurrió es que volviera a hacerse.
+ 
+ \textbf{Revisar la base imponible.} El capítulo \ref{cap:hacienda} documenta lotes urbanos con valuación
+diff -ru ape_orig/A-cronologia.tex ape/A-cronologia.tex
+--- ape_orig/A-cronologia.tex	2026-09-17 16:50:45.238059723 +0000
++++ ape/A-cronologia.tex	2026-09-17 17:03:21.562716889 +0000
+@@ -109,7 +109,7 @@
+ 2013* & Se inicia ante la Secretaría de Recursos Hídricos el expediente Nº 34-167.127/13, de determinación de línea de ribera sobre el inmueble matrícula Nº 4.366, Finca La Caldera o Getsemaní. Su comisión técnica (Res.\ 395/13) nombra al río La Caldera y al arroyo El Manzano; del mismo expediente saldrá en 2014 la Res.\ 383/14 sobre los \textbf{arroyos El Durazno y Guaranguay}. \\
+ 2013--15* & El CFI encomienda el PDUA de La Caldera; según la presentación oficial, el trabajo comenzó en 2013. El informe identifica loteos privados en ejecución sin planificación y deja pendiente el estudio de cota máxima edificable. Su introducción y cierre nombran, por error de plantilla, al municipio de Rivadavia Banda Sur. \\
+ 30 may.\ 2013* & DNU Nº 1595/13, luego Ley Nº 7781: declara la Emergencia Hídrica por escasez de agua en todo el territorio provincial por un año, atribuyéndola fundamentalmente al cambio climático, y ordena readecuar y ordenar todas las cuencas. Se origina en la Resolución 142/13 de la Secretaría de Recursos Hídricos. \\
+-10 oct.\ 2013* & Res. 292/13: comisión técnica para el arroyo Quintín, catastro 3756. Con la 348/13, la 395/13, las 6, 7 y 8 de 2014, la 023/14 y la 383/14, son ocho de los quince actos que la serie registra sobre la cuenca en esos catorce meses; la serie 2013--2015 reúne veintidós actos de comisión o determinación, más la 023/14, que designa y determina a la vez. \\
++10 oct.\ 2013* & Res. 292/13: comisión técnica para el arroyo Quintín, catastro 3756. Con la 348/13, la 395/13, las 6, 7 y 8 de 2014, la 023/14 y la 383/14, son ocho de los quince actos que la serie registra sobre la cuenca en esos catorce meses; la serie 2013--2015 reúne veinticinco actos de comisión o determinación, más la 023/14, que designa y determina a la vez. \\
+ 19 nov.\ 2013* & Res. 348/13, línea de ribera del río La Caldera, matrícula 1590, La Calderilla. Su edicto (B.O. 19.213, 23 y 26/12/2013) \textbf{publica las coordenadas Posgar}, determina la \textbf{zona inundable} y transcribe el art. 172 del Código de Aguas. \\
+ 26 dic.\ 2013* & Res. 395/13: aprueba la comisión técnica para el río La Caldera y el arroyo del Manzano, matrícula 4366 ---el escaneo dice «1366»---, Finca La Caldera o Getsemaní (Expte. 34-167.127/13). \\
+ 13 ene.\ 2014* & Res. 6/14, 7/14 y 8/14: dos determinaciones de línea de ribera sobre el río La Caldera (matrículas 3593 y 3584) y una comisión técnica para la quebrada de la matrícula 4191, Fracción Finca Vaqueros. \\
+@@ -130,7 +130,7 @@
+ 14 oct.\ 2014* & \textbf{Decreto 3069/14}: ratifica el contrato de promoción turística con La Caldera S.A.\ para ampliar su hostería. El contrato, que fija las exenciones, no se publica. \\
+ 18 dic.\ 2014* & \textbf{Resolución Nº 383} de la Secretaría de Recursos Hídricos: aprueba la determinación de la línea de ribera realizada por la Comisión Técnica en \textbf{ambas márgenes de los arroyos El Durazno y Guaranguay}, inmueble catastro Nº 4.366, departamento La Caldera. Las coordenadas Posgar no se publican: quedan a disposición en la sede del organismo. \\
+ 15 ene.\ 2015* & Se publica la Ordenanza Nº 000437 de Vaqueros (Reglamento de Fraccionamiento de Tierras). El anexo no se publica. \\
+-21 y 22 ene.\ 2015* & Se publica el edicto en el Boletín Oficial Nº 19.467, pág.\ 407, orden 100045883. Apelable ante el Tribunal de Aguas en diez días hábiles. \\
++21 y 22 ene.\ 2015* & Se publica el edicto de la Res.\ 383/14 en los Boletines Oficiales Nº 19.466 y 19.467, pág.\ 407, orden 100045883. Apelable ante el Tribunal de Aguas en diez días hábiles. \\
+ 9 feb.\ 2015* & \textbf{Decreto 463/15}: segundo contrato de promoción turística, con Proyecto 1 S.A., para ampliar el Hotel La Caldera. Se publica el 19 de febrero sin el contrato, «para su consulta en oficinas». \\
+ 8 jun.\ 2015* & \textbf{Decreto 1968/15}: la Provincia declara a su favor la prescripción adquisitiva del terreno de la Escuela Nº 4118 (Finca Potrero de Gallinato, matrícula 3162), con el plano 000962. \\
+ jul.\ 2015* & Se publica la gestión de agua subterránea por dren horizontal para \textbf{400 lotes del loteo El Durazno}, con carácter permanente, a nombre de una co-titular del catastro 4366. \\
+@@ -142,11 +142,11 @@
+ 2016 & Vecinos autoconvocados advierten que el Acueducto Norte implicará el desmonte del cordón ribereño. \\
+ 2016* & Sanción del Código de Ordenamiento Territorial de La Caldera, Ordenanza 06/2016. \\
+ 09 sep.\ 2016* & Se publican en el B.O.\ Nº 19.861 la Resolución Nº 82/16, que aprueba el Reglamento de Asignación de Lotes de Interés Social ---su anexo, sólo como imagen escaneada---, y la Nº 86/16, que modifica su art.\ 7º. \\
+-2016 & \textbf{23 de septiembre}: Acta Acuerdo del \textbf{Plan de Mínimas y Encauzamiento 2016--2017} (Decreto 1.889/16). La Provincia y \textbf{veintiún municipios}, entre ellos La Caldera y Vaqueros, con fondos de la Ley 7.931 de crédito público. \textbf{Los municipios ejecutan y cobran contra certificados.} \\
++2016* & \textbf{23 de septiembre}: Acta Acuerdo del \textbf{Plan de Mínimas y Encauzamiento 2016--2017} (Decreto 1.889/16). La Provincia y \textbf{veintiún municipios}, entre ellos La Caldera y Vaqueros, con fondos de la Ley 7.931 de crédito público. \textbf{Los municipios ejecutan y cobran contra certificados.} \\
+ 7 nov.\ 2016* & Resolución Nº 360 de Recursos Hídricos: línea de ribera de ambas márgenes del \textbf{río Wierna}, siete matrículas del departamento, \textbf{sin coordenadas publicadas} (edicto en el B.O.\ Nº 19.951, 26 y 27/01/2017). Comisión: Torres y Cerezo. \\
+ 17 nov.\ 2016* & Resoluciones Nº 7/16, 8/16 y 9/16 de la Secretaría de Tierra y Bienes: requisitos, baremo de puntaje y procedimientos de asignación (B.O.\ Nº 19.906). Los anexos de las tres se publican sólo como imágenes escaneadas; una fe de erratas sale en el B.O.\ Nº 19.911. \\
+ 2016 & \textbf{25 de noviembre}: el Gobierno de Salta entrega la \textbf{carpeta técnica de relevamiento territorial} a la \textbf{Asociación Comunitaria Kondorwaira}, cinco años después del relevamiento de campo. \\
+-2017 & Dos \textbf{contrataciones directas} de Vialidad con la Municipalidad de La Caldera por \$1.099.956: mantenimiento vial en cinco rutas provinciales. \textbf{La cotización es idéntica al presupuesto oficial} en los dos casos. \\
++2017* & Dos \textbf{contrataciones directas} de Vialidad con la Municipalidad de La Caldera por \$1.099.956: mantenimiento vial en cinco rutas provinciales. \textbf{La cotización es idéntica al presupuesto oficial} en los dos casos. \\
+ sep.\ 2017* & Constitución del fideicomiso Lares de la Inmaculada: 23 ha sobre la matrícula 3012, desarrollo a cargo de MDay. \\
+ 2017 & \textbf{31 de octubre}: la comunidad kolla \textbf{Kondorwaira} --- \textbf{27 familias} del paraje Potrero de Castilla, cacique \textbf{Teodora Sarapura} --- recibe un segundo aporte de \$1.028.000 del PRODERI para ganadería menor y producción de quesos. \\
+ 2018* & Resolución Nº 21/2018 de Jefatura de Gabinete: crea una Comisión para tratar la problemática de loteos, urbanizaciones, clubes de campo y asentamientos de la provincia. \\
+@@ -160,19 +160,19 @@
+ 4 abr.\ 2019* & Audiencia pública por Lares de la Inmaculada en el SUM del Colegio San Cayetano. Impugnación previa rechazada. \\
+ 25 nov.\ 2019* & Decreto Nº 1682/19: aprueba la reglamentación del Título V de la Ley 2.308 y deroga el Decreto 1.410/1973, vigente durante 46 años. Sus considerandos declaran que la seguridad jurídica de los adquirentes de lotes requiere mayor injerencia estatal y que debe garantizarse el efectivo cumplimiento de las obras de infraestructura a cargo privado. Crea la Unidad Coordinadora de Loteos, Loteadores y Desarrolladores Inmobiliarios. Su anexo, publicado con el decreto, exige certificados de no inundabilidad y de aptitud ambiental, habilita la preventa con caución y la matrícula anticipada, y reemplaza la verificación municipal por un visado con plazo. \\
+ nov.\ 2019* & La Sala III de la Cámara de Apelaciones en lo Civil y Comercial rechaza el amparo de los vecinos de Vaqueros. \\
+-2020* & Resolución Nº 466 D/20: encomienda las competencias de esa Unidad Coordinadora a la \textbf{Secretaría de Tierras y Bienes}, el mismo organismo que administra la tierra fiscal. \\
+ may.\ 2020 & Relevamiento universitario: 5 urbanizaciones privadas y 11 clubes de campo aprobados por la DGI, frente a 54 asentamientos. \\
+ 24 jun.\ 2020* & Decreto Nº 399/20: crea el Plan ``Mi Lote''. Meta: 10.000 lotes, 40\% metropolitano. \\
+ jul.\ 2020 & Empleados municipales cortan la RN 9. El intendente declara que la coparticipación no alcanza para pagar sueldos. \\
+ oct.\ 2020* & Notas 101 a 105/20 de la Municipalidad: intima a los loteos a presentar planos, certificados de no inundabilidad y de aptitud ambiental, que no había recibido. \\
++oct.\ 2020* & Resolución Nº 466 D/20: encomienda las competencias de esa Unidad Coordinadora a la \textbf{Secretaría de Tierras y Bienes}, el mismo organismo que administra la tierra fiscal. \\
+ dic.\ 2020* & Clausura preventiva del loteo La Falda (matrícula 154, km 16--17,5 RN 9) tras denuncia del municipio. El personal técnico determina que el sector no es urbanizable según el COT; se indica la vía del Proyecto Especial. \\
+-2021* & Resolución Delegada Nº 646/21: aprueba el plano de mensura, desmembramiento y loteo Nº 1.164, proyecto ``El Durazno'', matrícula 6.558. \\
+ 29 ene.\ 2021* & Decisión Administrativa Nº 50/21: designa a Mariano Puertas Jefe de Programa de Planificación Urbana. \\
+ jun.\ 2021 & Se concluye la primera etapa del acueducto hasta la cisterna El Huaico, con financiamiento CAF. La inauguración oficial es de octubre de 2021: planta alimentada por el embalse, 4.000 m³/h y 22 km de acueducto. Según Aguas del Norte, en diciembre de 2022 el acueducto que toma del dique todavía no operaba en forma regular. \\
+ jul.\ 2021 & Manifestación en la zona alta de Vaqueros por acceso igualitario al agua potable, tras quince años de reclamos. \\
+ 15 ago.\ 2021* & Elección senatorial: Abilés no es reelecta; la banca pasa a Calabró. \\
+-27 sep.\ 2021* & Decreto Nº 844/21: traslada la Secretaría de Tierra y Bienes al Ministerio de Infraestructura; la DGI pasa a depender directamente del Ministro. \\
++27 sep.\ 2021* & Decreto Nº 844/21: traslada la Secretaría de Tierras y Bienes del Estado al Ministerio de Infraestructura; la DGI pasa a depender directamente del Ministro. \\
+ 18 nov.\ 2021* & Sesión de despedida de la senadora Abilés tras ocho años de mandato. \\
++26 nov.\ 2021* & Resolución Delegada Nº 646/21: aprueba el plano de mensura, desmembramiento y loteo Nº 1.164, proyecto ``El Durazno'', matrícula 6.558. \\
+ dic.\ 2021* & Sentencia en \textit{Lazarte Vigabriel} (Expte.\ EMI 23860/2020): declara la obligación estatal de protección y recomposición de la cuenca y ordena la confección del Plan de Manejo Integral de la microcuenca, en dos etapas y con base en el principio de progresividad. Funda en el art. 41 CN, la Constitución provincial y las leyes 7070, 7017 y 7543; introduce la cuestión climática con cita de la OC-23/2017 de la Corte IDH y la Observación General Nº 15 del Comité DESC. Criterio de infraestructura verde sobre gris. \\
+ fines 2021* & Acuerdo entre la Secretaría de Minería y Aguas del Norte (expte.\ 99078-2021): nueva zona de exclusión para canteras junto a las captaciones. \\
+ 2022* & Censo Nacional: el departamento La Caldera pasa de 7.763 a 12.299 habitantes y de 2.578 a 4.991 viviendas particulares. Cuarto departamento de mayor crecimiento demográfico del país, detrás de Añelo (Neuquén, 68,4\,\%), San Vicente (BA, 65,1\,\%) y General Rodríguez (BA, 63,7\,\%), según los resultados definitivos, cotejados en veintitrés de las veinticuatro jurisdicciones. El departamento registra 4.003 hogares para 4.991 viviendas particulares: 988 sin residentes, el 19,80\% del parque, contra el 8,55\% provincial; una de sus fracciones censales alcanza el 43,17\%. Provincia: +19,2\% de población en viviendas particulares y +45,3\% de viviendas. La Caldera y Vaqueros figuran como municipios de tercera categoría. \\
+@@ -190,8 +190,8 @@
+ 2 dic.\ 2022* & Plano de Aguas del Norte «Relevamiento Acueducto Norte --- Líneas de ribera, cámaras acueducto y canteras». El informe que lo acompaña declara 10.822 usuarios del Acueducto Norte y 11.587 del Wierna, todos en la capital. \\
+ 20 ene.\ 2023* & Nota de la Secretaría de Recursos Hídricos a Fiscalía de Estado: el Plan de Manejo debe ajustarse «a la escala predial»; la calidad del agua para consumo es «responsabilidad de los usuarios». \\
+ 30 mar.\ 2023* & El senador Calabró presenta el Expte. 90-31.780/2023, instituyendo la Reserva Natural Corredor Biológico Abra de Santa Laura sobre el talweg del río Porongal. Girado a comisión. \\
+-2023 & \textbf{Agosto}: la \textbf{Provincia demandada tiene que preguntarse a sí misma} si hay comunidades en la cuenca. Fiscalía de Estado pide los antecedentes territoriales para convocar a las comunidades a los talleres del Plan. Se ratifican \textbf{dos comunidades} en el departamento. \textbf{Septiembre}: constancias de consulta libre, previa e informada. \\
+ 1 ago.\ 2023* & Minería paraliza a la Municipalidad de La Caldera por extraer áridos en el área de exclusión del acueducto. \\
++2023 & \textbf{Agosto}: la \textbf{Provincia demandada tiene que preguntarse a sí misma} si hay comunidades en la cuenca. Fiscalía de Estado pide los antecedentes territoriales para convocar a las comunidades a los talleres del Plan. Se ratifican \textbf{dos comunidades} en el departamento. \textbf{Septiembre}: constancias de consulta libre, previa e informada. \\
+ 7 ago.\ 2023* & La Municipalidad remite a Fiscalía de Estado la lista de loteadores, productores y funcionarios a convocar al taller. \\
+ 16 ago.\ 2023* & Recursos Hídricos desaconseja prolongar el terraplén de la cantera La Serena junto al camping y cortar el monte bajo que lo protege. \\
+ 30 ago.\ 2023* & Fiscalía de Estado pide a Asuntos Indígenas la consulta previa a las comunidades Kolla Kondorwaira y Kolla Urkuwasi. \\
+@@ -211,17 +211,17 @@
+ 3 mar.\ 2024* & Temporal y desborde del río en el loteo Santiago Apóstol; el municipio asiste a cinco familias. \\
+ 12 mar.\ 2024* & El Comité de Emergencia municipal entrega a los concejales un protocolo reformado para aprobar por ordenanza; los bomberos voluntarios informan que no tienen movilidad. \\
+ ago.\ 2024 & El municipio intima a propietarios con domicilio fiscal en otras localidades por morosidad en tasas e impuestos. \\
+-2024 & \textbf{6 y 10 de diciembre}: se acompaña el \textbf{Plan de Manejo} al expediente de ejecución. \\
++2024* & \textbf{6 y 10 de diciembre}: se acompaña el \textbf{Plan de Manejo} al expediente de ejecución. \\
+ dic.\ 2024 & Comercialización activa de Solanas de La Caldera por Cabrera Bienes Raíces (material publicado). \\
+ dic.\ 2024* & El Senado aprueba la actualización del OTBN --- Ley Nº 8483 --- con tres votos en contra: Cachi, San Martín y \textbf{La Caldera}. \\
+ 3 ene.\ 2025* & Se publica la Ley Nº 8483: revisa el OTBN e introduce el Área de Producción y Conservación, dentro de la cual las áreas verdes carecen de ubicación geográfica inicial. Su Anexo I asigna a la cuenca Mojotoro--Lavayén --- que contiene la microcuenca del río La Caldera --- 29.744 ha de APC y \textbf{0,0\% categorizable a verde}: por el criterio de la propia norma, la deforestación queda prohibida en esa cuenca, que la Tabla 17 del informe sombrea como excedida. Según las capas del informe, la cuenca cubre tres cuartos del departamento. \\
+ 6 feb.\ 2025* & Decreto Nº 63/25: adjudica en venta ciento tres parcelas fiscales del barrio Juan Manuel de Rosas, \textbf{departamento Capital}, por adjudicación directa a actuales ocupantes (art. 2 inc. 1, Ley 2616). Expte.\ 1100388-113156/2024-0. \\
+ 13 mar.\ 2025* & El proyecto de reserva \textbf{caduca} por aplicación de la Ley 1111, sin haber sido tratado. \\
+-2025 & \textbf{20 de marzo}: la \textbf{Resolución 000056/2025} determina la línea de ribera del \textbf{arroyo Vaqueros} a la latitud del catastro 1122, y la del río Ancho en Cerrillos. \textbf{Los puntos de vinculación se remiten a la sede del organismo}: diez años después, la práctica de no publicar coordenadas sigue en uso. \\
++2025* & \textbf{20 de marzo}: la \textbf{Resolución 000056/2025} determina la línea de ribera del \textbf{arroyo Vaqueros} a la latitud del catastro 1122, y la del río Ancho en Cerrillos. \textbf{Los puntos de vinculación se remiten a la sede del organismo}: diez años después, la práctica de no publicar coordenadas sigue en uso. \\
+ abr.\ 2025 & Acto de entrega en Juan Manuel de Rosas. La presidenta del centro vecinal cuestiona la atribución del logro y sostiene que 26 de 30 adjudicatarios tienen domicilio en La Caldera. \textit{Imputación no verificada.} El acto de abril no coincide en fecha ni en cantidad con el Decreto 63/25. \\
+ 9 may.\ 2025* & Res.\ 108/2025 de la Secretaría de Recursos Hídricos: rectifica las determinaciones 279/17 y 306/19 del río La Caldera, matrícula 4146. Los puntos se remiten a la sede. \\
+-30 jun.\ 2025* & Res.\ 142/2025: determina la línea de ribera del arroyo Quintín en el catastro 3756, casi doce años después de la comisión de la Res.\ 292/13. \\
+ 11 may.\ 2025 & Elecciones provinciales. Daniel Roberto Moreno Ovalle\index{Moreno Ovalle, Daniel Roberto}, intendente de Vaqueros, es electo senador por La Caldera con 2.989 votos (27,94\%) contra 2.830 (26,45\%) de Héctor Miguel Calabró\index{Calabró, Héctor Miguel}, senador en ejercicio, según el escrutinio definitivo. Se computan 11.171 votos sobre un padrón de \textbf{17.068 electores}, en un departamento con 12.299 habitantes y 8.976 mayores de dieciocho años censados en 2022. \\
++30 jun.\ 2025* & Res.\ 142/2025: determina la línea de ribera del arroyo Quintín en el catastro 3756, casi doce años después de la comisión de la Res.\ 292/13. \\
+ 3 jul.\ 2025* & Ante la denuncia de un diputado sobre «devolución de obras», el intendente y el ministro de Infraestructura explican que un convenio de defensas de 2023 (\$63 millones) se rescindió por desactualizado. \\
+ 27 ago.\ 2025* & Resolución SAyDS Nº 00509: habilita el cambio de uso de suelo en inmuebles con APC, identificando el titular la Categoría III dentro del área. \\
+ 20 oct.\ 2025* & Disposición nacional Nº 2483/2025: acredita la actualización del OTBN salteño. \\
+@@ -245,7 +245,7 @@
+ 21 ene.\ 2026* & Sesión Extraordinaria Nº 01 del Concejo: prórroga de la Ord.\ 733; clausura preventiva del ingreso a Solanas; clausura de dos campings; partidas para obras de defensa. Promulgación de las Ordenanzas 830, 831 y 832. \\
+ 21 ene.\ 2026 & Reunión en Casa de Gobierno con el jefe de Gabinete y el ministro de Gobierno. El intendente propone un plan integral de manejo de cuenca; el jefe de Gabinete pide más control de áridos y que los municipios incrementen el control a los loteos. \\
+ 22 ene.\ 2026* & Inmuebles inscribe el embargo sobre la matrícula 1.846 de la Municipalidad ---donada por la Ley 7699--- en la ejecución de honorarios del amparo. \\
+-23 ene.\ 2026 & Ordenanza Nº 830/25: prohíbe todo cobro de acceso al perilago de Campo Alegre. \\
++23 ene.\ 2026* & Ordenanza Nº 830/25: prohíbe todo cobro de acceso al perilago de Campo Alegre. \\
+ 27 ene.\ 2026 & El centro vecinal de La Calderilla denuncia desmonte de monte ribereño sin autorización y una audiencia pública sobre un loteo con sanción ambiental vigente. \\
+ ene.\ 2026 & Crecidas. El río socava el camino pasando El Durazno; decenas de familias aisladas. \\
+ 2 feb.\ 2026* & Parte municipal de La Caldera: maquinaria pesada aportada por organismos provinciales ejecuta bateas, encauzamiento y muros de contención en el río La Caldera. Diez días antes de la audiencia. \\
+@@ -260,7 +260,7 @@
+ 27 abr.\ 2026* & \textbf{Res.\ ENARGAS 435/2026}: aprueba el nuevo régimen de expansión de redes y deja sin efecto la Res.\ I-910/09. Reduce el horizonte de valuación de 35 a 10 años. \\
+ 6 may.\ 2026* & Obras Públicas pide a Fiscalía una prórroga de sesenta días para la planificación de obras. \\
+ jun.\ 2026 & Cobertura sobre litigios de consumidores contra el grupo desarrollador y sobre la doble actuación de su abogado. \\
+-13 jul.\ 2026* & B.O.\ 22.224: Res. Delegada 567D/26. La Secretaría de Tierra y Bienes detecta errores materiales en los anexos de diecisiete decretos y una resolución delegada de adjudicación de tierra fiscal dictados entre 1991 y 2025, y los subsana en un solo acto. La mayoría son de grafía de nombres; dos casos (Leopoldo Lugones y Los Profesionales) cambian parcela y matrícula, dos corrigen el documento de identidad del adjudicatario y uno (Barrio Martel, Tartagal) convierte el precio en «sin cargo». \\
++13 jul.\ 2026* & B.O.\ 22.224: Res. Delegada 567D/26. La Secretaría de Tierras y Bienes del Estado detecta errores materiales en los anexos de diecisiete decretos y una resolución delegada de adjudicación de tierra fiscal dictados entre 1991 y 2025, y los subsana en un solo acto. La mayoría son de grafía de nombres; dos casos (Leopoldo Lugones y Los Profesionales) cambian parcela y matrícula, dos corrigen el documento de identidad del adjudicatario y uno (Barrio Martel, Tartagal) convierte el precio en «sin cargo». \\
+ 4 sep.\ 2026* & Última actuación registrada en la ejecución del amparo; \textbf{la causa sigue abierta}. El Plan de Manejo se había aprobado el 12 de febrero, catorce meses después de presentado. \\
+ 10 sep.\ 2026* & La \textbf{Resolución 479} da de baja el contrato de defensas sobre el río La Caldera, de \$216.819.417, \textbf{porque cambiaron los niveles y el cauce}. No se precisa qué proyecto la reemplaza. Es lo mismo que constató el decreto de 1940. \\
+ \bottomrule
+diff -ru ape_orig/C-normativa.tex ape/C-normativa.tex
+--- ape_orig/C-normativa.tex	2026-09-17 16:50:45.238119816 +0000
++++ ape/C-normativa.tex	2026-09-17 17:25:53.081948641 +0000
+@@ -54,9 +54,9 @@
+ Ley 7.905 y Decretos 18/15 y 21/15 & 2015 & Crean el Ministerio, la Secretaría de Tierra y Bienes y la Subsecretaría de Tierra y Hábitat. \\
+ Res. 82/16* & publ.\ 09/09/2016 & Reglamento de Asignación de Lotes de Interés Social. Firmante: Saravia. B.O.\ Nº 19.861. \textbf{El anexo ---once artículos--- se publica sólo como archivo vinculado, escaneado y sin capa de texto}: copia certificada de seis folios (cap.\ \ref{cap:tierrafiscal}). \\
+ Res. 86/16* & publ.\ 09/09/2016 & Publicada en el mismo Boletín que la 82/16. Modifica el art. 7º del Anexo de la 82/16: sustituye ``posesión'' por ``goce'' en la definición de tenencia precaria. \\
+-Res. 7/16* & 17/11/2016 & Requisitos y documentación; formulario FAS001. Incompatibilidad de autoridades superiores (art.\ 2 inc.\ d); exclusión de incursos en ocupación ilegal (inc.\ c); ratificación anual del legajo y baja a los tres años (art.\ 8). B.O.\ Nº 19.906; fe de erratas en el Nº 19.911. \textbf{Anexos I y II publicados sólo como imagen escaneada} (trece folios). \\
++Res. 7/16* & 17/11/2016 & Requisitos y documentación; formulario FAS001. Incompatibilidad de autoridades superiores (art.\ 2 inc.\ d); exclusión de incursos en ocupación ilegal (inc.\ c); ratificación anual del legajo y baja a los tres años (art.\ 8); inscripción en la Subsecretaría o en el municipio donde se lleve adelante la urbanización, si hay convenio vigente (art.\ 8 inc.\ a); acceso únicamente por sorteo público, salvo asignación directa (inc.\ j); impugnación por la Ley 5.348 (art.\ 9). B.O.\ Nº 19.906; fe de erratas en el Nº 19.911, que alcanza además a una Resolución 3/16 de la misma Secretaría que este libro no tiene. \textbf{Texto del anexo obtenido}: se publica como imagen escaneada vinculada al acto, trece folios ---seis del Anexo I y siete del formulario FAS001 del Anexo II---, foliados 12 a 24 y certificados como copia fiel. \\
+ Res. 8/16* & 17/11/2016 & Tipologías de puntaje. B.O.\ Nº 19.906; fe de erratas en el Nº 19.911. \textbf{Anexo publicado sólo como imagen escaneada} (tres folios). \\
+-Res. 9/16* & 17/11/2016 & Procedimientos de asignación; cupos del 70/28/2\%; garantías del sorteo; acta de tenencia precaria. B.O.\ Nº 19.906; fe de erratas en el Nº 19.911. \textbf{Anexos I y II publicados sólo como imagen escaneada} (trece folios). \\
++Res. 9/16* & 17/11/2016 & Procedimientos de asignación; cupos del 70/28/2\%; garantías del sorteo; acta de tenencia precaria (Anexo II, modelo). B.O.\ Nº 19.906; fe de erratas en el Nº 19.911. \textbf{Texto del anexo obtenido}: se publica como imagen escaneada vinculada al acto, trece folios ---diez del Anexo I y tres del modelo de Acta de Tenencia Precaria---, foliados 33 a 45 y certificados como copia fiel. \\
+ Decreto 399/20* & 24/06/2020 & Crea el Plan ``Mi Lote''. Meta de 10.000 lotes, 40\% metropolitano. Implementación a cargo del IPV. \\
+ Decreto 1639/07* & 2007 & Aprueba las actas con Vaqueros y La Caldera por el Servicio de Información Catastral de Inmuebles; precio, 30\,\% de la recaudación adicional (15\,\% transitorio en La Caldera); los anexos dejan constancia de que ninguno de los dos municipios tenía código de planeamiento. B.O.\ Nº 17.645 (cap.\ \ref{cap:hacienda}). \\
+ Decreto 3318/08 & 2008 & Designa la Comisión Directiva de la Cooperadora Asistencial de La Caldera, presidida por el intendente Calabró. B.O.\ Nº 17.931. \\
+@@ -151,7 +151,7 @@
+ 
+ \section*{Designaciones}
+ 
+-Decreto 120/15 (Martinis Mercado, Secretario de Tierra y Bienes); Decisión Administrativa 50/21 (Puertas, Jefe de Programa de Planificación Urbana); Decisión Administrativa 366/22 (Haro, Director General de Tierras Fiscales); Decreto 64/23 (Abilés, Secretaria de Tierras y Bienes); Decisión Administrativa 19/23 del 26/12/2023 (B.O.\ Nº 21.621: estructura del Ministerio de Infraestructura, con Tierra y Bienes e Inmuebles; redesigna a Haro y Puertas; no confundir con la DA 19/23 de enero de 2023, contrato de servicios de Desarrollo Social); Decretos 197/24 y 198/24 (intervención de PRO.VI.PO.\ S.E.\ y autorización para suscribir actos jurídicos).
++Decreto 120/15 (Martinis Mercado, Secretario de Tierra y Bienes); Decisión Administrativa 50/21 (Puertas, Jefe de Programa de Planificación Urbana); Decisión Administrativa 366/22 (Haro, Director General de Tierras Fiscales); Decreto 64/23 (Abilés, Secretaria de Tierras y Bienes del Estado); Decisión Administrativa 19/23 del 26/12/2023 (B.O.\ Nº 21.621: estructura del Ministerio de Infraestructura, con Tierra y Bienes e Inmuebles; redesigna a Haro y Puertas; no confundir con la DA 19/23 de enero de 2023, contrato de servicios de Desarrollo Social); Decretos 197/24 y 198/24 (intervención de PRO.VI.PO.\ S.E.\ y autorización para suscribir actos jurídicos).
+ 
+ 
+ 
+@@ -186,7 +186,7 @@
+ Ley 1423 (orig.\ 145) & 02/10/1934 & Región económica del olivo; exención de diez años. Publicada el 12/10/1934 (cap.\ \ref{cap:hacienda}). \\
+ Ley 1664 (orig.\ 386) & 1936 & Partida «Defensa en los Ríos para Poblaciones», imputada en las obras de 1938 (cap.\ \ref{cap:defensas}). \\
+ Decretos 17.606 y 17.640 & 03/1934 & Categorías del Registro Civil y de las Receptorías de Rentas (cap.\ \ref{cap:poblacion}). \\
+-Ley 1269 (orig.\ 11078)* & 27/09/1929 & \textbf{Texto obtenido.} Promulgada el 01/10/1929 (Cornejo--Uriburu); B.O.\ Nº 1.292 del 11/10/1929. Autoriza a la Municipalidad de Campo Santo a reconcentrar el agua del río Mojotoro desde las juntas del Wierna con el La Caldera, y a vigilar y prohibir nuevas bocas-toma no autorizadas por ley. \textbf{No vigente}: el Digesto de Diputados la lista entre las leyes de objeto cumplido, plazo vencido o no vigentes (cap.\ \ref{cap:redes}). \\
++Ley 1269 (orig.\ 11078)* & 27/09/1929 & \textbf{Texto obtenido} ---el Digesto lo reproduce de la \textit{Recopilación General de Leyes} de Gavino Ojeda, de donde viene también el número original, que no sigue la serie de la época---. Promulgada el 01/10/1929 (Cornejo--Uriburu); B.O.\ Nº 1.292 del 11/10/1929. Autoriza a la Municipalidad de Campo Santo a reconcentrar el agua del río Mojotoro desde las juntas del Wierna con el La Caldera, y a vigilar y prohibir nuevas bocas-toma no autorizadas por ley. \textbf{No vigente}: el Digesto de Diputados la lista entre las leyes de objeto cumplido, plazo vencido o no vigentes (cap.\ \ref{cap:redes}). \\
+ Acordada 4529/75 & 1975 & Radio de ujiería con límite norte en el río Vaqueros (cap.\ \ref{cap:opacidad}). \\
+ Decreto 1591/80 & 10/11/1980 & Permiso precario al Club de Regatas Campo Alegre sobre el perilago (cap.\ \ref{cap:tierrafiscal}). \\
+ Ley 7070 & --- & Protección del ambiente; art.\ 49, audiencia pública (caps.\ \ref{cap:vaqueros} y \ref{cap:loteo}). \\
+diff -ru ape_orig/D-pedidos.tex ape/D-pedidos.tex
+--- ape_orig/D-pedidos.tex	2026-09-17 16:50:45.238146109 +0000
++++ ape/D-pedidos.tex	2026-09-17 17:22:07.909198919 +0000
+@@ -7,7 +7,7 @@
+ para que quien continúe la investigación pueda entrar a una mesa de entradas con el pedido
+ ya escrito.
+ 
+-Entre paréntesis, el capítulo donde la falta se explica. Cuando un pedido tiene más de un destinatario, figura en el principal; las entradas que se repetían en versiones anteriores se unificaron.
++Entre paréntesis, el capítulo donde la falta se explica. Cuando un pedido tiene más de un destinatario, figura en el principal. Se unificaron los pedidos que se repetían ante un mismo destinatario; cuando un documento puede pedirse por más de una vía ---la matrícula 4366, por ejemplo, en Inmuebles y en el expediente hídrico--- se lo mantiene en cada una.
+ 
+ \section{Dirección General de Inmuebles}
+ 
+@@ -30,12 +30,11 @@
+ Serrey\index{Serrey, Carlos}, fecha de la sentencia sucesoria, superficie del dominio partido y cadena de
+ titularidades resultante \textit{(cap.\ \ref{cap:fincas})}
+ \item estado registral de la matrícula 1.303: si el IPDUV construyó viviendas, si hubo reversión al dominio provincial, y qué hay hoy en ese terreno; y textos de las Leyes de Expropiaciones 1.336 --- renumerada 2.614 --- ---la 4272 ya se obtuvo; la «4.172/68» que cita la Ley 4486 es un error de número--- \textit{(cap.\ \ref{cap:expropiacion})}
+-\item \textbf{antecedente dominial de las matrículas 4366 y 6.558}, para establecer si la segunda proviene de la primera; \textbf{expediente 34-167.127/13 completo}, que contiene las tres resoluciones y los informes técnicos de la comisión; \textbf{expediente 34-253.934/13}, de las defensas con gaviones a las que la Resolución 023/14 sujetó la línea de ribera del pueblo, y si se construyeron \textit{(el anexo de la 023/14 ya se obtuvo)}; \textbf{acto que aprueba la comisión técnica para los arroyos El Durazno y Guaranguay}, previo a la Resolución 383/14; aclaración sobre el expediente 34-167.127/13 y a qué resolución corresponde; verificación de las coordenadas de las Resoluciones 6/14 y 7/14; y las determinaciones resultantes de las comisiones aprobadas por las Resoluciones 395/13 y 8/14 \textit{(cap.\ \ref{cap:ribera})}
+-\item fojas 58, 59, 84, 97/101 y 137 del expediente 18-37.348/2019-0; plano 1.164 con sus tres láminas; situación de las Etapas 3 y 5; ordenanza o acto municipal de aprobación anterior a 2019, si existe; legajo societario actual en la Dirección General de Sociedades; y antecedente dominial de los catastros 4.366 y 6.558 \textit{(cap.\ \ref{cap:loteo})}
++\item \textbf{antecedente dominial de las matrículas 4366 y 6.558}, para establecer si la segunda proviene de la primera; \textbf{expediente 34-167.127/13 completo}, con el peticionante, que contiene las tres resoluciones y los informes técnicos de la comisión; \textbf{expediente 34-253.934/13}, de las defensas con gaviones a las que la Resolución 023/14 sujetó la línea de ribera del pueblo, y si se construyeron \textit{(el anexo de la 023/14 ya se obtuvo)}; \textbf{acto que aprueba la comisión técnica para los arroyos El Durazno y Guaranguay}, previo a la Resolución 383/14; aclaración sobre el expediente 34-167.127/13 y a qué resolución corresponde; verificación de las coordenadas de las Resoluciones 6/14 y 7/14; y las determinaciones resultantes de las comisiones aprobadas por las Resoluciones 395/13 y 8/14 \textit{(cap.\ \ref{cap:ribera})}
++\item fojas 58, 59, 84, 97/101 y 137 del expediente 18-37.348/2019-0 y el expediente 18-37349/19-1; plano 1.164 completo, con sus tres láminas ---la Resolución Delegada 646/21 ya se obtuvo---; situación de las Etapas 3 y 5; ordenanza o acto municipal de aprobación anterior a 2019, si existe; legajo societario y composición actual de Jardín Celestial S.R.L. en la Dirección General de Sociedades; y antecedente dominial de los catastros 4.366 y 6.558 \textit{(cap.\ \ref{cap:loteo})}
+ \item expediente 18-27.372/11 ---con el plano de mensura y subdivisión, para explicar los 8.622,33 m² que el balance publicado no distribuye entre sus rubros--- y el Reglamento de Condominio de Las Vertientes; \textbf{la resolución de línea de ribera presentada para ese loteo}, que permitiría contrastarla con la que no consta en El Durazno; texto de la Ley 5602 y del Decreto 924/80 sobre clubes de campo; antecedentes dominiales de la matrícula 3989 fracción 78; y estado actual del loteo: lotes vendidos, edificados y su fuente de agua \textit{(cap.\ \ref{cap:loteo})}
+ \item expediente 0110018-20984/07-0 de Chacras del Gallinato y estado actual del proyecto; \textbf{legajo societario de El Gallinato S.R.L.}; decreto de concesión de agua pública subterránea exigido por el art.\ 3º inc.\ f; expedientes del Barrio La Misión y \textbf{plano con el retiro por línea de ribera}, que documentaría cómo se grafica ese descuento; y antecedentes dominiales de las matrículas 3.709, 4.065 y su relación con la Finca El Gallinato \textit{(cap.\ \ref{cap:loteo})}
+ \item expediente 01201.59-198642/2012-0 --- el \textbf{plano de mensura Nº 000962} ya se obtuvo y se reproduce en la lámina \ref{lam:plano962} ---; antecedentes dominiales de las matrículas \textbf{3.160, 3.161, 3.162 y 3.709} y su relación con la Finca El Gallinato del artículo 6º del PDUA; y nómina de prescripciones adquisitivas administrativas declaradas a favor de la Provincia en el departamento \textit{(cap.\ \ref{cap:tierrafiscal})}
+-\item plano 1.164 completo ---la Resolución Delegada 646/21 ya se obtuvo---; expediente 18-37349/19-1; composición societaria actual de Jardín Celestial S.R.L.; ordenanza municipal de aprobación del loteo \textit{(cap.\ \ref{cap:loteo})}
+ \end{itemize}
+ 
+ \section{Secretaría de Recursos Hídricos}
+@@ -47,7 +46,7 @@
+ \item \textbf{expediente 34-2.253/56}, de la finca «Vaqueros», iniciado en 1956 y aún publicándose en 2010: \textbf{qué se resolvió y cuándo} \textit{(cap.\ \ref{cap:aguabaja})}
+ \item \textbf{expediente 0050034-15.196/10 de El Gallinato S.R.L.}, de concesión de agua pública: caudal, uso, fuente y resolución que lo cerró \textit{(cap.\ \ref{cap:aguabaja})}
+ \item \textbf{si el geólogo «Víctor Omar Viera» del edicto de octubre de 2011 y el «Víctor Omar Nieva» de los de 2012 son la misma persona} \textit{(cap.\ \ref{cap:ribera})}
+-\item \textbf{determinaciones de línea de ribera del departamento anteriores a 2009}, si las hay: la serie reconstruida empieza en marzo de ese año y el Decreto 1.989/02 rige desde 2002 \textit{(cap.\ \ref{cap:ribera})}
++\item \textbf{determinaciones de línea de ribera del departamento anteriores a 2004}, si las hay: los avisos más antiguos que la serie registra son de 2004 y 2005, y el Decreto 1.989/02 rige desde 2002 \textit{(cap.\ \ref{cap:ribera})}
+ \item \textbf{texto de la Resolución Nº 417 del 02/09/2011} y su expediente 34-50.034--4.034/11, para establecer \textbf{si el acto dice «río Arenales» como su edicto} o si el error es sólo de la publicación; y \textbf{si se rectificó} \textit{(cap.\ \ref{cap:ribera})}
+ \item \textbf{nómina de pedidos de rectificación de línea de ribera} sobre los ríos del departamento, con su resultado, e \textbf{inventario de Certificados de No Inundabilidad} emitidos para loteos de La Caldera y Vaqueros: la propia Secretaría describe la rectificación como práctica habitual y conflictiva, y el certificado como trámite necesario, y en los expedientes relevados sólo consta un certificado de no inundabilidad, el que presentó Ayres de Quitilipi en 2020 \textit{(cap.\ \ref{cap:ribera})}
+ \item \textbf{series de las dos estaciones activas del río Mojotoro} --- «Mojotoro -- Güemes» de la Red Hidrológica Nacional (\textit{sitecode} 2103, base BDHI) y su homónima automática de la red de alerta (\textit{sitecode} 6365) ---: desde cuándo operan, con qué continuidad, y si alguna determinación de línea de ribera del departamento las invocó \textit{(cap.\ \ref{cap:ribera})}
+@@ -62,9 +61,8 @@
+ \item organigrama provincial y ley de ministerios: el cambio de rango \textbf{ya está acreditado} ---en julio de 2025 los edictos los firma la Secretaría de Recursos Hídricos, y el 13 de febrero de 2026 el Decreto 52/26 ya designa a Romero Leal Subsecretario \textit{(cap.\ \ref{cap:ribera})}---, y la Decisión Administrativa 569/25 lo ubica dentro de la Secretaría de Obras Públicas; lo que resta pedir es \textbf{el manual de misiones y funciones de la Subsecretaría y qué competencias conserva}, dado que la Ley 8.511 asigna los recursos hídricos al Ministerio de Producción y Minería; y presupuesto asignado a la Subsecretaría en los ejercicios 2019 a 2026, para contrastar con su alegación de falta de capacidad \textit{(cap.\ \ref{cap:amparo})}
+ \item \textbf{expediente 0090034-211560/2014-0} completo, con las características técnicas del dren que el propio aviso pone a disposición, y la resolución que otorgó o denegó la concesión; \textbf{antecedentes dominiales del catastro 4366}, con la nómina de co-titulares registrales y sus porcentajes; relación entre las matrículas 4366 y 6.558; y régimen aplicable a los drenes horizontales de subálveo, para establecer si el art.\ 143 los alcanza \textit{(cap.\ \ref{cap:loteo})}
+ \item coordenadas Posgar de la \textbf{Resolución 360/16} (río Wierna, expte.\ 34-171.172/15) y relación de sus siete matrículas con las canteras del Wierna y con las obras de encauzamiento sobre ese río \textit{(cap.\ \ref{cap:ribera})}
+-\item texto íntegro de la Resolución 383/14, para establecer si determinó zona inundable y si invocó el art.\ 172; autorizaciones del art.\ 172 para construcciones en zona ribereña de los arroyos El Durazno y Guaranguay; superficie del loteo comprendida en zona inundable; y relación dominial entre las matrículas 1590, 4146, 4366 y 6.558 del departamento \textit{(cap.\ \ref{cap:ribera})}
++\item texto íntegro de la Resolución 383/14 y las coordenadas Posgar de su línea de ribera, para establecer si determinó zona inundable y si invocó el art.\ 172; autorizaciones del art.\ 172 para construcciones en zona ribereña de los arroyos El Durazno y Guaranguay; superficie del loteo comprendida en zona inundable; y relación dominial entre las matrículas 1590, 4146, 4366 y 6.558 del departamento \textit{(cap.\ \ref{cap:ribera})}
+ \item \textbf{edicto inicial de la determinación de línea de ribera de los arroyos El Durazno y Guaranguay}, presumiblemente publicado entre 2013 y 2014, con la resolución que aprobó la Comisión Técnica, sus integrantes, el método elegido y la prohibición cautelar;  asiento en el Libro de Catastro de Aguas; expedientes de \textbf{rectificación} de línea de ribera tramitados en el departamento; y constancia de la notificación a la Dirección General de Inmuebles y de su uso en el visado del plano 1.164 \textit{(cap.\ \ref{cap:ribera})}
+-\item Resolución Nº 383 del 18/12/2014 de la Secretaría de Recursos Hídricos y las coordenadas Posgar de la línea de ribera; expediente 34-167.127/13 completo, con el peticionante; y antecedente dominial de los catastros 4.366 y 6.558, para establecer su relación \textit{(cap.\ \ref{cap:ribera})}
+ \item \textbf{expediente 0090034-25.217/2014-0/3}, con las características técnicas de la captación que el edicto pone a disposición; expediente 0090034-168.839/14 y antecedentes del catastro 2907 y del catastro de origen 126, para establecer qué subdivisión originó el traslado de la asignación de riego; titularidad y ubicación del Catastro 1700 de La Caldera, y si corresponde a un loteo; resolución que otorgó o denegó la concesión; y nómina completa de concesiones de agua pública otorgadas en el departamento \textit{(cap.\ \ref{cap:redes})}
+ \item expediente 34-6147/05 y resolución final de la concesión de Finca Lesser; \textbf{juicio sucesorio de Adolfo Saravia Valdez}: juzgado, número de expediente y autorización judicial para desarrollar el loteo; antecedentes dominiales del catastro 1869; caudal exacto autorizado para uso recreativo, sobre el original impreso; y nómina de desarrollos bajo la figura de club de campo en el departamento \textit{(cap.\ \ref{cap:redes})}
+ \item \textbf{Resolución 000056/2025} y expediente 0090034-185051/2024-0, con los puntos
+@@ -89,9 +87,10 @@
+ municipales de 2020, si existe \textit{(cap.\ \ref{cap:amparo})}
+ \end{itemize}
+ 
+-\section{Secretaría de Tierra y Bienes}
++\section{Secretaría de Tierras y Bienes del Estado}
+ 
+ \begin{itemize}[leftmargin=*]
++\item texto de la \textbf{Resolución 3/16} de la Secretaría, comprendida en la misma fe de erratas que las Resoluciones 7, 8 y 9 de 2016 (B.O.\ Nº 19.911) y ausente de este relevamiento \textit{(cap.\ \ref{cap:tierrafiscal})}
+ \item \textbf{ubicación y forma de acceso al registro público de Tenedores Precarios y Adjudicatarios} que ordena llevar el art.\ 1º inc.\ g; resoluciones dictadas en consecuencia del art.\ 1º inc.\ f; sorteos efectivamente realizados desde 2016 en el departamento La Caldera y en Vaqueros, con sus actas notariales; y convenios celebrados con ambos municipios conforme el art.\ 1º inc.\ c \textit{(cap.\ \ref{cap:tierrafiscal})}
+ \item expediente 388-214146/24 y el informe del área competente, en particular sobre la conversión a «sin cargo» del segundo caso del Barrio Martel de Tartagal (Decretos 2067/05 y 3354/12) y sobre la discordancia entre las Resoluciones 156D/23 y 159D/23; expediente 131-39395/04 del Barrio Leopoldo Lugones, para establecer si el error de parcela y matrícula tuvo consecuencia práctica; y art.\ 76 de la Ley 5.348/78 y Decreto 41/96 con sus modificatorios \textit{(cap.\ \ref{cap:tierrafiscal})}
+ \item expedientes 0010226-19595/2010-0 y concordantes; \textbf{plano de mensura y desmembramiento Nº 000943} de las cuarenta y una hectáreas; \textbf{legajo societario de Proyecto 1 S.A.}; estado de cumplimiento del plazo de cuatro años para construir, vencido en 2019, y si la Provincia verificó o dispuso la restitución; antecedente dominial de la matrícula 4.425 y motivo por el cual estaba en el dominio privado del Estado; y nómina de comodatos de tierra fiscal otorgados en el departamento \textit{(cap.\ \ref{cap:tierrafiscal})}
+@@ -170,7 +169,7 @@
+ Agropecuaria}, que consignaría superficie tabacalera afectada y nómina de productores del
+ departamento en 1979; y serie de \textbf{declaraciones de emergencia agropecuaria} que hayan
+ alcanzado a La Caldera entre 1980 y 2018 \textit{(cap.\ \ref{cap:tierra})}
+-\item art.\ 28 inc.\ 12 y art.\ 33 de la Ley 8.171; \textbf{acto que trasladó la Secretaría a la Jefatura de Gabinete}, por la Ley 8.511 (B.O.\ del 26/11/2025): \textbf{manuales de misiones y funciones} de la Secretaría de Tierra y Bienes del Estado y de la Subsecretaría de Recursos Hídricos, ambas en esa jurisdicción según la Decisión Administrativa 569/25 (la Jefatura ya aprobó por las Resoluciones 26/26 y 47/26 los de las Secretarías de Relaciones Institucionales e Internacionales y del Interior); \textbf{foja 137 del expediente 18-37.348/2019-0}, que corresponde a la Secretaría de Tierras y Bienes; y ubicación actual de las competencias de la Unidad Coordinadora, dado que la Secretaría figura en 2025 como Secretaría de Tierra y Bienes del Estado bajo otra dependencia \textit{(cap.\ \ref{cap:loteo})}
++\item art.\ 28 inc.\ 12 y art.\ 33 de la Ley 8.171; \textbf{acto que trasladó la Secretaría a la Jefatura de Gabinete}, por la Ley 8.511 (B.O.\ del 26/11/2025): \textbf{manuales de misiones y funciones} de la Secretaría de Tierra y Bienes del Estado y de la Subsecretaría de Recursos Hídricos, ambas en esa jurisdicción según la Decisión Administrativa 569/25 (la Jefatura ya aprobó por las Resoluciones 26/26 y 47/26 los de las Secretarías de Relaciones Institucionales e Internacionales y del Interior); \textbf{foja 137 del expediente 18-37.348/2019-0}, que corresponde a la Secretaría de Tierras y Bienes del Estado; y ubicación actual de las competencias de la Unidad Coordinadora, dado que la Secretaría figura en 2025 como Secretaría de Tierra y Bienes del Estado bajo otra dependencia \textit{(cap.\ \ref{cap:loteo})}
+ \end{itemize}
+ 
+ \section{Secretaría de Ambiente y Desarrollo Sustentable}
+@@ -218,7 +217,7 @@
+ \item \textbf{nómina de servicios de transporte de pasajeros} autorizados en el corredor, con recorridos, frecuencias y si alcanzan a los parajes \textit{(cap.\ \ref{cap:ausencias})}
+ \item \textbf{libros parroquiales} de bautismos, matrimonios y defunciones, y desde qué año se conservan: es la serie demográfica más antigua y continua del departamento \textit{(cap.\ \ref{cap:ausencias})}
+ \item \textbf{procesamiento del censo 2010 y 2022 para el departamento}, en este orden de prioridad: \textbf{lugar de trabajo} de la población ocupada ---dentro o fuera del departamento---, que es la variable decisiva; \textbf{categoría ocupacional} ---asalariado, cuenta propia, patrón--- y nivel educativo alcanzado. \textbf{La rama de actividad ya se obtuvo} y está en el capítulo \ref{cap:trabajo}; lo que falta es el \textbf{lugar de trabajo}, que el procesamiento público no ofrece. Las tasas de 2010 y 2022 ya se obtuvieron por Redatam y están en los capítulos \ref{cap:poblacion} y \ref{cap:trabajo} \textit{(cap.\ \ref{cap:ausencias})}
+-\item personería jurídica, estatuto, fecha de constitución y actas de la \textbf{Asociación Civil de Pequeños Productores Agropecuarios del Departamento La Caldera}: cantidad de asociados, producción y continuidad después de 2015; título y antecedentes de ocupación del \textbf{Club de Regatas Güemes} sobre el Dique Campo Alegre; personería y actas de la Asociación de Vecinos de los Ríos Castellanos y Lesser; nómina completa de asociaciones civiles, clubes y centros vecinales con personería en el departamento; su actuación --- si la hubo --- durante los aluviones de 2018 y 2019 y en el amparo colectivo; identificación de sus firmantes; y relevamiento completo de asociaciones civiles con domicilio en el departamento, en el registro de Personas Jurídicas \textit{(cap.\ \ref{cap:resistencias})}
++\item personería jurídica, estatuto, fecha de constitución y actas de la \textbf{Asociación Civil de Pequeños Productores Agropecuarios del Departamento La Caldera}: cantidad de asociados, producción y actividad reciente ---tiene asambleas publicadas hasta 2024---; título y antecedentes de ocupación del \textbf{Club de Regatas Güemes} sobre el Dique Campo Alegre; personería y actas de la Asociación de Vecinos de los Ríos Castellanos y Lesser; nómina completa de asociaciones civiles, clubes y centros vecinales con personería en el departamento; su actuación --- si la hubo --- durante los aluviones de 2018 y 2019 y en el amparo colectivo; identificación de sus firmantes; y relevamiento completo de asociaciones civiles con domicilio en el departamento, en el registro de Personas Jurídicas \textit{(cap.\ \ref{cap:resistencias})}
+ \item estadísticas del Centro de Mediación Comunitaria de La Caldera y del de Vaqueros: cantidad y materia de los casos, con especial atención a conflictos por tierra, agua y linderos; fecha de creación de ambos centros; y continuidad de los contratos después de 2015 \textit{(cap.\ \ref{cap:resistencias})}
+ \end{itemize}
+ 
+@@ -305,8 +304,8 @@
+ de exenciones, plazos, montos y contraprestaciones, y la nómina completa de contratos de
+ promoción turística celebrados en el departamento; \textbf{procesamiento del censo por categoría ocupacional} para el departamento ---la rama y la condición de actividad ya se obtuvieron---, y \textbf{cantidad de puestos de
+ trabajo declarados} por las concesiones de áridos y por los alojamientos habilitados; y
+-\textbf{actas, padrón de asociados y continuidad} de la Asociación Civil de Pequeños
+-Productores Agropecuarios después de 2015 \textit{(cap.\ \ref{cap:trabajo})}
++\textbf{actas y padrón de asociados} de la Asociación Civil de Pequeños
++Productores Agropecuarios, con asambleas publicadas hasta 2024 \textit{(cap.\ \ref{cap:trabajo})}
+ \item \textbf{dónde llega efectivamente la red de agua y de cloaca} en los ejidos de La
+ Caldera y Vaqueros, y desde cuándo: las proporciones de hogares sin servicio ya se obtuvieron del
+ Censo 2022, de modo que lo que falta es la traza y la serie de altas, ante la prestadora o el
+diff -ru ape_orig/E-personas.tex ape/E-personas.tex
+--- ape_orig/E-personas.tex	2026-09-17 16:50:45.238174362 +0000
++++ ape/E-personas.tex	2026-09-17 17:07:47.483763495 +0000
+@@ -103,7 +103,7 @@
+ \textbf{Esteban Mogro\index{Mogro, Esteban}} & 1983, Secretario Administrativo de la Comisión Municipal; firma la Ordenanza 047 en junio. 1983, renuncia en noviembre al cargo de \textbf{Juez de Paz Titular} de la localidad. Pueden ser cargos sucesivos o simultáneos, o dos homónimos \\
+ \addlinespace
+ 
+-\textbf{Héctor Miguel Calabró\index{Calabró, Héctor Miguel}} & Intendente de La Caldera entre 1999 y 2011, en tres mandatos consecutivos (fuentes periodísticas coincidentes; los Decretos 3318/08 y 2508/09 lo nombran como intendente en funciones). 2008, presidente de la Cooperadora Asistencial de La Caldera por designación provincial. 2011, diputado provincial (acta de proclamación). Diciembre de 2015, secretario de Relaciones Institucionales del Ministerio de Gobierno (Decreto 89/15); 23 de noviembre de 2017, renuncia a ese cargo (Decreto 1608/17) y es designado Secretario de Asuntos Municipales de la Provincia (Decreto 1634/17), cargo que ejerce en 2018 (Decisión Administrativa 592/18) y, según la prensa, hasta diciembre de 2019. 2007, firma como intendente el acta del Servicio de Información Catastral (Decreto 1639/07). 2026, la Provincia acepta dos donaciones con cargo que él le hace: una motocicleta para la Comisaría 15 de Vaqueros (Decreto 59/26) y otra para la Subcomisaría de La Caldera (Decreto 225/26), ambas para patrullaje. 2018, designado gerente suplente de Jardín Celestial S.R.L., mientras ejercía ese cargo. 2021, senador provincial por el departamento. 2023, presenta el proyecto de Reserva Natural Abra de Santa Laura, que caduca sin tratamiento en 2025 \\
++\textbf{Héctor Miguel Calabró\index{Calabró, Héctor Miguel}} & Intendente de La Caldera entre 1999 y 2011, en tres mandatos consecutivos (fuentes periodísticas coincidentes; los Decretos 3318/08 y 2508/09 lo nombran como intendente en funciones). 2007, firma como intendente el acta del Servicio de Información Catastral (Decreto 1639/07). 2008, presidente de la Cooperadora Asistencial de La Caldera por designación provincial. 2011, diputado provincial (acta de proclamación). Diciembre de 2015, secretario de Relaciones Institucionales del Ministerio de Gobierno (Decreto 89/15); 23 de noviembre de 2017, renuncia a ese cargo (Decreto 1608/17) y es designado Secretario de Asuntos Municipales de la Provincia (Decreto 1634/17), cargo que ejerce en 2018 (Decisión Administrativa 592/18) y, según la prensa, hasta diciembre de 2019. 8 de noviembre de 2018, mientras es Secretario de Asuntos Municipales, designado gerente suplente de Jardín Celestial S.R.L. (acta publicada en enero de 2020; sin constancia posterior de cese ni de continuidad). 2021, senador provincial por el departamento, hasta diciembre de 2025. 2023, presenta el proyecto de Reserva Natural Abra de Santa Laura, que caduca sin tratamiento en 2025. 2026, la Provincia acepta dos donaciones con cargo que él le hace: una motocicleta para la Comisaría 15 de Vaqueros (Decreto 59/26) y otra para la Subcomisaría de La Caldera (Decreto 225/26), ambas para patrullaje \\
+ \addlinespace
+ 
+ \textbf{Carlos Miguel Calabró\index{Calabró, Carlos Miguel}} & 2010, socio fundador de Jardín Celestial S.R.L.\ con el 30\% del capital; diecinueve años, estudiante, domiciliado en La Caldera. 2014, mantiene 1.635 de las 5.450 cuotas tras el aumento de capital. \textit{El vínculo familiar con el anterior no está acreditado con partida} \\
+@@ -124,10 +124,10 @@
+ \textbf{Sergio Camacho\index{Camacho, Sergio}} & Desde diciembre de 2019, Ministro de Infraestructura; en 2021 firma la Resolución 646D/21, que aprueba el plano del loteo El Durazno (cap.\ \ref{cap:loteo}). Desde el 15 de diciembre de 2025, Jefe de Gabinete de Ministros, que absorbe las áreas del ex Ministerio de Infraestructura; en 2026 convoca la reunión de enero en la que se acepta el plan de represas de retardo (cap.\ \ref{cap:amparo}) \\
+ \addlinespace
+ 
+-\textbf{Matías J.\ Brogin\index{Brogin, Matías J.}} & 2013--2015, Asesor Legal de la Secretaría de Recursos Hídricos; firma los veinticinco actos de línea de ribera del departamento, incluidas las tres determinaciones que no publicaron coordenadas \\
++\textbf{Matías J.\ Brogin\index{Brogin, Matías J.}} & 2013--2015, Asesor Legal de la Secretaría de Recursos Hídricos; firma los edictos de la serie de línea de ribera del departamento ---salvo el de la Resolución 023/14, que firma el secretario Fuertes---, incluidas las tres determinaciones que no publicaron coordenadas \\
+ \addlinespace
+ 
+-\textbf{Jorge G.\ Torres\index{Torres, Jorge G.}} & 2014, designado para determinar la línea de ribera del río La Caldera a lo largo del pueblo; la misma resolución la determina, con coordenadas publicadas en su anexo. 2015, integra dos comisiones técnicas del departamento. 2016, integra la comisión de la línea de ribera del río Wierna (Res.\ 360/16). Autor de la presentación institucional sobre línea de ribera que este libro usa como fuente del procedimiento. 2025, Director General de Cuencas y Política Hídrica. 2016, firma como director general de Planificación Hídrica la determinación «por Administración» del arroyo Quintín (Res.\ 389/16), sobre el mismo tramo de una comisión que integró ese año \\
++\textbf{Jorge G.\ Torres\index{Torres, Jorge G.}} & 2014, designado para determinar la línea de ribera del río La Caldera a lo largo del pueblo; la misma resolución la determina, con coordenadas publicadas en su anexo. 2015, integra dos comisiones técnicas del departamento. 2016, la Resolución 360/16 aprueba la determinación del río Wierna hecha por la comisión que había integrado en 2015 (Res.\ 319/15). Autor de la presentación institucional sobre línea de ribera que este libro usa como fuente del procedimiento. 2025, Director General de Cuencas y Política Hídrica. 2016, firma como director general de Planificación Hídrica la determinación «por Administración» del arroyo Quintín (Res.\ 389/16), sobre el mismo tramo de una comisión que integró ese año \\
+ \addlinespace
+ 
+ \textbf{Pablo Vicente Balverdi} & 2012, ingeniero en construcciones de la comisión que determina la línea del río Castellanos en la matrícula 4027 (Res.\ 94/12) \\
+@@ -147,7 +147,7 @@
+ \textbf{David Le Favi} & 2023, director de Fiscalización y Control del organismo hídrico; firma la nota del 20 de enero y el Dictamen 129/2023. Diciembre de 2025, coordinador de la Subsecretaría. Febrero de 2026, representa al organismo en la audiencia de aprobación del Plan \\
+ \addlinespace
+ 
+-\textbf{Rodrigo Matías Páez} & 2022, como subsecretario de la Municipalidad de La Caldera, firma la nota 83/22 que eleva a Fiscalía de Estado el registro de loteos de la microcuenca (cap.\ \ref{cap:amparo}). Responsable municipal de Medio Ambiente, Tierra y Hábitat en las gestiones ante la Secretaría de Tierras y Bienes (cap.\ \ref{cap:tierrafiscal}) \\
++\textbf{Rodrigo Matías Páez} & 2022, como subsecretario de la Municipalidad de La Caldera, firma la nota 83/22 que eleva a Fiscalía de Estado el registro de loteos de la microcuenca (cap.\ \ref{cap:amparo}). Responsable municipal de Medio Ambiente, Tierra y Hábitat en las gestiones ante la Secretaría de Tierras y Bienes del Estado (cap.\ \ref{cap:tierrafiscal}) \\
+ \addlinespace
+ 
+ \textbf{Dal Borgo} (César Domingo; Dal Borgo Construcciones S.R.L.) & 2014, la sociedad es adjudicataria de la protección de las cámaras del Acueducto Norte. 2018--2020, César Domingo Dal Borgo figura como concesionario de la cantera «La Vaquera» y de una servidumbre de acopio, con informes no aprobados. 2022, la sociedad es oferente en la licitación del puente sobre el río Vaqueros. \textit{La relación entre la persona y la sociedad no está acreditada} \\
+diff -ru ape_orig/F-fuentes.tex ape/F-fuentes.tex
+--- ape_orig/F-fuentes.tex	2026-09-17 16:50:45.238205108 +0000
++++ ape/F-fuentes.tex	2026-09-17 16:56:06.146348865 +0000
+@@ -28,7 +28,7 @@
+ «Lazarte Vigabriel vs.\ Municipalidad de La Caldera y Ministerio de Producción, Trabajo y
+ Desarrollo Sustentable de la Provincia de Salta». Analizado en el capítulo \ref{cap:amparo}.
+ \item \textbf{Incidente de cumplimiento}, Expte.\ Nº INC 23860/1, con las piezas que las
+-demandadas acompañaron en cumplimiento de la condena. De este incidente provienen seis de las veinticinco láminas de este volumen.
++demandadas acompañaron en cumplimiento de la condena. De este incidente provienen seis de las veintiséis láminas de este volumen.
+ \item \textbf{Ejecución de sentencia}, Expte.\ Nº 780280.
+ \item \textbf{Documentos de 2022--2023 del expediente}: nota de la Secretaría de Recursos Hídricos del 20/01/2023 (expte.\ 0010007-67527/2019-19) con el Plan de Monitoreo de Aguas Superficiales 2022; informe y plano de Aguas del Norte (02/12/2022); diseño del taller participativo (31/08/2023); y presentación del Plan Maestro de Drenaje Pluvial--Fluvial, sin fecha (láminas \ref{lam:pmdp} y \ref{lam:pmdpcotas}).
+ \end{itemize}
+@@ -124,9 +124,9 @@
+ 
+ \section{El Boletín Oficial Municipal de la ciudad de Salta}
+ 
+-Este libro usa, en el capítulo \ref{cap:infraestructura}, una resolución publicada en el \textbf{Boletín Oficial Municipal de la ciudad de Salta}, que es un registro distinto del Boletín Oficial de la Provincia y del municipal de La Caldera.
++Este libro usa, en el capítulo \ref{cap:infraestructura}, varias piezas publicadas en el \textbf{Boletín Oficial Municipal de la ciudad de Salta}, que es un registro distinto del Boletín Oficial de la Provincia y del municipal de La Caldera.
+ 
+-\textbf{Se consultaron pocas ediciones}, entre ellas la 2.725 del 27 de agosto de 2025, cada una por una razón puntual; la de esa edición fue verificar un rol de una empresa que el libro ya documentaba en otros dos registros. \textbf{No se hizo un relevamiento de esa fuente}, que publica con firma digital desde 2016 y cuyo contenido sobre contrataciones de obra podría ser relevante para este trabajo.
++\textbf{Se consultaron pocas ediciones}, entre ellas la 2.646 del 2 de octubre de 2024 y la 2.725 del 27 de agosto de 2025, cada una por una razón puntual; la de la segunda fue verificar un rol de una empresa que el libro ya documentaba en otros dos registros. \textbf{No se hizo un relevamiento de esa fuente}, que publica con firma digital desde 2016 y cuyo contenido sobre contrataciones de obra podría ser relevante para este trabajo.
+ 
+ \section{Medidas tomadas sobre imagen}
+ 
+@@ -138,7 +138,7 @@
+ 
+ La identificación de las tres fracciones censales del departamento ---capítulo \ref{cap:ausencias}--- se hizo sobre la \textbf{capa vectorial de fracciones censales del organismo censal}, obtenida por su servicio público de datos geográficos, y se verificó por dos vías independientes: \textbf{punto en polígono} sobre coordenadas ya establecidas en este libro, y \textbf{coincidencia aritmética} entre la población de cada fracción y la de cada municipio.
+ 
+-\textbf{Es la operación geométrica más elaborada del libro} ---las otras son la medición sobre grilla del capítulo \ref{cap:loteo} y el cálculo de distancias entre coordenadas---, y es reproducible: la capa es descargable y el cálculo, elemental.
++\textbf{Es una de las operaciones geométricas del libro} ---las otras son la medición sobre grilla del capítulo \ref{cap:loteo}, el cálculo de distancias entre coordenadas y el cruce de capas del ordenamiento de bosques del capítulo \ref{cap:opacidad}, la más elaborada---, y es reproducible: la capa es descargable y el cálculo, elemental.
+ 
+ \section{Procesamiento censal propio}
+ 
+@@ -217,6 +217,6 @@
+ 
+ \textbf{No hay archivo municipal.} Ni de La Caldera ni de Vaqueros. Las ordenanzas que se citan llegaron por el Boletín provincial, por transcripción de terceros o ---en el caso del Código de Ordenamiento Territorial--- por el sitio web del municipio, que también es la fuente de sus partes de prensa.
+ 
+-\textbf{No hay fuentes orales ni memoria comunitaria.} El departamento aparece en estas
++\textbf{No hay fuentes orales, y la memoria comunitaria está en un solo libro.} Salvo \textit{Nuestro tiempo redondo} y las encuestas anónimas del Plan de Manejo, el departamento aparece en estas
+ páginas tal como el Estado lo escribió.
+ \end{cautela}
+diff -ru ape_orig/G-propuestas.tex ape/G-propuestas.tex
+--- ape_orig/G-propuestas.tex	2026-09-17 16:50:45.238220872 +0000
++++ ape/G-propuestas.tex	2026-09-17 16:56:06.148973784 +0000
+@@ -518,7 +518,7 @@
+ para eso este libro no hace falta.
+ \end{cautela}
+ 
+-\section{Nivel municipal --- una ordenanza más}
++\section{Nivel municipal --- la factibilidad de agua}
+ 
+ \subsection{Ordenanza 5 --- Factibilidad de agua previa al fraccionamiento}
+ 
+@@ -599,7 +599,7 @@
+ nadie lo publica. Si el beneficiario de una exención debe declarar sus puestos de trabajo, el
+ dato aparece sin necesidad de censo.
+ 
+-\section{Nivel municipal --- una ordenanza más}
++\section{Nivel municipal --- el registro de alojamientos}
+ 
+ \subsection{Ordenanza 6 --- Registro de alojamientos turísticos}
+ 
+@@ -686,7 +686,7 @@
+ \end{ficha}
+ 
+ \begin{cautela}
+-\textbf{Es la propuesta más barata del apéndice y quizá la de mayor alcance.} No cambia nada de
++\textbf{Es de las propuestas más baratas del apéndice y quizá la de mayor alcance.} No cambia nada de
+ lo que los organismos deciden ni de lo que publican: cambia si eso puede encontrarse.
+ 
+ Este libro existe, en buena medida, porque alguien se sentó a buscar en un archivo mal
+@@ -698,7 +698,7 @@
+ \subsection{Ley 14 --- Fe de erratas y control del texto publicado}
+ 
+ \textbf{Responde a:} tres errores de texto que el capítulo \ref{cap:ribera} documenta, todos arrastrados de un
+-edicto al siguiente. Un decreto citado como «1898/02» en edictos de 2013 a 2015 y todavía en 2025, cuando es el
++edicto al siguiente. Un decreto citado como «1898/02» en edictos de 2013 a 2017 y de 2021 a 2025, cuando es el
+ 1.989/02. Un edicto de 2026 que, firmado por la \textbf{Sub}secretaría, ordena recurrir «ante la
+ Secretaría». Y un edicto de 2011 que, sobre un inmueble lindero al arroyo La Calderilla, dice
+ que la comisión propone la línea de ribera \textbf{«de ambas márgenes del río Arenales»}, que
+--- main_orig.tex	2026-09-17 16:50:45.239341064 +0000
++++ main.tex	2026-09-17 16:56:06.145331164 +0000
+@@ -285,7 +285,7 @@
+ \input{cap/07-cot}
+ \input{cap/08-vaqueros}
+ \part{El agua}
+-\bajada{Ciento dieciséis años de obras sobre el mismo cauce, un expediente de expropiación, veintidós actos de línea de ribera y una sentencia que invierte la pregunta.}
++\bajada{Ciento dieciséis años de obras sobre el mismo cauce, un expediente de expropiación, veinticinco actos de línea de ribera y una sentencia que invierte la pregunta.}
+ \input{cap/09-defensas}
+ \input{cap/10-expropiacion}
+ \input{cap/11-ribera}
