@@ -159,10 +159,12 @@ nóminas que arma este script ---la decimotercera, de 1948, se sumó al cierre--
 \item \texttt{scripts/mapa\_parajes.py} --- lámina \ref{fig:parajesmapa}.
 \item \texttt{scripts/mapa\_ribera.py} --- lámina \ref{fig:riberaedictos}, sobre la planilla
 \texttt{datos/ribera/} que transcribe cada punto con su número de Boletín, su orden de
-publicación y su fecha de consulta. \textbf{Sólo esa lámina}: hasta la revisión de este
-apéndice, estas líneas atribuían a este script también la lámina \ref{fig:catastro}, y no es
-cierto ---el script tiene una sola salida---. La \ref{fig:catastro} usa la misma planilla y el
-mismo estilo, pero \textbf{su script no está publicado}, y por eso pasa a la lista de abajo.
+publicación y su fecha de consulta. \textbf{Sólo esa lámina}: la \ref{fig:catastro} usa la misma planilla, pero tiene su propio script,
+que sigue.
+\item \texttt{scripts/mapa\_catastro\_ribera.py} --- lámina \ref{fig:catastro}, sobre la misma
+planilla de ribera y sobre \texttt{datos/ribera/actos\_por\_parcela.csv}, que transcribe la tabla del
+capítulo \ref{cap:ribera} parcela por parcela. Al rehacerla se corrigió un error de la versión
+anterior: pintaba como línea de ribera la matrícula 1534, que sólo tiene una comisión designada.
 \item \texttt{scripts/mapa\_planos.py} --- lámina \ref{fig:planos}.
 \item \texttt{scripts/mapa\_kondorwaira.py} --- lámina \ref{fig:kondorwaira}.
 \item \texttt{scripts/mapa\_agua.py} --- lámina \ref{fig:agua}, sobre las capas de cursos y límites del IGN y el campo «finca» del catastro; los dos paneles y la línea de tiempo salen de la tabla de actos que el propio script declara.
@@ -180,14 +182,17 @@ decreto 5276-E municipio por municipio, con su recaudación de 1946 y su porcent
 \item \texttt{scripts/mapa\_fracciones.py} --- lámina \ref{fig:fracciones}, sobre \texttt{datos/censo\_tablas/fracciones\_2022.csv}, que reúne en una sola tabla los números del Censo 2022 que este libro usa por fracción.
 \item \texttt{scripts/grafico\_boletin.py} --- lámina \ref{fig:boletin}, sobre \texttt{datos/boletin/}: el índice de ediciones presentes en los \textit{Releases} 1910--1943 de \texttt{boletines-salta}, relevado el 24 de septiembre de 2026, y el estado de lectura de cada tramo según este apéndice.
 \item \texttt{scripts/grafico\_votado.py} --- lámina \ref{fig:votado}, sobre \texttt{datos/fiscal/votado\_ejecutado.csv}, que cita para cada fila el lugar del libro de donde sale.
-\item \textbf{Y seis láminas propias no tienen todavía su script en el repositorio}: el de las líneas de ribera sobre el catastro (\ref{fig:catastro}), el mapa
-del ordenamiento de bosques (\ref{fig:otbn}), el de formación por radio censal
-(\ref{fig:formacionradios}) y los tres gráficos de caudales, formación comparada y padrón
-(\ref{fig:caudales}, \ref{fig:formacioncomparacion} y \ref{fig:padron}). Las fuentes
-de las que salen están declaradas en cada epígrafe, de modo que son verificables; \textbf{pero
-no son reproducibles paso a paso hasta que el script que las dibuja se incorpore}. Se declara
-aquí porque es exactamente la diferencia que este apéndice acaba de reclamar para las otras
-catorce.
+\item \texttt{scripts/grafico\_padron.py} --- lámina \ref{fig:padron}, sobre \texttt{datos/electoral/}: los electores por municipio de cada elección y las tres referencias censales.
+\item \texttt{scripts/grafico\_formacion.py} --- lámina \ref{fig:formacioncomparacion}, sobre \texttt{datos/censo\_tablas/formacion\_2022.csv}. Al rehacerla se corrigió un rótulo: la versión anterior llamaba «El Durazno» al radio 0209, y el capítulo \ref{cap:poblacion} establece que la coordenada no permite decir si El Durazno está en el 0208 o en el 0209.
+\item \textbf{Y tres láminas propias no tienen todavía su script en el repositorio}, porque
+les faltan los datos de entrada: el mapa del ordenamiento de bosques (\ref{fig:otbn}), que
+necesita el ráster del mapa final del informe técnico de la Ley 8483; el de formación por radio
+censal (\ref{fig:formacionradios}), que necesita la tabla de los veintiocho radios salida de
+Redatam; y el gráfico de caudales (\ref{fig:caudales}), que necesita las series mensuales del
+Sistema Nacional de Información Hídrica. Las fuentes están declaradas en cada epígrafe, de modo
+que son verificables; \textbf{pero no son reproducibles paso a paso hasta que esos datos y su
+script se incorporen}. Se declara aquí porque es exactamente la diferencia que este apéndice
+acaba de reclamar para las otras diecisiete.
 \end{itemize}
 
 \textbf{Todas las capas están en EPSG:4326} y las superficies se calculan en proyección
@@ -199,9 +204,9 @@ consulta.
 
 \textbf{De modo que el estado de las veinte láminas propias, al cierre de este volumen, es
 éste}: las veinte son \textbf{verificables} ---cada epígrafe declara con qué datos se hizo, y
-esos datos tienen origen y fecha---; \textbf{catorce son además reproducibles} ---su script
+esos datos tienen origen y fecha---; \textbf{diecisiete son además reproducibles} ---su script
 está publicado, sus capas se bajan del \textit{Release} y la cadena se probó completa---; y
-\textbf{seis no lo son todavía}, porque su script no está. \textbf{Verificable no es lo
+\textbf{tres no lo son todavía}, porque su script no está. \textbf{Verificable no es lo
 mismo que reproducible}, y este apéndice prefiere distinguirlas antes que dejar que el lector
 las confunda.
 
