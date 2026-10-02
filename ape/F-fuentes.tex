@@ -91,7 +91,7 @@ La ventana se cierra dos ediciones antes de la que publica el Revalúo General c
 «Lazarte Vigabriel vs.\ Municipalidad de La Caldera y Ministerio de Producción, Trabajo y
 Desarrollo Sustentable de la Provincia de Salta». Analizado en el capítulo \ref{cap:amparo}.
 \item \textbf{Incidente de cumplimiento}, Expte.\ Nº INC 23860/1, con las piezas que las
-demandadas acompañaron en cumplimiento de la condena. De este incidente provienen siete de las cuarenta y una láminas de este volumen.
+demandadas acompañaron en cumplimiento de la condena. De este incidente provienen siete de las cuarenta y dos láminas de este volumen.
 \item \textbf{Ejecución de sentencia}, Expte.\ Nº 780280.
 \item \textbf{Documentos de 2022--2023 del expediente}: nota de la Secretaría de Recursos Hídricos del 20/01/2023 (expte.\ 0010007-67527/2019-19) con el Plan de Monitoreo de Aguas Superficiales 2022; informe y plano de Aguas del Norte (02/12/2022); diseño del taller participativo (31/08/2023); y presentación del Plan Maestro de Drenaje Pluvial--Fluvial, sin fecha y sin expediente citado ---la Advertencia preliminar la cuenta entre los documentos del Plan de Manejo y no entre las piezas del expediente--- (láminas \ref{lam:pmdp} y \ref{lam:pmdpcotas}).
 \end{itemize}
@@ -130,11 +130,11 @@ el propio informe de 2022.
 
 \section{Cómo se produjo cada lámina propia}
 
-Veinte de las cuarenta y una láminas son de elaboración propia: \textbf{once mapas}
+Veintiuna de las cuarenta y dos láminas son de elaboración propia: \textbf{once mapas}
 ---\ref{fig:ubicacion}, \ref{fig:fincas}, \ref{fig:parajesmapa}, \ref{fig:riberaedictos},
 \ref{fig:catastro}, \ref{fig:planos}, \ref{fig:formacionradios}, \ref{fig:kondorwaira},
-\ref{fig:otbn}, \ref{fig:agua} y \ref{fig:fracciones}--- y \textbf{nueve gráficos} ---\ref{fig:parajesnom}, \ref{fig:caudales},
-\ref{fig:formacioncomparacion}, \ref{fig:padron}, \ref{fig:cargos}, \ref{fig:coparticipacion}, \ref{fig:defensas}, \ref{fig:boletin} y \ref{fig:votado}---. Todas salen del \textbf{repositorio cartográfico \texttt{mapas\_caldera}}
+\ref{fig:otbn}, \ref{fig:agua} y \ref{fig:fracciones}--- y \textbf{diez gráficos} ---\ref{fig:parajesnom}, \ref{fig:caudales},
+\ref{fig:formacioncomparacion}, \ref{fig:padron}, \ref{fig:cargos}, \ref{fig:coparticipacion}, \ref{fig:defensas}, \ref{fig:boletin}, \ref{fig:aguaserie} y \ref{fig:votado}---. Todas salen del \textbf{repositorio cartográfico \texttt{mapas\_caldera}}
 ---\texttt{github.com/ediedrich/mapas\_caldera}---, que acompaña a este libro.
 
 \textbf{Conviene decir con exactitud qué contiene y qué no}, porque la diferencia decide
@@ -192,7 +192,8 @@ dibujo traduce en bordes a tope o degradados; el script informa la proporción a
 decreto 5276-E municipio por municipio, con su recaudación de 1946 y su porcentaje.
 \item \texttt{scripts/grafico\_defensas.py} --- lámina \ref{fig:defensas}, sobre \texttt{datos/fiscal/defensas\_1947.csv}, que transcribe los nueve ríos del Ítem 6 de la Ley 834 con su monto, y \texttt{defensas\_1949.csv}, con los cuatro renglones del departamento en el Ítem 6 de 1949 y el resto del ítem en uno solo.
 \item \texttt{scripts/mapa\_fracciones.py} --- lámina \ref{fig:fracciones}, sobre \texttt{datos/censo\_tablas/fracciones\_2022.csv}, que reúne en una sola tabla los números del Censo 2022 que este libro usa por fracción.
-\item \texttt{scripts/grafico\_boletin.py} --- lámina \ref{fig:boletin}, sobre \texttt{datos/boletin/}: el índice de ediciones presentes en los \textit{Releases} 1910--1943 de \texttt{boletines-salta}, relevado el 24 de septiembre de 2026, y el estado de lectura de cada tramo según este apéndice.
+\item \texttt{scripts/grafico\_boletin.py} --- lámina \ref{fig:boletin}, sobre \texttt{datos/boletin/}: el índice de ediciones presentes en los \textit{Releases} 1910--1943 de \texttt{boletines-salta}, relevado el 24 de septiembre de 2026, las ediciones por año de 1908 a 2026 que registra el estado del flujo editorial del 2 de octubre de 2026 (\texttt{ediciones\_por\_anio.csv}) y el estado de lectura de cada tramo según este apéndice.
+\item \texttt{scripts/grafico\_agua\_serie.py} --- lámina \ref{fig:aguaserie}, sobre la planilla \texttt{actos\_agua\_}\allowbreak\texttt{1951\_1968.csv} de \texttt{datos/agua/}, que transcribe año por año los recuentos de decretos y edictos sobre derechos de agua de los capítulos \ref{cap:redes} y \ref{cap:aguabaja} y dice de qué línea sale cada fila; el script comprueba que las partes sumen el total.
 \item \texttt{scripts/grafico\_votado.py} --- lámina \ref{fig:votado}, sobre \texttt{datos/fiscal/votado\_ejecutado.csv}, que cita para cada fila el lugar del libro de donde sale.
 \item \texttt{scripts/grafico\_padron.py} --- lámina \ref{fig:padron}, sobre \texttt{datos/electoral/}: los electores por municipio de cada elección y las tres referencias censales.
 \item \texttt{scripts/grafico\_formacion.py} --- lámina \ref{fig:formacioncomparacion}, sobre \texttt{datos/censo\_tablas/formacion\_2022.csv}. Al rehacerla se corrigió un rótulo: la versión anterior llamaba «El Durazno» al radio 0209, y el capítulo \ref{cap:poblacion} establece que la coordenada no permite decir si El Durazno está en el 0208 o en el 0209.
@@ -204,7 +205,7 @@ Redatam; y el gráfico de caudales (\ref{fig:caudales}), que necesita las series
 Sistema Nacional de Información Hídrica. Las fuentes están declaradas en cada epígrafe, de modo
 que son verificables; \textbf{pero no son reproducibles paso a paso hasta que esos datos y su
 script se incorporen}. Se declara aquí porque es exactamente la diferencia que este apéndice
-acaba de reclamar para las otras diecisiete.
+acaba de reclamar para las otras dieciocho.
 \end{itemize}
 
 \textbf{Todas las capas están en EPSG:4326} y las superficies se calculan en proyección
@@ -214,10 +215,10 @@ equivalente (EPSG:6933); cada capa nacional se recortó al rectángulo 65,85º--
 \texttt{LEEME} del repositorio trae el inventario capa por capa con su origen y su fecha de
 consulta.
 
-\textbf{De modo que el estado de las veinte láminas propias, al cierre de este volumen, es
-éste}: las veinte son \textbf{verificables} ---cada epígrafe declara con qué datos se hizo, y
-esos datos tienen origen y fecha---; \textbf{diecisiete son además reproducibles} ---su script
-está publicado y sus capas se bajan del \textit{Release}; la cadena completa se probó con nueve---; y
+\textbf{De modo que el estado de las veintiuna láminas propias, al cierre de este volumen, es
+éste}: las veintiuna son \textbf{verificables} ---cada epígrafe declara con qué datos se hizo, y
+esos datos tienen origen y fecha---; \textbf{dieciocho son además reproducibles} ---su script
+está publicado y sus capas se bajan del \textit{Release}; la cadena completa se probó con nueve, y el 2 de octubre de 2026 con las de la cobertura del Boletín y de los actos de agua---; y
 \textbf{tres no lo son todavía}, porque su script no está. \textbf{Verificable no es lo
 mismo que reproducible}, y este apéndice prefiere distinguirlas antes que dejar que el lector
 las confunda.
@@ -233,7 +234,7 @@ digitalización, composición y retoque en \textsc{corel draw}, y una pasada fin
 \textbf{optimización con Gemini}, un modelo generativo de imagen. \textbf{No es una fotografía,
 no documenta un lugar determinado y no debe leerse como registro de nada}: es una composición
 ---un valle con un trazado de amanzanamiento superpuesto--- que enuncia el objeto del libro y no
-lo prueba. Ninguna de las cuarenta y una láminas del volumen pasó por un modelo generativo, ni
+lo prueba. Ninguna de las cuarenta y dos láminas del volumen pasó por un modelo generativo, ni
 en su producción ni en su retoque.
 
 \section{Series estadísticas}
